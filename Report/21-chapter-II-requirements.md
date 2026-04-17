@@ -127,12 +127,12 @@ Segmento 2 - Personal Operativo
 ### 2.3.1. User Personas
 
 #### Segmento 1 : PROPIETARIOS Y ADMINISTRADORES DE PANADERÍAS
-
+![user-persona-propietarios](./assets/Segmento1-UserPerson.png)
 ---
 
 #### Segmento 2 : PERSONAL OPERATIVO
+![user-persona-operativo](./assets/Segmento2-UserPerson.png)
 
-Enlace de los Users Persons: https://canva.link/cvpl6osqxm69o5t
 
 ### 2.3.2. User Task Matrix.
 
