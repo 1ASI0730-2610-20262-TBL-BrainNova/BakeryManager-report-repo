@@ -136,53 +136,33 @@ Segmento 2 - Personal Operativo
 
 ### 2.3.2. User Task Matrix.
 
-Segmentos objetivos:  
-Propietarios y administradores de panaderías  
-Personal operativo
+A continuación se presenta la User Task Matrix, construida a partir de los requerimientos del sistema de monitoreo IoT para panaderías.
 
-Leyenda — Escalas
-* Importancia: 1 (Baja) · 2 (Moderada) · 3 (Importante) · 4 (Muy importante) · 5 (Crítica)
-* Frecuencia: D (Diaria), S (Semanal), M (Mensual), O (Ocasional), R (Rara)
-* Prioridad: combinación heurística de Importancia + Frecuencia → Alta / Media / Baja
+Este artefacto permite visualizar las tareas clave que realizan los dos segmentos principales del sistema: Propietarios/Administradores y Personal Operativo. Además, permite evaluar la frecuencia con la que ejecutan estas tareas y la importancia que les asignan, facilitando la priorización de funcionalidades del sistema.
 
-#### Segmento 1 : Propietarios y administradores de panaderias
-
-| Tarea (hoy) | Importancia (1–5) | Frecuencia | Prioridad | Canal actual | Dolor / Riesgo | Acción recomendada (AS-IS) |
-|------------|------------------|------------|-----------|--------------|-----------------|----------------------------|
-| Registrar ventas y movimientos diarios | 5 | D | Alta | Web / App | Errores de registro, falta de control financiero | Validar registros y usar reportes automáticos |
-| Actualizar inventarios en el sistema | 5 | D | Alta | Web / App | Desabastecimiento o sobrestock | Registrar movimientos en tiempo real |
-| Generar reportes de ventas y producción | 5 | D | Alta | Web / App | Información tardía para decisiones | Automatizar reportes |
-| Atender incidencias de maquinaria o producción | 5 | O | Alta | Web / App | Fallas no resueltas oportunamente | Automatizar reportes |
-| Registrar reportes de incidencias de clientes o sucursal | 5 | O | Alta | Web / App | Falta de trazabilidad | Estandarizar reportes |
-| Revisar alertas y notificaciones del sistema | 4 | D | Media | Web / App | Ignorar alertas críticas | Establecer rutinas de revisión |
-| Verificar disponibilidad de insumos críticos | 4 | D | Media | Web / App | Interrupción de producción | Revisar stock diariamente |
-| Monitorear el estado de los sensores IoT | 5 | D | Alta | Web / App | Fallas no detectadas, riesgos operativos | Revisar stock diariamente |
-| Visualizar historial de eventos de sensores IoT | 4 | M | Media | Web / App | Falta de análisis de incidentes | Revisar registros periódicamente |
-| Agregar o desactivar personal operativo en la plataforma | 2 | O | Media | Web / App | Accesos no controlados | Revisar registros periódicamente |
-| Actualizar perfil de la panadería en la plataforma | 2 | O | Baja | Web / App | Información desactualizada | Revisar y actualizar periódicamente |
-
+| ID   | Tarea                                               | Importancia (Administrador) | Frecuencia (Administrador) | Importancia (Operativo) | Frecuencia (Operativo) |
+|------|-----------------------------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|
+| U01  | Monitorear temperatura de fermentación             | Muy alta                    | D                           | Alta                     | D                      |
+| U02  | Monitorear humedad en producción                   | Muy alta                    | D                           | Alta                     | D                      |
+| U03  | Monitorear temperatura de hornos                   | Muy alta                    | D                           | Muy alta                 | D                      |
+| U04  | Controlar refrigeración de insumos                 | Muy alta                    | D                           | Muy alta                 | D                      |
+| U05  | Ver estado de máquinas                             | Alta                        | D                           | Alta                     | D                      |
+| U06  | Revisar alertas en tiempo real                     | Muy alta                    | D                           | Alta                     | D                      |
+| U07  | Registrar incidentes                                | Muy alta                    | O                           | Muy alta                 | O                      |
+| U08  | Consultar historial de sensores                    | Alta                        | S                           | Media                    | S                      |
+| U09  | Configurar rangos de temperatura y humedad         | Muy alta                    | O                           | Baja                     | O                      |
+| U10  | Visualizar dashboard centralizado                  | Muy alta                    | D                           | Muy alta                 | D                      |
+| U11  | Detectar anomalías en sensores                     | Muy alta                    | D                           | Alta                     | D                      |
+| U12  | Comparar datos históricos de producción            | Alta                        | S                           | Media                    | S                      |
+| U13  | Generar reportes de producción                     | Muy alta                    | D                           | Alta                     | D                      |
+| U14  | Recibir notificaciones en tiempo real              | Muy alta                    | D                           | Muy alta                 | D                      |
+| U15  | Confirmar incidentes                               | Alta                        | O                           | Muy alta                 | O                      |
+| U16  | Cerrar incidentes                                  | Alta                        | O                           | Muy alta                 | O                      |
+| U17  | Gestionar sensores IoT (registro/asignación)      | Muy alta                    | M                           | Baja                     | M                      |
+| U18  | Visualizar tendencias de producción                | Alta                        | S                           | Media                    | S                      |
+| U19  | Filtrar datos por tipo de sensor                   | Alta                        | S                           | Media                    | S                      |
+| U20  | Visualizar resumen general de producción           | Muy alta                    | D                           | Alta                     | D                      |
 ---
-
-#### Segmento 2 : Personal Operativo
-
-| Tarea (hoy) | Importancia (1–5) | Frecuencia | Prioridad | Canal actual | Dolor / Riesgo | Acción recomendada (AS-IS) |
-|------------|------------------|------------|-----------|--------------|-----------------|----------------------------|
-| Registrar ventas diarias en la plataforma | 5 | D | Alta | Web / App | Errores manuales, datos incompletos | Verificar cada registro antes de guardar; usar plantillas de venta |
-| Actualizar inventarios en el sistema | 5 | D | Alta | Web / App | Descoordinación de stock, errores de conteo | Registrar cambios en tiempo real y validar con stock físico |
-| Generar reportes de ventas y producción | 5 | D | Alta | Web / App | Información tardía para toma de decisiones | Automatizar generación de reportes diarios |
-| Atender incidencias de maquinaria o producción | 4 | O | Alta | Web / App | Retrasos o daños no reportados | Documentar incidencias en el sistema y notificar responsable |
-| Registrar comentarios sobre incidencias menores en la plataforma | 2 | 0 | Baja | Web / App | Información poco relevante dispersa | Registrar observaciones sin afectar operaciones críticas |
-| Registrar reportes de incidencias | 5 | O | Alta | Web / App | Falta de trazabilidad de problemas | Establecer formato estandarizado y seguimiento de cada incidencia |
-| Revisar alertas y notificaciones del sistema | 4 | D | Media | Web / App | Ignorar alertas importantes | Establecer rutinas de revisión de alertas cada turno |
-| Verificar disponibilidad de insumos | 4 | D | Media | Web / App | Falta de insumos afecta producción | Confirmar stock diario antes de iniciar producción |
-| Coordinar entregas y logística interna | 4 | S | Media | Web / App | Retrasos, errores en transporte interno | Planificar rutas y horarios; registrar entregas en la app |
-| Actualizar perfil de usuario en la plataforma | 2 | O | Baja | Web / App | Datos desactualizados, mala comunicación | Modificar datos personales en el sistema |
-| Archivar reportes de ventas o incidencias en la plataforma | 2 | M | Baja | Web / App | Dificultad de encontrar información histórica | Guardar archivos digitales organizados |
-
----
-
-#### Conclusión (As-Is) :
-La mayoría de las actividades realizadas por los propietarios, administradores y personal operativo de panaderías se ejecutan actualmente mediante procesos parcialmente digitalizados, pero aún dispersos en diferentes herramientas y canales, lo que genera una significativa fricción operativa. Esta situación se traduce en inconsistencias en el control de ventas e inventarios, limitada trazabilidad de incidencias y retrasos en la toma de decisiones. Asimismo, si bien se dispone de tecnologías como sensores IoT, su integración con los procesos de gestión es aún incipiente, lo que restringe su aprovechamiento. En consecuencia, se evidencian riesgos operativos y oportunidades de mejora que pueden ser abordadas mediante acciones prácticas como la estandarización de registros, validación de información y seguimiento estructurado de incidencias, sin requerir necesariamente una solución completamente integrada en esta etapa.
 
 ### 2.3.3. User Journey Mapping.
 
