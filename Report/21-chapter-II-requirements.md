@@ -168,13 +168,11 @@ Este artefacto permite visualizar las tareas clave que realizan los dos segmento
 
 Este conjunto de User Journey Maps presenta de manera integral el recorrido end-to-end de los dos segmentos clave: los propietarios y administradores de panaderías y el personal operativo. El mapa abarca las principales etapas del ciclo operativo del negocio, articulando en cada una las acciones, pensamientos, emociones, puntos de contacto y problemáticas existentes. Su propósito es identificar los momentos donde la fricción impacta la eficiencia operativa, el control de recursos y la seguridad, así como detectar oportunidades de mejora. Este análisis permite derivar requerimientos funcionales, priorizar soluciones según su impacto y definir indicadores clave (KPIs) orientados a optimizar la gestión, la toma de decisiones y el aprovechamiento de tecnologías como los sensores IoT.
 
-#### User Journey Map – Propietarios y Administradores de Panaderías
-<img src="https://raw.githubusercontent.com/Brainova-OpenSource/Report/main/assets/User%20Journey%20Map%20–%20Propietarios%20y%20Administradores%20de%20Panaderías.png" alt="User Journey Map">
+#### Segmento 1: Propietarios y Administradores de Panaderías
+![user-journey-map-propietarios](./assets/segmento1-user-journey-mapping.png)
 
-#### User Journey Map – Personal Operativo
-<img src="https://raw.githubusercontent.com/Brainova-OpenSource/Report/main/assets/User%20Journey%20Map%20%E2%80%93%20Personal%20Operativo.png" alt="User Journey Map">
-
-Enlace : https://canva.link/j708btfqlmsl8ms
+#### Segmento 2: Personal Operativo
+![user-journey-map-operativo](./assets/segmento2-user-journey-mapping.png)
 
 ### 2.3.4. Empathy Mapping
 #### Empathy Map – Propietarios y Administradores de Panadería
