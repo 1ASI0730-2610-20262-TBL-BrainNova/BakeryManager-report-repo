@@ -89,6 +89,17 @@
 ![Impact-Mapping](./assets/impact-mapping.png)
 
 ## 3.3 Product Backlog
+Para el desarrollo de la plataforma **BakeryManager IoT**, se ha definido un **Product Backlog**, el cual representa una lista priorizada y dinámica de todas las funcionalidades, características y tareas técnicas necesarias para la evolución del proyecto. Este backlog permite organizar el trabajo del equipo, enfocándose en entregar valor de negocio de manera incremental.
+
+Con el objetivo de estimar el esfuerzo requerido para cada **User Story**, se emplea la escala de **Fibonacci (1, 2, 3, 5, 8, 13, 21)** mediante el uso de **Story Points**. Esta técnica facilita la planificación y priorización del trabajo, permitiendo al equipo tomar decisiones más precisas sobre qué funcionalidades desarrollar en cada sprint.
+
+La interpretación de la escala es la siguiente:
+
+- **1:** Tareas simples y rápidas de implementar.
+- **2:** Tareas de baja complejidad con un esfuerzo moderado.
+- **3:** Tareas que requieren mayor dedicación y tiempo.
+- **5:** Tareas complejas que implican mayor análisis o desarrollo.
+- **8:** Tareas de alta complejidad que impactan múltiples componentes del sistema.  
 
 ![Product-Backlog](./assets/product-backlog.png)
 
