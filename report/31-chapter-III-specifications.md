@@ -86,5 +86,8 @@
 
 
 ## 3.2. Impact Mapping
+![Impact-Mapping](./assets/impact-mapping.png)
+
+## 3.3 Product Backlog
 
 
