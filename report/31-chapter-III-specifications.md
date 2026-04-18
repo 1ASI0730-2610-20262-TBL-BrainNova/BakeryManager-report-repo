@@ -90,4 +90,63 @@
 
 ## 3.3 Product Backlog
 
+![Product-Backlog](./assets/product-backlog.png)
+
+| Orden | User Story ID | Título | Descripción | Story Points |
+|------|--------------|--------|------------|--------------|
+| 1 | US-01 | Monitoreo de fermentación | Como maestro panadero, quiero monitorear temperatura y humedad para asegurar calidad del pan | 5 |
+| 2 | US-03 | Monitoreo de hornos | Como maestro panadero, quiero visualizar temperatura del horno para correcta cocción | 5 |
+| 3 | US-02 | Control de refrigeración | Como maestro panadero, quiero monitorear refrigeradoras para evitar pérdida de insumos | 5 |
+| 4 | US-04 | Estado de máquinas | Como encargado, quiero conocer estado de máquinas para evitar interrupciones | 5 |
+| 5 | US-10 | Visualización centralizada | Como encargado, quiero ver todos los sensores en un dashboard | 8 |
+| 6 | US-19 | Seguimiento continuo | Como panadero, quiero monitoreo continuo para mantener calidad | 5 |
+| 7 | US-15 | Monitoreo múltiples equipos | Como encargado, quiero ver varios equipos a la vez | 5 |
+| 8 | US-05 | Control de humedad | Como panadero, quiero monitorear humedad para condiciones óptimas | 3 |
+| 9 | US-13 | Temperatura ambiente | Como panadero, quiero conocer temperatura ambiente | 3 |
+| 10 | US-07 | Configuración de rangos | Como encargado, quiero definir límites de sensores | 5 |
+| 11 | US-20 | Identificación de anomalías | Como encargado, quiero detectar comportamientos anormales | 8 |
+| 12 | US-06 | Historial de temperaturas | Como encargado, quiero ver historial para análisis | 5 |
+| 13 | US-14 | Comparación de datos | Como encargado, quiero comparar datos históricos | 8 |
+| 14 | US-47 | Visualización en gráficos | Como encargado, quiero ver datos en gráficos | 5 |
+| 15 | US-48 | Filtro por fechas | Como usuario, quiero filtrar datos por fechas | 3 |
+| 16 | US-50 | Resumen general | Como jefe, quiero ver resumen de datos | 5 |
+| 17 | US-41 | Comparación hornos | Como encargado, quiero comparar temperatura de hornos | 5 |
+| 18 | US-42 | Tendencia de temperatura | Como panadero, quiero ver tendencias | 5 |
+| 19 | US-44 | Tendencia de humedad | Como encargado, quiero analizar humedad | 5 |
+| 20 | US-45 | Comparación incidentes | Como jefe, quiero comparar incidentes | 5 |
+| 21 | US-46 | Tendencia de incidentes | Como jefe, quiero ver tendencias | 5 |
+| 22 | US-21 | Detección de humo | Como encargado, quiero detectar humo | 8 |
+| 23 | US-23 | Detección de fuga de gas | Como encargado, quiero detectar gas | 8 |
+| 24 | US-22 | Temperatura extrema | Como encargado, quiero detectar temperaturas críticas | 5 |
+| 25 | US-28 | Visualización incidentes | Como encargado, quiero ver incidentes | 5 |
+| 26 | US-27 | Registro de incidentes | Como encargado, quiero registrar incidentes | 5 |
+| 27 | US-29 | Clasificación incidentes | Como encargado, quiero clasificar incidentes | 5 |
+| 28 | US-35 | Alertas priorizadas | Como encargado, quiero priorizar alertas | 5 |
+| 29 | US-34 | Estado de sede | Como jefe, quiero ver estado general | 3 |
+| 30 | US-30 | Historial de incidentes | Como jefe, quiero revisar historial | 5 |
+| 31 | US-38 | Tiempo de respuesta | Como jefe, quiero medir tiempos | 5 |
+| 32 | US-31 | Múltiples incidentes | Como encargado, quiero detectar múltiples eventos | 8 |
+| 33 | US-32 | Confirmación incidente | Como encargado, quiero confirmar incidentes | 3 |
+| 34 | US-33 | Cierre incidente | Como encargado, quiero cerrar incidentes | 3 |
+| 35 | US-40 | Monitoreo continuo incidentes | Como encargado, quiero monitoreo constante | 5 |
+| 36 | US-51 | Registro sensores | Como encargado, quiero registrar sensores | 5 |
+| 37 | US-52 | Asignación sensores | Como encargado, quiero asignar sensores | 5 |
+| 38 | US-54 | Visualización sensores | Como encargado, quiero ver sensores | 3 |
+| 39 | US-55 | Estado sensor | Como encargado, quiero ver estado sensores | 3 |
+| 40 | US-56 | Sensor desconectado | Como encargado, quiero detectar fallas | 5 |
+| 41 | US-57 | Ubicación sensor | Como encargado, quiero ubicar sensores | 3 |
+| 42 | US-58 | Edición sensores | Como encargado, quiero editar sensores | 3 |
+| 43 | US-59 | Eliminación sensores | Como encargado, quiero eliminar sensores | 2 |
+| 44 | US-60 | Asociación sede | Como jefe, quiero asociar sensores | 3 |
+| 45 | US-61 | Registro usuarios | Como admin, quiero registrar usuarios | 5 |
+| 46 | US-62 | Inicio de sesión | Como usuario, quiero iniciar sesión | 3 |
+| 47 | US-63 | Gestión de roles | Como admin, quiero asignar roles | 5 |
+| 48 | US-70 | Gestión de permisos | Como admin, quiero gestionar permisos | 5 |
+| 49 | US-69 | Asignación usuarios | Como admin, quiero asignar usuarios | 3 |
+| 50 | US-66 | Creación de sedes | Como admin, quiero crear sedes | 3 |
+| 51 | US-67 | Edición de sedes | Como admin, quiero editar sedes | 2 |
+| 52 | US-68 | Eliminación de sedes | Como admin, quiero eliminar sedes | 2 |
+| 53 | US-64 | Edición usuarios | Como admin, quiero editar usuarios | 3 |
+| 54 | US-65 | Eliminación usuarios | Como admin, quiero eliminar usuarios | 2 |
+
 
