@@ -71,99 +71,21 @@ Adicionalmente, a diferencia de otros rubros comerciales, las panaderías depend
 En este contexto, la carencia de soluciones tecnológicas integradas que permitan automatizar procesos, centralizar la información y monitorear en tiempo real tanto la operación como la maquinaria limita la capacidad de las panaderías para optimizar su gestión. Esto se traduce en ineficiencias operativas, pérdidas económicas y dificultades para escalar de manera sostenible, evidenciando la necesidad de implementar herramientas digitales como BakeryManager, que integren la gestión empresarial con tecnologías IoT.
 
 ## 1.2.2. Lean UX Process
-
 ### 1.2.2.1. Lean UX Problem Statements
 
-#### Dominio del problema
+Los dueños y trabajadores de panaderías que gestionan operaciones en una o varias sedes enfrentan dificultades para supervisar en tiempo real la producción, el estado de los equipos y el inventario, debido al uso de procesos manuales y sistemas no digitalizados. Esto genera falta de visibilidad operativa, detección tardía de incidentes como fallas en hornos, fugas de gas o problemas de refrigeración, y dificultades en la coordinación del personal, lo que afecta la eficiencia, la seguridad y la continuidad de la producción diaria.
 
-Las micro y pequeñas empresas, especialmente las panaderías en proceso de crecimiento, enfrentan una creciente complejidad en la gestión de sus operaciones al expandirse mediante la apertura de nuevas sedes. Esta situación implica la necesidad de administrar de manera simultánea el control de inventarios, el flujo de ventas, la planificación de la producción y la operación de múltiples locales, así como la supervisión del estado general de cada sede.
+Las soluciones actuales no integran tecnología IoT junto con una aplicación web centralizada que permita monitorear en tiempo real los equipos críticos ni generar alertas automáticas basadas en datos de sensores, lo que limita la capacidad de prevención y respuesta ante riesgos operativos.
 
-No obstante, estos procesos suelen ejecutarse mediante mecanismos manuales o herramientas no integradas, lo que genera desorganización, falta de trazabilidad de la información y limitaciones en el acceso a datos en tiempo real, afectando directamente la eficiencia operativa.
+Nuestra solución abordará este problema mediante BakerManager, una aplicación web con tecnología IoT que conectará sensores instalados en equipos como hornos, cámaras de refrigeración y áreas de producción para recopilar datos en tiempo real (temperatura, estado de máquinas, gas y humo). Esta información será visualizada en un dashboard web centralizado, permitiendo a los usuarios supervisar múltiples sedes desde cualquier dispositivo, recibir alertas automáticas ante anomalías y optimizar la gestión operativa. Inicialmente, el enfoque estará en panaderías multi-sede en ciudades como Lima Metropolitana.
 
-Adicionalmente, se evidencia una limitada capacidad para el monitoreo del estado operativo de las sedes, incluyendo la detección de incidentes y la supervisión del funcionamiento de equipos clave como hornos y cámaras frigoríficas. La ausencia de sistemas que permitan generar alertas oportunas ante eventos críticos incrementa el riesgo operativo y reduce la capacidad de respuesta. En conjunto, la falta de un sistema integral de gestión y monitoreo limita la toma de decisiones basada en datos y restringe el crecimiento sostenible de las panaderías en expansión.
+### 1.2.2.2. Lean UX Assumptions
 
----
+Creemos que los dueños y trabajadores de panaderías necesitan una forma más eficiente de controlar sus operaciones sin depender de procesos manuales ni supervisión constante en cada sede. Pensamos que si cuentan con una aplicación web con monitoreo IoT en tiempo real, se animarán a usarla para mejorar el control de producción, inventario y equipos.
 
-#### Alcance del problema
+Los primeros usuarios serían dueños de panaderías multi-sede y personal de producción. El valor principal que buscan es evitar pérdidas, detectar fallas a tiempo y tener mayor control operativo desde cualquier lugar.
 
-El problema se manifiesta en micro y pequeñas empresas, específicamente panaderías que se encuentran en proceso de crecimiento y buscan expandirse mediante la apertura de nuevas sedes. En este contexto, el incremento en la complejidad operativa exige una adecuada gestión de inventarios, control del flujo de ventas, supervisión de la producción y monitoreo del estado de cada local.
-
-Sin embargo, la ausencia de sistemas tecnológicos integrados que permitan centralizar la información, garantizar la trazabilidad de los procesos y realizar un monitoreo en tiempo real limita la eficiencia operativa. Esta situación dificulta la gestión coordinada de múltiples sedes, reduce la capacidad de respuesta ante incidentes y restringe el crecimiento sostenible del negocio.
-
----
-
-#### Segmentos de cliente (actores involucrados)
-
-**Propietarios y administradores de panaderías:**  
-Responsables de la gestión integral del negocio, quienes requieren herramientas que les permitan supervisar de manera eficiente sus operaciones, especialmente al expandirse hacia múltiples sedes, asegurando el control de inventarios, ventas, producción y estado de los locales.
-
-**Personal operativo (cajeros y encargados de producción):**  
-Usuarios encargados de la ejecución diaria de actividades, como el registro de ventas, control de inventarios y apoyo en procesos productivos, quienes necesitan sistemas intuitivos y confiables que faciliten sus tareas y reduzcan errores operativos.
-
----
-
-#### Puntos de dolor
-
-**Propietarios y administradores:**
-- Falta de visibilidad centralizada de las operaciones del negocio.
-- Dificultad para monitorear en tiempo real inventarios, ventas y producción.
-- Ausencia de herramientas para supervisar equipos y detectar incidentes oportunamente.
-- Limitaciones en la toma de decisiones por información dispersa o desactualizada.
-- Procesos manuales que incrementan errores y reducen eficiencia.
-
-**Personal operativo:**
-- Uso de métodos manuales o sistemas poco intuitivos para registrar ventas.
-- Dificultades en el control de inventarios, generando inconsistencias.
-- Falta de acceso a información actualizada.
-- Escasa automatización de tareas rutinarias.
-- Incremento de la carga operativa.
-
----
-
-#### Causas raíz (hipótesis del problema)
-
-- Fragmentación de la información en múltiples herramientas no integradas.
-- Ausencia de sistemas tecnológicos centralizados.
-- Dependencia de métodos manuales o herramientas básicas como hojas de cálculo.
-- Limitada adopción de tecnologías IoT para monitoreo en tiempo real.
-- Falta de cultura de gestión basada en datos.
-
----
-
-#### Brecha detectada
-
-Las panaderías en crecimiento carecen de una solución tecnológica integral que permita la gestión unificada y en tiempo real de sus operaciones. La ausencia de herramientas que centralicen la información relacionada con inventarios, ventas, producción y monitoreo de equipos genera una limitada visibilidad operativa.
-
-Como consecuencia, se producen ineficiencias en la gestión, dificultades en la toma de decisiones y restricciones en la capacidad de crecimiento sostenible del negocio.
-
----
-
-#### Impactos y riesgos del problema
-
-**Para los propietarios:**
-- Pérdida de control sobre las operaciones.
-- Incremento de costos operativos.
-- Dificultad para escalar el negocio.
-
-**Para el personal operativo:**
-- Mayor probabilidad de errores.
-- Procesos más lentos e ineficientes.
-- Sobrecarga de tareas manuales.
-
-**Para el negocio:**
-- Reducción de la eficiencia operativa.
-- Baja capacidad de respuesta ante incidentes.
-- Limitación en la toma de decisiones basada en datos.
-
----
-
-#### Indicadores (baseline a observar)
-
-- Tiempo promedio de registro y consolidación de ventas.
-- Nivel de precisión en el control de inventarios.
-- Frecuencia de incidentes no detectados a tiempo.
-- Tiempo de respuesta ante fallas en maquinaria.
-- Nivel de satisfacción de los usuarios respecto a los procesos actuales.
+Llegaremos a ellos mediante demostraciones, redes sociales y contactos directos en el rubro. BakeryManager generará ingresos por suscripción y servicios de instalación de sensores IoT.
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
@@ -194,6 +116,10 @@ Tendremos éxito si se reduce la cantidad de errores en el registro de informaci
 #### Hipótesis 5
 Creemos que la generación de alertas automáticas ante incidentes y la disponibilidad de información en tiempo real incrementará la capacidad de respuesta del negocio.  
 Tendremos éxito si se reduce el tiempo de reacción ante eventos críticos y se mejora la continuidad operativa de las panaderías.
+
+### 1.2.2.4 Lean UX Canvas
+
+![Lean UX Canvas](./assets/lean-ux-canva.jpg)
 
 ## 1.3. Segmentos objetivo
 
