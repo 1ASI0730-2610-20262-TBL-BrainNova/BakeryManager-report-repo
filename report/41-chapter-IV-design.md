@@ -211,8 +211,127 @@ Las etiquetas se agrupan para crear relaciones lógicas inmediatas:
   Facilita la comparación rápida de costos y capacidades mediante una estructura visual repetitiva.
   
 ### 4.2.3 SEO Tags and Meta Tags
+Los SEO Tags y Meta Tags optimizan la visibilidad de BakeryManager en motores de búsqueda. Se definen específicamente para el Landing Page (sitio estático) para maximizar la captación de clientes, utilizando etiquetas claras que resaltan el valor de la integración IoT en panaderías.
+##### Landing Page
+```html
+<title>BakeryManager – Brainova | Smart Bakery Management Platform</title>
+<meta name="description" content="BakeryManager is an IoT-powered web platform for bakeries and SMEs. Monitor ovens, fermentation and refrigeration in real time with automatic alerts and historical analytics.">
+<meta name="keywords" content="bakery management, IoT sensors, bakery software, incident management, analytics, ERP SME, Peru">
+<meta name="author" content="Brainova – UPC">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="BakeryManager – Smart Bakery Management Platform">
+<meta property="og:description" content="Connect IoT sensors to your bakery and monitor everything in real time — with automatic alerts, incident management and historical analytics.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://bakery-manager-51fa66.netlify.app/images/LOGO-Bake.jpeg">
+<meta property="og:url" content="https://bakery-manager-51fa66.netlify.app">
+```
 ### 4.2.4 Searching Systems
+
+En esta sección se explican los medios que **BakeryManager** ofrece para que el usuario localice información específica rápidamente, evitando que se pierda entre los datos generados por los sensores.
+
+
+### A. Opciones de Búsqueda y Filtros
+
+Se han implementado herramientas de búsqueda directa y filtros avanzados en los módulos críticos:
+
+#### 1. Búsqueda de Dispositivos e Incidentes
+
+- **Opciones:**  
+  Barra de búsqueda con autocompletado en el inventario de sensores y en el historial de incidentes.
+
+- **Filtros:**  
+  - **Por Tipo:** Temperatura, Humedad, Gas  
+  - **Por Estado:** Activo, Alerta, Crítico  
+  - **Por Fecha:** Filtro cronológico para reportes históricos  
+
+#### 2. Filtros de Gestión Operativa
+
+- **Opciones:**  
+  Menús desplegables para filtrar datos según la sede o el equipo específico (ej. Horno 1, Almacén).
+
+- **Filtros:**  
+  - **Prioridad:** Alta, Media, Baja  
+  - **Asignado:** Búsqueda por el responsable del turno  
+
+### B. Visualización de Resultados
+
+La forma en que se muestran los datos tras una búsqueda sigue los principios de claridad del sistema:
+
+- **Formato de Lista:**  
+  Los resultados se presentan en tablas limpias o tarjetas (*cards*) que resaltan el estado actual con colores semánticos (verde, amarillo, rojo).
+
+- **Gráficos Dinámicos:**  
+  Al buscar datos históricos, el sistema genera automáticamente un gráfico de líneas para visualizar la tendencia de la métrica consultada.
+
 ### 4.2.5 Navigation Systems
+
+Los sistemas de navegación guían a los usuarios a través del **Landing Page** y la **Web Application**, asegurando que cumplan sus objetivos (monitorear sensores, gestionar incidentes) con el mínimo esfuerzo y máxima claridad operativa.
+
+
+### A. Landing Page Navigation
+
+El Landing Page utiliza un diseño limpio con un menú fijo superior para facilitar el acceso rápido a la información comercial.
+
+- **Menú Superior:**  
+  Incluye accesos directos a *Features*, *Pricing*, *About* y *Segments*.
+
+- **Scroll Suave:**  
+  Transiciones fluidas mediante *smooth scroll* para conectar secciones, con anclas que dirigen al usuario a los planes o beneficios específicos.
+
+- **Enlaces Internos:**  
+  Botones de **"Get Started"** vinculan directamente a la web.
+
+#### Flujo
+
+1. Los usuarios llegan al Landing Page y exploran la propuesta de valor IoT.  
+2. Los botones de acción (*CTAs*) distribuidos en la página llevan al proceso de registro.  
+3. El menú persistente permite saltar entre la comparativa de precios y las funcionalidades técnicas sin perder el hilo de la navegación.  
+
+
+### B. Web Application Navigation
+
+La navegación se personaliza según el rol operativo (*Admin/Owner* o *Master Baker*) tras el inicio de sesión, utilizando un menú lateral dinámico y visualización de estados críticos.
+
+- **Menú Lateral:**  
+  En *desktop*, permanece visible con opciones clave (*Dashboard, Sensores, Incidentes, Reportes*).  
+  En *mobile*, se condensa en un menú hamburguesa para priorizar el espacio de visualización de datos.
+
+- **Barra Superior de Notificaciones:**  
+  Acceso inmediato a las alertas de emergencia (Gas, Temperatura) desde cualquier sección de la app.
+
+- **Feedback de Ubicación:**  
+  Se utiliza un estado activo (resaltado en color café/caramelo) en el menú para indicar la sección actual, junto con títulos de página claros.
+
+
+### C. Flujo para Admin / Owner
+
+1. **Inicio:**  
+   Dashboard con estadísticas globales de producción y consumo.
+
+2. **Analytics:**  
+   Filtros avanzados para revisar tendencias históricas por sede.
+
+3. **User Management:**  
+   Gestión de permisos para el personal de la panadería.
+
+4. **Perfil:**  
+   Configuración de la cuenta y métodos de pago de suscripción.
+
+
+### D. Flujo para Master Baker / Operador
+
+1. **Inicio:**  
+   Vista en tiempo real de los sensores en hornos y cámaras.
+
+2. **Incident Panel:**  
+   Gestión y cierre de alertas activas (*Notificación → Acción*).
+
+3. **Devices:**  
+   Lista de sensores registrados para verificar conectividad y batería.
+
+4. **Perfil:**  
+   Configuración de preferencias de notificación y alertas sonoras.
+   
 ## 4.3 Landing Page UI Design
 ### 4.3.1 Landing Page Wireframe
 ### 4.3.2 Landing Page Mock-up
