@@ -73,20 +73,19 @@ En esta sección se presenta el diseño de las entrevistas realizadas a los prin
 - Tipo de negocio
 
 **Preguntas:**
-1. Actualmente, ¿cuántos locales o sedes administra su negocio?
-2. ¿Cómo gestiona actualmente sus ventas, inventarios y producción?
-3. ¿Qué herramientas utiliza para el control de su negocio (Excel, cuadernos, sistemas, etc.)?
-4. ¿Ha tenido dificultades para controlar sus operaciones (ventas, stock, producción)? ¿Cuáles?
-5. ¿Cómo supervisa el estado de su maquinaria (hornos, batidoras, etc.)?
-6. ¿Ha experimentado incidentes operativos (fallas, sobrecalentamiento, pérdidas de producto)?
-7. ¿Qué tan importante considera contar con información en tiempo real de sus operaciones?
-8. ¿Qué opinaría de una plataforma que integre ventas, inventarios, producción y monitoreo de maquinaria en tiempo real?
-9. ¿Estaría dispuesto(a) a implementar una solución tecnológica de este tipo en su negocio?
-10. ¿Qué beneficios esperaría obtener de una herramienta como esta?
-11. ¿Qué funcionalidades le gustaría que incluya el sistema?
-12. ¿Qué factores le generarían desconfianza o impedirían su uso?
-13. ¿Cómo considera que una solución tecnológica podría ayudarle a expandir su negocio?
-
+1. ¿Cuántas sedes o locales administra actualmente su negocio?
+2. ¿Cómo supervisa actualmente la producción en sus sedes?
+3. ¿Cómo controla el estado de sus equipos (hornos, cámaras frigoríficas, etc.)?
+4. ¿Ha tenido problemas recientes con maquinaria? ¿Qué tipo de fallas?
+5. Cuando ocurre una falla (ej. horno malogrado), ¿cómo se entera?
+6. ¿Cuánto tiempo tarda en reaccionar ante un problema operativo?
+7. ¿Ha tenido pérdidas por fallas en equipos o condiciones inadecuadas? ¿Puede describir un caso?
+8. ¿Qué tan difícil es supervisar múltiples sedes al mismo tiempo?
+9. ¿Cuenta actualmente con información en tiempo real de lo que ocurre en su producción?
+10. ¿Qué tan importante sería para usted recibir alertas automáticas ante fallas o riesgos?
+11. ¿Qué opinaría de una plataforma que le permita monitorear sus equipos y producción en tiempo real mediante sensores?
+12. ¿Qué beneficios esperaría obtener de una solución de este tipo?
+13. ¿Qué aspectos le generarían desconfianza al implementar este tipo de tecnología?
 ---
 
 ### **Segmento 2: Personal Operativo (Cajeros y Encargados de Producción)**
@@ -99,19 +98,44 @@ En esta sección se presenta el diseño de las entrevistas realizadas a los prin
 - Tiempo de experiencia en el rubro
 
 **Preguntas:**
-1. ¿Cómo realiza actualmente el registro de ventas?
-2. ¿Cómo lleva el control del inventario en su área?
-3. ¿Ha tenido errores o dificultades en el registro de información?
-4. ¿Cómo se coordinan las actividades entre ventas, inventario y producción?
-5. ¿Ha tenido problemas con maquinaria (hornos, equipos)? ¿Cómo se detectan?
-6. ¿Recibe algún tipo de alerta o aviso ante fallas o incidentes?
-7. ¿Qué tan fácil o difícil considera el uso de herramientas digitales en su trabajo diario?
-8. ¿Qué opinaría de un sistema que le permita registrar ventas e inventarios de manera digital y sencilla?
-9. ¿Qué funcionalidades le facilitarían su trabajo diario?
-10. ¿Qué aspectos considera importantes para que un sistema sea fácil de usar?
-11. ¿Cómo cree que un sistema automatizado podría mejorar su desempeño laboral?
+1. ¿Qué tareas realiza en el proceso de producción diariamente?
+2. ¿Cómo supervisa el funcionamiento de los equipos que utiliza?
+3. ¿Ha tenido problemas con hornos u otros equipos? ¿Qué ocurrió?
+4. ¿Cómo se dan cuenta cuando algo está fallando?
+5. ¿Qué hacen cuando ocurre un problema con la maquinaria?
+6. ¿Reciben algún tipo de aviso o alerta cuando hay fallas?
+7. ¿Qué tan frecuente ocurren errores o problemas en producción?
+8. ¿Considera que podría prevenirse si tuvieran información en tiempo real?
+9. ¿Qué tan fácil o difícil sería usar una herramienta digital en su trabajo?
+10. ¿Qué tipo de información le gustaría ver en una pantalla o sistema?
+11. ¿Cree que recibir alertas automáticas le ayudaría en su trabajo diario? ¿Por qué?
+---
+### Preguntas complementarias (adaptadas a BakeryManager)
+
+1. ¿Qué dispositivos utiliza con más frecuencia durante su trabajo en producción?
+   (Ejemplo: celular, computadora, tablet)
+   → ¿En qué momentos los utiliza dentro de la operación?
+
+2. ¿Utiliza actualmente alguna aplicación o sistema para supervisar la producción o el estado de los equipos?
+   → ¿Cuál? ¿Qué tan útil le resulta?
+
+3. ¿Qué tan complicado o frustrante es supervisar manualmente el estado de los equipos o la producción?
+   → ¿Qué problemas le genera?
+
+4. Si tuviera una herramienta que le enviara alertas automáticas cuando ocurre una falla (por ejemplo, temperatura alta o falla en un horno),
+   ¿cómo cambiaría su forma de trabajar?
+
+5. ¿Qué tan útil sería para usted poder ver en tiempo real el estado de los equipos desde su celular?
+
+6. En su opinión, ¿su negocio estaría dispuesto a invertir en una solución que ayude a prevenir fallas y reducir pérdidas?
+   → ¿De qué dependería esa decisión? (precio, facilidad de uso, beneficios, etc.)
+
+7. ¿Qué le generaría confianza para usar una plataforma que monitorea sus equipos mediante sensores IoT?
+
+8. ¿Qué le preocuparía o generaría dudas al usar este tipo de tecnología?
 
 ### 2.2.2. Registro de entrevistas
+
 
 Segmento 1 - Propietarios y administradores de panaderias
 
