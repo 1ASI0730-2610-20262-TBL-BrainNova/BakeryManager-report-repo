@@ -287,50 +287,51 @@ El Landing Page utiliza un diseño limpio con un menú fijo superior para facili
 2. Los botones de acción (*CTAs*) distribuidos en la página llevan al proceso de registro.  
 3. El menú persistente permite saltar entre la comparativa de precios y las funcionalidades técnicas sin perder el hilo de la navegación.  
 
-
 ### B. Web Application Navigation
 
-La navegación se personaliza según el rol operativo (*Admin/Owner* o *Master Baker*) tras el inicio de sesión, utilizando un menú lateral dinámico y visualización de estados críticos.
+La navegación se personaliza mediante un menú lateral dinámico que cambia según el rol del usuario autenticado, asegurando que cada perfil acceda solo a las herramientas que le corresponden.
 
 - **Menú Lateral:**  
-  En *desktop*, permanece visible con opciones clave (*Dashboard, Sensores, Incidentes, Reportes*).  
-  En *mobile*, se condensa en un menú hamburguesa para priorizar el espacio de visualización de datos.
+  Acceso a módulos según rol. En dispositivos móviles, se integra en un menú tipo hamburguesa.
 
 - **Barra Superior de Notificaciones:**  
-  Acceso inmediato a las alertas de emergencia (Gas, Temperatura) desde cualquier sección de la app.
+  Ícono de campana con alertas críticas de sensores (Gas, Fuego, Temperatura), accesible desde cualquier vista.
 
-- **Feedback de Ubicación:**  
-  Se utiliza un estado activo (resaltado en color café/caramelo) en el menú para indicar la sección actual, junto con títulos de página claros.
+- **Breadcrumbs y Títulos:**  
+  Indicadores visuales que muestran la ubicación actual del usuario dentro de la jerarquía de la aplicación.
 
+### C. Flujo para Owner / Manager
 
-### C. Flujo para Admin / Owner
+1. **Dashboard:**  
+   Resumen ejecutivo y métricas globales de rentabilidad y producción.
 
-1. **Inicio:**  
-   Dashboard con estadísticas globales de producción y consumo.
+2. **Organization:**  
+   Gestión de múltiples sedes y suscripción.
 
-2. **Analytics:**  
-   Filtros avanzados para revisar tendencias históricas por sede.
+3. **Analytics:**  
+   Reportes avanzados y proyecciones.
 
-3. **User Management:**  
-   Gestión de permisos para el personal de la panadería.
+### D. Flujo para Branch Manager
 
-4. **Perfil:**  
-   Configuración de la cuenta y métodos de pago de suscripción.
+1. **Dashboard:**  
+   Control operativo de su sede específica.
 
+2. **Inventory:**  
+   Gestión de stock de insumos y productos terminados.
 
-### D. Flujo para Master Baker / Operador
+3. **Staff:**  
+   Supervisión del personal y turnos de trabajo.
 
-1. **Inicio:**  
-   Vista en tiempo real de los sensores en hornos y cámaras.
+### E. Flujo para Master Baker
+
+1. **Monitor:**  
+   Vista en tiempo real de hornos y cámaras de fermentación.
 
 2. **Incident Panel:**  
-   Gestión y cierre de alertas activas (*Notificación → Acción*).
+   Recepción y resolución de alertas técnicas.
 
-3. **Devices:**  
-   Lista de sensores registrados para verificar conectividad y batería.
-
-4. **Perfil:**  
-   Configuración de preferencias de notificación y alertas sonoras.
+3. **Device Setup:**  
+   Calibración y estado de conexión de los sensores IoT.
    
 ## 4.3 Landing Page UI Design
 ### 4.3.1 Landing Page Wireframe
