@@ -334,7 +334,7 @@ La navegación se personaliza mediante un menú lateral dinámico que cambia seg
    Calibración y estado de conexión de los sensores IoT.
    
 ## 4.3 Landing Page UI Design
-
+### 4.3.1 Landing Page Wireframe
 <img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/Hero.png" alt="BakeryManager Hero" width="100%">
 <img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/About%20Brainova.png" alt="About Brainova" width="100%">
 <img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/Pain%20points.png" alt="Pain Points" width="100%">
@@ -344,7 +344,6 @@ La navegación se personaliza mediante un menú lateral dinámico que cambia seg
 <img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/Pricing.png" alt="Pricing Section" width="100%">
 <img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/Footer.png" alt="Footer Section" width="100%">
 
-### 4.3.1 Landing Page Wireframe
 ### 4.3.2 Landing Page Mock-up
 ## 4.4 Web Applications UX/UI Design
 ### 4.4.1 Web Applications Wireframes
