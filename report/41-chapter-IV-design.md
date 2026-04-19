@@ -73,7 +73,143 @@ Para reducir la carga cognitiva y guiar la atención del usuario hacia la inform
 
 ## 4.2 Information Architecture
 ### 4.2.1 Organization Systems
+
+En esta sección se definen las estrategias para agrupar y presentar la información en **BakeryManager**, asegurando que tanto el dueño de la panadería como el personal operativo encuentren los datos de manera intuitiva y eficiente.
+
+### A. Sistemas de Organización Visual
+
+El equipo ha determinado el uso de tres estructuras principales según el contexto de la información:
+
+#### 1. Organización Jerárquica (Visual Hierarchy)
+
+- **Aplicación:**  
+  Se aplica en el *Dashboard* principal y en las secciones de presentación del producto. Se utilizan variaciones de tamaño y peso tipográfico (fuente *Playfair Display* para títulos y *DM Sans* para datos) para dirigir la atención del usuario primero a las alertas críticas y luego a las métricas secundarias.
+
+- **Sustento:**  
+  Permite que un administrador identifique problemas (ej. una fuga de gas) en milisegundos antes de revisar los reportes históricos.
+
+#### 2. Organización Secuencial (Step-by-step)
+
+- **Aplicación:**  
+  Se utiliza en el flujo de registro de nuevos sensores y en el proceso de solución de incidentes.
+
+- **Sustento:**  
+  Guía al usuario a través de pasos lógicos (ej.  
+  1. Detectar alerta
+  2. Confirmar recepción  
+  3. Cerrar incidente),  
+  reduciendo la posibilidad de error humano en tareas críticas.
+
+#### 3. Organización Matricial
+
+- **Aplicación:**  
+  Se emplea en la sección de analíticas y en el inventario de sensores (*Registered Sensors*).
+
+- **Sustento:**  
+  Permite cruzar múltiples dimensiones de datos, como comparar la temperatura de diferentes hornos frente a distintas franjas horarias.
+
+### B. Esquemas de Categorización de Contenido
+
+Para facilitar el acceso a la información, se han implementado los siguientes esquemas:
+
+#### 1. Categorización por Tópicos (Temática)
+
+- **Uso:**  
+  La funcionalidad de la plataforma se divide en cuatro módulos o “épicas” principales: Producción, Gestión de Incidentes, Analítica y Gestión de Sensores.
+
+- **Sustento:**  
+  Ayuda a los usuarios a localizar herramientas específicas según el área operativa que deseen atender.
+
+#### 2. Categorización según Audiencia (Grupos de Usuarios)
+
+- **Uso:**  
+  La información se filtra y presenta de forma diferenciada para tres roles:  
+  - Owner/Manager (visión global)  
+  - Branch Manager (control operativo)  
+  - Master Baker (monitoreo de producción)
+
+- **Sustento:**  
+  Evita la sobrecarga de información, entregando a cada perfil solo los datos necesarios para su responsabilidad específica.
+
+#### 3. Categorización Cronológica
+
+- **Uso:**  
+  Aplicado estrictamente en el historial de incidentes (*Incident Panel*) y en los gráficos de tendencias de temperatura.
+
+- **Sustento:**  
+  Es vital para identificar patrones de fallas en los equipos a lo largo del tiempo y evaluar la eficiencia de los turnos de trabajo.
 ### 4.2.2 Labeling Systems
+
+En esta sección se detallan las convenciones de etiquetado utilizadas en **BakeryManager**. El objetivo es reducir la carga cognitiva del usuario mediante el uso de términos breves, precisos y consistentes que faciliten la gestión operativa bajo condiciones de alta presión.
+
+### A. Estándares de Etiquetado
+
+Para garantizar la simplicidad, el equipo ha definido tres principios de representación:
+
+#### 1. Etiquetas de Navegación (Menu Labels)
+
+- **Aplicación:**  
+  Se utilizan términos de una sola palabra para las secciones principales de la plataforma, visibles en el encabezado y pie de página.
+
+  - Features (Funcionalidades)  
+  - About (Nosotros)  
+  - Pricing (Planes)  
+  - Segments (Roles)
+
+- **Sustento:**  
+  El uso de términos simples evita la confusión y permite una navegación rápida en dispositivos móviles donde el espacio es limitado.
+
+#### 2. Etiquetas de Estado y Alerta (Status Labels)
+
+- **Aplicación:**  
+  Los datos provenientes de los sensores IoT se representan con etiquetas de estado binarias o de prioridad, asociadas a colores semánticos.
+
+  - **Active / Operational:** Funcionamiento normal  
+  - **Check / Warning:** Requiere atención preventiva  
+  - **Critical / Emergency:** Incidencia grave (fugas, incendios)
+
+- **Sustento:**  
+  La asociación entre el texto mínimo y el color permite que el personal operativo tome decisiones de seguridad sin necesidad de leer manuales complejos.
+
+#### 3. Etiquetas de Identificación de Datos (Data Labels)
+
+- **Aplicación:**  
+  En las tablas de analítica y gestión de dispositivos, se utilizan etiquetas técnicas estandarizadas:
+
+  - **ID:** Identificador único del sensor  
+  - **Type:** Categoría del dispositivo (Temperatura, Humedad, Gas)  
+  - **Equipment:** Máquina asociada (Horno 1, Cámara Fría)  
+  - **Status:** Estado actual de la conexión
+
+- **Sustento:**  
+  La brevedad de estas etiquetas permite que las tablas sean legibles en interfaces responsivas sin necesidad de realizar *scroll* horizontal excesivo.
+
+### B. Asociaciones de Información
+
+Las etiquetas se agrupan para crear relaciones lógicas inmediatas:
+
+#### 1. Asociación Sensor–Ubicación
+
+- **Representación:**  
+  `[Nombre del Equipo] — [Valor de Métrica] · [Estado]`
+
+- **Ejemplo:**  
+  `Oven 1 — 220°C · Active`
+
+- **Propósito:**  
+  Brinda el contexto completo de una operación en una sola línea de texto.
+
+#### 2. Asociación de Planes y Beneficios
+
+- **Representación:**  
+  `[Nombre del Plan] / [Precio] + Lista de beneficios con checkmarks`
+
+- **Ejemplo:**  
+  `Starter / S/89`
+
+- **Propósito:**  
+  Facilita la comparación rápida de costos y capacidades mediante una estructura visual repetitiva.
+  
 ### 4.2.3 SEO Tags and Meta Tags
 ### 4.2.4 Searching Systems
 ### 4.2.5 Navigation Systems
