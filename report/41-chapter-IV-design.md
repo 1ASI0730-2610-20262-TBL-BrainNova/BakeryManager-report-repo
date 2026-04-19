@@ -39,7 +39,38 @@ El tono de comunicación se ha definido bajo tres dimensiones principales:
 
 #### **F. Design System Reference**
 Aunque el diseño es una propuesta original de **Brainova**, toma como referencia los principios de **Atomic Design** para la construcción de componentes reutilizables (botones, chips de estado, formularios), garantizando que la interfaz sea escalable conforme se agreguen nuevos tipos de sensores IoT.
+
 ### 4.1.2 Web Style Guidelines
+En esta sección se definen los estándares de interacción y adaptabilidad de la interfaz web de **BakeryManager**, garantizando una experiencia de usuario fluida y coherente en diversos navegadores y dispositivos.
+
+#### **A. Estrategia de Responsive Design**
+La plataforma utiliza un enfoque de diseño fluido basado en **CSS Flexbox** y **CSS Grid**, permitiendo que la arquitectura de información se reorganice mediante *breakpoints* específicos definidos en la hoja de estilos:
+
+* **Desktop (> 1100px):** Disposición multi-columna (grid de 3 a 4 columnas) para maximizar la visualización de datos de sensores y analíticas en paneles extendidos.
+* **Tablet (900px - 1100px):** Se ajusta el padding de los contenedores a `1.5rem` y las rejillas de tarjetas de sensores se fuerzan a un máximo de 2 columnas (`grid-template-columns: 1fr 1fr`) para mantener la legibilidad de las métricas.
+* **Mobile (< 900px):** La interfaz transita a una disposición de columna única (`1fr`). Se ocultan elementos visuales secundarios (`.hero-visual { display: none }`) para priorizar la lectura de alertas y estados operativos del sistema IoT en pantallas pequeñas.
+
+#### **B. Interacción y Feedback Visual**
+Se han implementado estándares de micro-interacciones para mejorar la respuesta del sistema ante las acciones del usuario:
+
+* **Comportamiento de Scroll:** Se aplica `scroll-behavior: smooth` de forma global en el documento HTML, asegurando transiciones suaves al navegar entre las secciones de la Landing Page.
+* **Estados de Interacción (Hover):** Los elementos clicables (botones, enlaces y tarjetas) presentan transiciones de opacidad y color suaves (`0.6s ease`).
+* **Tipografía Adaptable:** Se utiliza la función `clamp(14px, 1.1vw, 17px)` para el tamaño de fuente base, permitiendo que el texto escale de forma armónica según el tamaño de la ventana del navegador.
+
+#### **C. Animaciones y Carga Progresiva**
+Para reducir la carga cognitiva y guiar la atención del usuario hacia la información relevante, se utiliza la técnica de **Intersection Observer** en JavaScript:
+
+* **Clase `.fade-up`:** Los componentes clave (secciones de características y planes) aparecen con una transición de opacidad y un desplazamiento vertical de `28px`.
+* **Sustento:** Esta animación asegura que los elementos se presenten de forma ordenada conforme el usuario realiza el scroll, evitando que la interfaz se sienta saturada desde el primer contacto.
+
+#### **D. Estándares de Componentes Web**
+* **Navegación (Navbar):** Se mantiene un diseño minimalista con soporte para **internacionalización (i18n)**. La navegación permite el cambio dinámico entre inglés y español sin recarga de página, utilizando atributos `data-i18n` para actualizar el DOM en tiempo real.
+* **Tarjetas de Datos (Cards):** Utilizan un radio de borde de `14px` y sombras profundas para jerarquizar la información de los sensores. Cada tarjeta incluye etiquetas de estado dinámicas que facilitan el monitoreo rápido.
+
+#### **E. Accesibilidad y Rendimiento**
+* **Optimización de Carga:** Se utiliza la precarga de fuentes de Google Fonts y la organización de recursos mediante enlaces críticos en el `<head>`.
+* **Semántica HTML5:** Se emplean etiquetas estructurales (`<header>`, `<section>`, `<footer>`) para asegurar que la jerarquía de la página sea comprensible tanto para usuarios como para motores de búsqueda (SEO).
+
 ## 4.2 Information Architecture
 ### 4.2.1 Organization Systems
 ### 4.2.2 Labeling Systems
