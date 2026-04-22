@@ -196,10 +196,10 @@ Este conjunto de User Journey Maps presenta de manera integral el recorrido end-
 
 ### 2.3.4. Empathy Mapping
 #### Empathy Map – Propietarios y Administradores de Panadería
-![user-empathy-map-propietarios](./assets/Segmento1-empathy-mapping.png)
+![user-empathy-map-propietarios](./assets/segmento1-empathy-mapping.png)
 
 #### Empathy Map – Personal Operativo
-![user-empathy-map-operativo](./assets/Segmento2-empathy-mapping.png)
+![user-empathy-map-operativo](./assets/segmento2-empathy-mapping.png)
 
 ## 2.4. Big Picture Event Storming
 <img src="https://raw.githubusercontent.com/Brainova-OpenSource/Report/main/assets/Big%20Picture%20Event%20Storming.jpg" alt="Big Picture Event Storming">
