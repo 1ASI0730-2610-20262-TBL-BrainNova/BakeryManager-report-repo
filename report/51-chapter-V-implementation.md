@@ -94,6 +94,15 @@ El **Sprint #1** tiene como fecha de inicio el **07/04/2026** y plantea elaborar
 
 #### 5.2.1.3. Sprint Backlog 1
 
+
+| US Id | User Story Title | Task Id | Task Title | Description | Est. (h) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **US-20** | Identificación de anomalías | **W-01** | Comportamientos anormales | Como encargado de sede quiero detectar comportamientos anormales para prevenir fallas. | 3h | Luis Tufiño | `Process` |
+| **US-21** | Detección de Humo | **W-02** | Presencia de humo | Como encargado de sede quiero detectar la presencia de humo para actuar ante posibles incendios. | 3h | Jareth Vidal | `Process` |
+| **US-22** | Detección de Temp. Extrema | **W-03** | Temperaturas anormales | Como encargado de sede quiero detectar temperaturas anormales para prevenir incidentes. | 3h | Manuel Molina | `Process` |
+| **US-23** | Detección de fuga de gas | **W-04** | Fugas de gas | Como encargado de sede quiero detectar fugas de gas para evitar riesgos. | 3h | Emanuel Chipana | `Process` |
+| **US-24** | Notificación al maestro | **W-05** | Alertas de incidentes | Como maestro panadero quiero recibir alertas de incidentes para actuar rápidamente. | 3h | Jarod Céspedes | `Process` |
+
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
