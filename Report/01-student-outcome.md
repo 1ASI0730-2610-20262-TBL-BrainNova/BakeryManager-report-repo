@@ -2,7 +2,7 @@
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
-**ABET – EAC - Student Outcome 3**
+**ABET – EAC - Student Outcome 3**   
 **Criterio:**  Capacidad de comunicarse efectivamente con un
 rango de audiencias.
 
