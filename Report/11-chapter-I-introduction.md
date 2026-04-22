@@ -154,25 +154,28 @@ Este segmento corresponde a personas naturales o jurídicas responsables de la g
 
 ### Personal Operativo
 
-Este segmento está conformado por trabajadores responsables de la ejecución de las actividades operativas del negocio, tales como la atención al cliente, el registro de ventas, el control de inventarios y el apoyo en los procesos productivos.
+Este segmento está conformado por los trabajadores responsables de la ejecución de las actividades productivas y el monitoreo básico de las condiciones operativas del negocio. Son usuarios clave del sistema, ya que interactúan directamente con Bakery Manager durante la jornada laboral.
 
 #### Características demográficas
 
 - **Edad:** Entre 20 y 45 años.
 - **Nivel educativo:** Secundaria completa o formación técnica.
-- **Ocupación:** Cajeros, panaderos y asistentes de producción.
+- **Ocupación:** Panaderos, asistentes de producción y encargados de turno.
 - **Nivel de experiencia:** Variable, con predominio de aprendizaje práctico en el entorno laboral.
+- **Nivel tecnológico:** Básico a intermedio.
 
 #### Datos relevantes
 
-- En una gran proporción de panaderías, los procesos operativos continúan siendo gestionados mediante métodos manuales o herramientas básicas, lo que incrementa la probabilidad de errores y limita la eficiencia operativa.
-- El incremento de la demanda en periodos festivos exige una mayor capacidad de respuesta, precisión y coordinación en las actividades diarias.
-- La ausencia de sistemas integrados dificulta la articulación entre áreas clave como ventas, inventarios y producción, generando inconsistencias en la información y limitando la capacidad de respuesta ante incidencias operativas.
+- En muchas panaderías, los procesos de producción se gestionan de forma manual, lo que incrementa errores en tiempos de horneado, control de lotes y uso de insumos.
+- La supervisión de condiciones críticas (temperatura, humedad, estado de equipos) suele ser limitada o no sistematizada.
+- La detección de incidentes depende frecuentemente de la observación humana, lo que retrasa la reacción ante fallas o riesgos.
+- En periodos de alta demanda, la presión operativa incrementa la probabilidad de errores y reduce la capacidad de respuesta ante incidencias.
 
 #### Necesidades clave
 
-- Herramientas digitales intuitivas para el registro eficiente de ventas.
-- Acceso inmediato a información actualizada sobre inventarios.
-- Reducción de errores en los procesos operativos diarios.
-- Automatización de tareas repetitivas para optimizar el tiempo de trabajo.
-- Recepción de alertas en tiempo real ante incidencias en el proceso productivo.  
+- Monitoreo en tiempo real de variables críticas como temperatura, humedad y estado de maquinaria.
+- Recepción de alertas inmediatas ante condiciones anómalas o posibles incidentes (por ejemplo, sobrecalentamiento o riesgo de incendio).
+- Interfaces simples que permitan interpretar rápidamente la información del sistema.
+- Reducción de la dependencia de la supervisión manual mediante automatización basada en sensores IoT.
+- Apoyo en la toma de decisiones operativas durante la producción (ajustes, pausas, revisión de equipos).
+- Mejora en la coordinación con administradores ante incidentes, sin necesidad de reportes manuales.  
