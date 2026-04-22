@@ -22,6 +22,27 @@ A continuación se indican los URLs de los repositorios de GitHub para cada prod
 
 - **Business Web Page**: [https://github.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo](https://github.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo)
 
+#### GitFlow Workflow
+
+Se implementará el modelo de ramificación propuesto por Vincent Driessen en su artículo *“A successful Git branching model”*, conocido como **GitFlow**. Este modelo organiza el trabajo en las siguientes ramas:
+
+- `main`: Rama principal, contiene siempre el código en producción.
+- `develop`: Rama de desarrollo principal, donde se integran las funcionalidades antes de pasar a producción.
+- `feature/*`: Ramas creadas a partir de `develop` para desarrollar nuevas funcionalidades.**Convención de nombres:** `feature/<nombre-corto-descriptivo>`_Ejemplo: `feature/login-auth`_
+  **Convención de nombres:** `feature/<descripción-corta>`
+  _Ejemplo: `feature/version-testing`_
+
+#### Convenciones de Commits
+
+Se utilizará el estándar de **Conventional Commits** para los mensajes de commits. Esto facilitará la automatización en los procesos de integración continua y generación de changelogs.
+
+**Ejemplos:**
+
+- `feat: add login functionality`
+- `fix: correct null pointer exception on user service`
+- `chore: update dependencies`
+- `docs: add and update documents`
+
 ### 5.1.3. Source Code Style Guide & Conventions
 
 ### 5.1.4. Software Deployment Configuration
