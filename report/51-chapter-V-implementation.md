@@ -16,6 +16,12 @@ A continuación, se listan las herramientas y estándares adoptados por el equip
 
 ### 5.1.2. Source Code Management
 
+En esta sección el equipo establece los medios y esquema de organización que aplicará para el seguimiento de modificaciones. Para ello se utilizará **GitHub** como plataforma y sistema de control de versiones.
+
+A continuación se indican los URLs de los repositorios de GitHub para cada producto:
+
+- **Business Web Page**: [https://github.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo](https://github.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo)
+
 ### 5.1.3. Source Code Style Guide & Conventions
 
 ### 5.1.4. Software Deployment Configuration
