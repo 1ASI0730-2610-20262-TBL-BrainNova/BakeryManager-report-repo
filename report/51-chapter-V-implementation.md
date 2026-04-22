@@ -54,6 +54,25 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
+El **sprint** es aquel periodo corto y de periodo fijo durante el cual es desarrollado un conjunto de tareas o actividades específicas en un proyecto, el cual está estrechamente relacionado con metodologías ágiles como **Scrum**.
+
+El **Sprint #1** tiene como fecha de inicio el **07/04/2026** y plantea elaborar una **Landing Page** atractiva para **BakeryManager** que capte la atención de nuestros segmentos objetivos.
+
+| Concepto | Detalle |
+| :--- | :--- |
+| **Sprint #** | Sprint 1 |
+| **Sprint Planning Background** | |
+| **Date** | 07/04/2026 |
+| **Time** | 5:00 PM - 6:30 PM |
+| **Location** | Google Meet |
+| **Prepared by** | Molina Vásquez Manuel Alejandro |
+| **Attendees** | • Molina Vásquez, Manuel Alejandro (u20221g231)<br>• Tufiño Argüelles, Luis Angel (U202216240)<br>• Céspedes Pillco, Jarod Jack (u202318588)<br>• Vidal Malaga, Jareth Beycker (u202316878)<br>• Chipana Huarancca, Emanuel (u202214074) |
+| **Sprint 0 Review Summary** | Diseño y Desarrollo del Landing Page |
+| **Sprint 0 Retrospective Summary** | Completar los diseños y estandarizar el lenguaje usado en el desarrollo y presentación del landing page. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 1 Goal** | Elaborar, diseñar y desplegar una Landing Page atractiva e informativa para la aplicación **BakeryManager**. |
+| **Sprint 1 Velocity** | 15 |
+| **Sum of Story Point** | 18 |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
