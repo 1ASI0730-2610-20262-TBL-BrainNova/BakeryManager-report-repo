@@ -354,9 +354,47 @@ La navegación se personaliza mediante un menú lateral dinámico que cambia seg
 ## 4.6 Domain-Driven Software Architecture
 ### 4.6.1 Design-Level Event Storming
 ### 4.6.2 Software Architecture Context Diagram
+
+El siguiente diagrama de contexto  presenta una vista de alto nivel de BakeryManager como sistema central, mostrando sus interacciones con los actores y sistemas externos que forman parte de su entorno. El sistema es utilizado por dos tipos de usuarios: el Propietario/Administrador, quien supervisa múltiples sedes, monitorea equipos y consulta dashboards en tiempo real, y el Personal Operativo, quien gestiona el inventario y recibe alertas operativas. A nivel de sistemas externos, BakeryManager se integra con una Plataforma IoT en la Nube (AWS IoT Core / Firebase), la cual recibe y procesa los datos enviados por los Dispositivos IoT / Sensores instalados en los equipos críticos de las panaderías, como hornos y cámaras frigoríficas.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/ContextDiagram-V1.PNG" alt="Context Diagram" width="800">
+
+
 ### 4.6.3 Software Architecture Container Diagrams
+
+El siguiente diagrama de contenedores  descompone BakeryManager en sus principales bloques tecnológicos, mostrando cómo se distribuyen las responsabilidades y cómo se comunican entre sí. La solución está conformada por un Landing Page estático desplegado en Netlify (HTML5, CSS3, JavaScript), una Frontend Web Application desarrollada en Angular 17 y desplegada en Firebase Hosting, y cuatro RESTful APIs desarrolladas con Spring Boot (Java) y desplegadas en Azure mediante Docker: Identity & Access Management API, IoT Monitoring API, Inventory API y Production Monitoring API. Todas las APIs comparten una base de datos relacional PostgreSQL alojada en Azure Database for PostgreSQL. La comunicación entre el frontend y las APIs se realiza mediante REST sobre HTTPS, mientras que los datos de sensores llegan desde la Plataforma IoT en la Nube vía REST API, y los sensores físicos envían datos a dicha plataforma mediante el protocolo MQTT/TLS.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/ContainerDiagram-V2.png" alt="Container Diagram" width="800">
+
+
 ### 4.6.4 Software Architecture Components Diagrams
-## 4.7 Software Object-Oriented Design
+
+Los siguientes diagramas de componentes  descomponen cada uno de los contenedores del backend, identificando los bloques estructurales internos, sus responsabilidades y las tecnologías utilizadas. Cada API sigue el patrón Controller → Service → Repository → Domain Model, propio del desarrollo con Spring Boot, lo que garantiza una separación clara de responsabilidades y facilita el mantenimiento y escalabilidad del sistema.
+
+**Identity & Access Management API**
+
+Gestiona la autenticación, autorización y control de acceso basado en roles. Sus componentes principales son el Auth Controller y User Controller como puntos de entrada REST, el Auth Service y User Service como capa de lógica de negocio, el User Repository para la persistencia, el User Domain Model con las entidades User, Role y Permission, y el Security Configuration que define las políticas de seguridad mediante Spring Security y JWT.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/IdentityAPIComponents-dark.png" alt="Identity API Component Diagram" width="800">
+
+**Inventory API**
+
+Gestiona el inventario de insumos y el control de stock de la panadería. Sus componentes incluyen el Inventory Controller y Stock Controller como endpoints REST, el Inventory Service y Stock Service como capa de negocio encargada del seguimiento de movimientos y detección de bajo stock, los repositorios correspondientes para persistencia, y el Inventory Domain Model con las entidades Inventory, Stock y StockMovement.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/InventoryAPIComponents-dark.png" alt="Inventory API Component Diagram" width="800">
+
+**IoT Monitoring API**
+
+Procesa en tiempo real los datos provenientes de los sensores IoT, gestiona incidentes y genera alertas automáticas. Sus componentes incluyen el Sensor Controller, Incident Controller y Alert Controller como puntos de entrada REST y WebSocket, los servicios correspondientes que implementan la lógica de detección de anomalías y ciclo de vida de incidentes, los repositorios de persistencia, el IoT Domain Model con las entidades Sensor, Incident, Alert y EventHistory, y el IoT Platform Client encargado de consumir datos desde la plataforma IoT externa.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/IoTAPIComponents-dark.png" alt="IoT API Component Diagram" width="800">
+
+**Production Monitoring API**
+
+Gestiona el control de producción y la supervisión de múltiples sedes. Sus componentes incluyen el Production Controller y Branch Controller como endpoints REST, el Production Service y Branch Service como capa de negocio para la gestión de lotes de producción y sedes, los repositorios de persistencia correspondientes, y el Production Domain Model con las entidades ProductionBatch, Branch, Oven y RefrigerationChamber.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/ProductionAPIComponents-dark.png" alt="Production API Component Diagram" width="800">
+
 ### 4.7.1 Class Diagrams
 ## 4.8 Database Design
 ### 4.8.1 Database Diagrams
