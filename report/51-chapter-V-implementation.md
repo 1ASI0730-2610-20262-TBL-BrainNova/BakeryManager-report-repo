@@ -63,6 +63,26 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ### 5.1.4. Software Deployment Configuration
 
+Esta sección detalla los pasos necesarios para desplegar de forma satisfactoria los productos digitales que actualmente componen la solución: el **Business-Web-Page**, partiendo desde sus respectivos repositorios de código fuente.
+
+**1. Business-Web-Page - HTML, CSS y Javascript**
+
+**Tecnología Base**
+
+* **Lenguajes**: HTML5, CSS3, JavaScript
+* **Hosting**: Netlify
+
+**Configuración y Despliegue**
+
+* **Repositorio de Código Fuente**:
+  La Business-Web-Page se desarrolla utilizando HTML, CSS y JavaScript puro. ...
+
+**Configuración del despliegue en Netlify:**
+
+**Publicación:**
+
+**Actualizaciones:**
+
 ---
 
 ## 5.2. Landing Page, Services & Applications Implementation
