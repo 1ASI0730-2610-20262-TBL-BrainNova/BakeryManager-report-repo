@@ -76,14 +76,14 @@
 
 #### EPICS
 
-| Epic   | Nombre                     | Descripción |
-|--------|---------------------------|-------------|
+| Epic  | Nombre                     | Descripción |
+|-------|---------------------------|-------------|
 | EP-01 | Producción | Gestión y monitoreo en tiempo real de los procesos productivos de la panadería mediante sensores IoT, controlando temperatura, humedad, estado de máquinas y garantizando la calidad del producto. |
 | EP-02 | Gestión de Incidentes | Detección, notificación y control de incidentes como humo, fugas de gas, temperaturas extremas o fallas de sensores, permitiendo una respuesta rápida para proteger la sede. |
 | EP-03 | Analítica y Reportes | Análisis de datos históricos mediante gráficos, comparaciones y tendencias para apoyar la toma de decisiones estratégicas en la producción y seguridad. |
 | EP-04 | Gestión de Sensores IoT | Registro, configuración, asignación, edición y eliminación de sensores IoT, asegurando el correcto funcionamiento y organización del sistema de monitoreo. |
 | EP-05 | Gestión de Usuarios y Sedes | Administración de usuarios, roles, permisos y sedes, permitiendo controlar accesos y la estructura organizacional del sistema. |
-
+ | EP-06  |Presentación digital y Captación|Diseño e implementación de la landing page comercial, enfocada en comunicar la propuesta de valor, captar clientes potenciales y optimizar el posicionamiento SEO de la startup.|
 
 ## 3.2. Impact Mapping
 ![Impact-Mapping](./assets/impact-mapping.png)
