@@ -4,6 +4,16 @@
 
 ### 5.1.1. Software Development Environment Configuration
 
+A continuación, se listan las herramientas y estándares adoptados por el equipo para el desarrollo colaborativo del sistema:
+
+| Actividad | Herramienta / Guía  | Propósito                   | Tipo de Acceso / Ruta                                         |
+| --------- |---------------------|-----------------------------|---------------------------------------------------------------|
+| Project Management | Trello              | Seguimiento de backlog, tareas y sprints | [https://trello.com/](https://trello.com/)                         |
+| Requirements Management | Gherkin Conventions | Escritura legible de requisitos con formato Given/When/Then | [https://cucumber.io/docs/gherkin/](https://cucumber.io/docs/gherkin/) |
+| Product UX/UI Design | Figma               | Prototipos y diseño Responsive | [https://figma.com](https://figma.com)                        |
+| Version Control | Git + GitHub        | Gestión colaborativa del código fuente | [https://github.com](https://github.com)                      |
+| Software Deployment | Netlify             | Despliegue de Landing Pages | [https://www.netlify.com](https://www.netlify.com)            |
+
 ### 5.1.2. Source Code Management
 
 ### 5.1.3. Source Code Style Guide & Conventions
