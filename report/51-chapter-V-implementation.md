@@ -134,11 +134,7 @@ El **Sprint #1** tiene como fecha de inicio el **07/04/2026** y plantea elaborar
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
-
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
-
-A continuación, se mostrarán capturas de pantalla que evidencian la implementación y depliegue del **Landing Page** del proyecto en desarrollo:
+A continuación, mostramos capturas de pantallas donde se visualiza a la **Landing Page** en ejecución:
 
 ![Bakery Landing Page Evidence 1](./assets/bakery-landing-page-evidence-1.png)
 ![Bakery Landing Page Evidence 2](./assets/bakery-landing-page-evidence-2.png)
@@ -151,6 +147,10 @@ A continuación, se mostrarán capturas de pantalla que evidencian la implementa
 ![Bakery Landing Page Evidence 9](./assets/bakery-landing-page-evidence-9.png)
 ![Bakery Landing Page Evidence 10](./assets/bakery-landing-page-evidence-10.png)
 ![Bakery Landing Page Evidence 11](./assets/bakery-landing-page-evidence-11.png)
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
