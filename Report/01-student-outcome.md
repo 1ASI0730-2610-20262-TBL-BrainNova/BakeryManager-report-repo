@@ -2,12 +2,11 @@
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
-**ABET – EAC - Student Outcome 5**
-Criterio: La capacidad de funcionar efectivamente en un
-equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de
-colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos
+**ABET – EAC - Student Outcome 3**
+**Criterio:**  Capacidad de comunicarse efectivamente con un
+rango de audiencias.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
-|---------------------|--------------------:|:-------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | | |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | | |
+|---------------------|---------------------|--------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Jarod Jack Céspedes Pillco**<br>**AV1:** Realicé presentaciones de los avances del proyecto a mis compañeros de equipo, traté de explicar temas técnicos con un lenguaje sencillo, utilicé recursos de apoyo para mejorar la comprensión y practiqué previamente para mejorar mi seguridad y fluidez al hablar.<br><br>**Integrante**<br>**AV1:** Texto.<br><br>**Integrante**<br>**AV1:** Texto.<br><br>**Integrante**<br>**AV1:** Texto.<br><br>**Integrante**<br>**AV1:** Texto. | **Jarod Jack Céspedes Pillco**<br>**AV1:** En esta entrega, mejoré en adaptar mi forma de hablar según el tipo de audiencia, mejoré mi confianza para expresarme en público, me dí cuenta que el uso de ejemplos y material visual facilita la compresión de ideas complejas. Reconozco que es importante organizar bien el discurso para poder transmitir mensajes claros y efectivos.<br><br>**Integrante**<br>**AV1:** Texto.<br><br>**Integrante**<br>**AV1:** Texto.<br><br>**Integrante**<br>**AV1:** Texto.<br><br>**Integrante**<br>**AV1:** Texto. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | **Jarod Jack Céspedes Pillco**<br>**AV1:** Escribí el informe con un lenguaje formal y estructurado, hice resúmenes claros para que mis compañeros entendieran los puntos clave del trabajo, utilicé tablas, diagramas y listas para organizar la información escrita de forma más comprensible, revisé y corregí mis redacciones para evitar errores.<br><br>**Integrante**<br>**AV1:** Texto.<br><br>**Integrante**<br>**AV1:** Texto.<br><br>**Integrante**<br>**AV1:** Texto.<br><br>**Integrante**<br>**AV1:** Texto. | **Jarod Jack Céspedes Pillco**<br>**AV1:** En esta primera entrega, reforcé mis habilidades de redacción al estructurar ideas de forma clara y coherente, me doy cuenta que la comunicación escrita bien organizada facilita la comprensión y evita confusiones, y aprendí la importancia de revisar y adaptar el estilo de escritura según a quién va dirigido el mensaje.<br><br>**Integrante**<br>**AV1:** Texto.<br><br>**Integrante**<br>**AV1:** Texto.<br><br>**Integrante**<br>**AV1:** Texto.<br><br>**Integrante**<br>**AV1:** Texto. |
