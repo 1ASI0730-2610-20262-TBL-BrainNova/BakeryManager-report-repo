@@ -124,13 +124,12 @@ El **Sprint #1** tiene como fecha de inicio el **07/04/2026** y plantea elaborar
 
 
 | US Id | User Story Title | Task Id | Task Title | Description | Est. (h) | Assigned To | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **US-20** | Identificación de anomalías | **W-01** | Comportamientos anormales | Como encargado de sede quiero detectar comportamientos anormales para prevenir fallas. | 3h | Luis Tufiño | `Process` |
-| **US-21** | Detección de Humo | **W-02** | Presencia de humo | Como encargado de sede quiero detectar la presencia de humo para actuar ante posibles incendios. | 3h | Jareth Vidal | `Process` |
-| **US-22** | Detección de Temp. Extrema | **W-03** | Temperaturas anormales | Como encargado de sede quiero detectar temperaturas anormales para prevenir incidentes. | 3h | Manuel Molina | `Process` |
-| **US-23** | Detección de fuga de gas | **W-04** | Fugas de gas | Como encargado de sede quiero detectar fugas de gas para evitar riesgos. | 3h | Emanuel Chipana | `Process` |
-| **US-24** | Notificación al maestro | **W-05** | Alertas de incidentes | Como maestro panadero quiero recibir alertas de incidentes para actuar rápidamente. | 3h | Jarod Céspedes | `Process` |
-
+|:---|:---|:---|:---|:---|:---|:---|:-------|
+| **US-71** | Identidad Visual | **W-01** | Implementación de Branding | Como visitante quiero ver una sección de impacto con el branding de BakeryManager para entender la plataforma. | 4h | Luis Tufiño | `Done` |
+| **US-72** | Exposición de Pains | **W-02** | Sección de Problemáticas | Como dueño de panadería quiero leer sobre los problemas comunes para sentir que la plataforma entiende mi negocio. | 3h | Jareth Vidal | `Done` |
+| **US-73** | Catálogo de Features | **W-03** | Módulos de Sensores | Como usuario interesado quiero ver qué sensores se ofrecen para saber si mejoraré mi producción. | 4h | Manuel Molina | `Done` |
+| **US-74** | Sistema de Suscripción | **W-04** | Tabla de Planes | Como cliente potencial quiero ver cuánto cuesta el servicio para evaluar si se ajusta a mi presupuesto. | 3h | Emanuel Chipana | `Done` |
+| **US-75** | Adaptabilidad Móvil | **W-05** | Interfaz Responsive | Como dueño de panadería que usa celular quiero navegar por el sitio cómodamente para informarme en mi local. | 4h | Jarod Céspedes | `Done` |
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
