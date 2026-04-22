@@ -112,6 +112,14 @@ El **Sprint #1** tiene como fecha de inicio el **07/04/2026** y plantea elaborar
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
+| Team Member (Last Name, First Name) | GitHub Username | Aspect Name 1 - Leader (L) / Collaborator (C) | Aspect Name 2 - Leader (L) / Collaborator (C) | Aspect Name 3 - Leader (L) / Collaborator (C) | Aspect Name 4 - Leader (L) / Collaborator (C) | Aspect Name 5 - Leader (L) / Collaborator (C) |
+|-------------------------------------|-----------------|----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|
+| Molina Vásquez, Manuel Alejandro    | AleDusty        |                                              |                                               |                                               |                                               |                                               |
+| Tufiño Argüelles, Luis Angel        | LuisTufino2     |                                              |                                               |                                               |                                               |                                               |
+| Céspedes Pillco, Jarod Jack         | JJ-UDEV         |                                              |                                               |                                               |                                               |                                               |
+| Vidal Malaga, Jareth Beycker        | Jareth341       |                                              |                                               |                                               |                                               |                                               |
+| Chipana Huarancca, Emanuel          | Ema-owo         |                                              |                                               |                                               |                                               |                                               |
+
 #### 5.2.1.3. Sprint Backlog 1
 
 
