@@ -13,7 +13,7 @@ Nuestra misión es desarrollar soluciones digitales que optimicen la gestión op
 Nuestra visión es ser una solución tecnológica líder en la digitalización del sector panadero, destacando por integrar monitoreo inteligente mediante IoT y gestión operativa en una sola plataforma, contribuyendo al crecimiento sostenible y a la modernización de las panaderías MYPES.
 ## 1.1.2. Perfiles de integrantes del equipo
 
-## 1.1.2.1 Integrantes del Equipo 
+## 1.1.2.1 Integrantes del Equipo
 
 | Foto                                                     | Nombre | Código | Descripción |
 |----------------------------------------------------------|--------|--------|-------------|
