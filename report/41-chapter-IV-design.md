@@ -335,14 +335,40 @@ La navegación se personaliza mediante un menú lateral dinámico que cambia seg
    
 ## 4.3 Landing Page UI Design
 ### 4.3.1 Landing Page Wireframe
-<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/Hero.png" alt="BakeryManager Hero" width="100%">
-<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/About%20Brainova.png" alt="About Brainova" width="100%">
-<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/Pain%20points.png" alt="Pain Points" width="100%">
-<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/FEATURES1.PNG" alt="Features Part 1" width="100%">
-<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/FEATURES2.PNG" alt="Features Part 2" width="100%">
-<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/Segmentos%20(roles).png" alt="Segmentos y Roles" width="100%">
-<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/Pricing.png" alt="Pricing Section" width="100%">
-<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/Footer.png" alt="Footer Section" width="100%">
+
+A continuación se presentan los wireframes de la Landing Page de BakeryManager. Cada wireframe representa la estructura y distribución de contenido de cada sección, previo al diseño visual final.
+
+**Hero Section** — Wireframe de la sección principal con la disposición del titular, subtítulo, los dos botones de call-to-action y el placeholder del dashboard visual a la derecha.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/Hero.png" alt="Wireframe Hero" width="100%">
+
+**About Brainova Section** — Wireframe con el encabezado de sección y la grilla de cuatro tarjetas que representan el origen, misión, visión y producto del equipo Brainova.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/About%20Brainova.png" alt="Wireframe About Brainova" width="100%">
+
+**Pain Points Section** — Wireframe de la sección de problemas con encabezado y grilla de seis tarjetas que representan los principales dolores operativos de las panaderías.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/Pain%20points.png" alt="Wireframe Pain Points" width="100%">
+
+**Features Section — Part 1** — Wireframe de los primeros módulos de funcionalidades (EP-01 y EP-02), mostrando la disposición alternada de texto e imagen para cada feature.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/FEATURES1.PNG" alt="Wireframe Features Parte 1" width="100%">
+
+**Features Section — Part 2** — Wireframe de los módulos EP-03 y EP-04 con la misma estructura alternada, completando la presentación de los cuatro módulos del producto.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/FEATURES2.PNG" alt="Wireframe Features Parte 2" width="100%">
+
+**Segments Section** — Wireframe de la sección de roles con tres tarjetas que representan los perfiles de usuario: Owner, Branch Manager y Baker, cada uno con sus características listadas.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/Segmentos%20(roles).png" alt="Wireframe Segmentos y Roles" width="100%">
+
+**Pricing Section** — Wireframe de los tres planes de suscripción en columnas, con estructura de nombre, precio, lista de características y botón de call-to-action por plan.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/Pricing.png" alt="Wireframe Pricing" width="100%">
+
+**Footer Section** — Wireframe del pie de página con el logo, descripción del producto y las columnas de navegación secundaria (Product, Company, Legal) junto al copyright.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/Footer.png" alt="Wireframe Footer" width="100%">
 
 ### 4.3.2 Landing Page Mock-up
 A continuación se presentan los mock-ups de la Landing Page de BakeryManager, desarrollada por Brainova. Cada sección fue diseñada para comunicar claramente el valor del producto, presentar al equipo y facilitar la conversión de visitantes en usuarios.
