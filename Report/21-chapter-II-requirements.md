@@ -185,6 +185,29 @@ Segmento 2 - Personal Operativo
 
 Keysi Dandleay Torres, de 20 años, es encargada de producción en una panadería de San Martín de Porres y realiza el monitoreo de los equipos de forma manual como parte de su rutina diaria. Señala que verifica personalmente la temperatura de las refrigeradoras y supervisa los hornos periódicamente para asegurarse de que alcancen la temperatura adecuada antes de iniciar el horneado. Indica que suele detectar fallas a partir de señales como olor a quemado, ruidos inusuales o desajustes en el funcionamiento. Cuando los problemas son simples, los resuelven rápidamente; sin embargo, en casos más complejos, debe comunicarse con el encargado para reportarlos, lo que puede generar demoras. En general, su labor depende de la observación constante, lo que implica riesgos de detección tardía y posibles impactos en la producción.
 
+#### Entrevista 2
+* Nombre: Luis Rivera Perez
+* Edad: 50 años
+* Distrito: San Martin de Porres
+* Cargo: Maestro panadero 
+
+![Entrevista2](assets/segmento2-entrevista-luis-rivera.png)
+[Enlace de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQAjm-jHEtMPQZ7ra5YikdzpAUYJO7c87nAaLZGV6kl8Dro)
+
+Luis Rivera Pérez, de 50 años, se desempeña como maestro panadero en el distrito de San Martín de Porres. Durante la entrevista, señaló que uno de los problemas más frecuentes en su trabajo son los cortes de energía eléctrica, los cuales afectan directamente la producción y cuyo tiempo de solución varía según la magnitud del incidente. Indicó que realiza el monitoreo de los equipos de manera manual y que, en muchos casos, detecta fallas cuando ya son evidentes, por ejemplo, cuando los equipos emiten ruidos inusuales, lo que suele indicar que ya se encuentran averiados. Asimismo, mencionó que utiliza el teléfono móvil de forma constante en su rutina diaria y expresó su interés en contar con un sistema que le brinde alertas automáticas, lo que le permitiría anticiparse a los problemas y mejorar la eficiencia en su trabajo.
+
+
+#### Entrevista 3
+* Nombre: Mariana Fernanda Rojas Reyes 
+* Edad: 22
+* Distrito: Callao
+* Cargo: cajera 
+
+![Entrevista3](assets/segmento2-entrevista-mariana-rojas.png)
+[Enlace de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214074_upc_edu_pe/IQBukLhxNxl6QLyy1xRVBcfcAUyC6-rk77txVJrv_mgbBb8)
+
+Mariana Fernanda Rojas Reyes, de 22 años, se desempeña como cajera en una panadería ubicada en el Callao. Durante la entrevista, señaló que no cuenta con sistemas de alerta que le permitan identificar fallas en los equipos de manera oportuna. Indicó que los errores en los equipos son frecuentes y que, en algunos casos, utiliza la computadora para realizar ciertas verificaciones; sin embargo, la detección de problemas suele ocurrir cuando la falla ya se ha manifestado, por ejemplo, cuando una máquina se quema o deja de funcionar correctamente. Asimismo, mencionó que algunas máquinas presentan fugas de agua sin que exista ningún sistema que lo advierta, lo que incrementa el riesgo de daños mayores. Esta situación evidencia una falta de monitoreo preventivo, impactando negativamente en la continuidad de las operaciones y en la capacidad de respuesta ante incidentes.
+
 ### 2.2.3. Análisis de entrevistas
 #### Segmento 1 - Propietarios y administradores de panaderias
 Hallazgos:
