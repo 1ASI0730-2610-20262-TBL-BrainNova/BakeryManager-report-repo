@@ -218,6 +218,7 @@ Luis Rivera Pérez, de 50 años, se desempeña como maestro panadero en el distr
 * Cargo: cajera 
 
 ![Entrevista3](assets/segmento2-entrevista-mariana-rojas.png)
+
 [Enlace de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214074_upc_edu_pe/IQBukLhxNxl6QLyy1xRVBcfcAUyC6-rk77txVJrv_mgbBb8)
 
 Mariana Fernanda Rojas Reyes, de 22 años, se desempeña como cajera en una panadería ubicada en el Callao. Durante la entrevista, señaló que no cuenta con sistemas de alerta que le permitan identificar fallas en los equipos de manera oportuna. Indicó que los errores en los equipos son frecuentes y que, en algunos casos, utiliza la computadora para realizar ciertas verificaciones; sin embargo, la detección de problemas suele ocurrir cuando la falla ya se ha manifestado, por ejemplo, cuando una máquina se quema o deja de funcionar correctamente. Asimismo, mencionó que algunas máquinas presentan fugas de agua sin que exista ningún sistema que lo advierta, lo que incrementa el riesgo de daños mayores. Esta situación evidencia una falta de monitoreo preventivo, impactando negativamente en la continuidad de las operaciones y en la capacidad de respuesta ante incidentes.
