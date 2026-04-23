@@ -442,6 +442,30 @@ Muestra 4 stats con el panel de lotes activos con progreso y dos gráficos de ba
 ### 4.4.2 Web Applications Wireflow Diagrams
 ### 4.4.3 Web Applications Mock-ups
 
+Login-BakeryManager
+
+Pantalla de inicio donde los usuarios acceden a su cuenta y se registran según su rol. Incluye campos de correo y contreceña. Además de la validación de acceso.
+![Login-Mock.jpeg](assets/Login-Mock.jpeg)
+
+Dashboard-BakeryManager
+
+Muestra 4 stats cards que representan los 4 principales indicadores de rendimiento de la empresa, adicionalmente muestra el panel de alertas de los sensores junto a sus sedes.
+![Dashboard-Mock.jpeg](assets/Dashboard-Mock.jpeg)
+
+Incident-BakeryManager
+
+Muestra 4 stats junto a los filtros que posee y una lista de incidentes que se han registrado en el sistema con su severidad y estado.
+![Incidents-Mock.jpeg](assets/Incidents-Mock.jpeg)
+
+Inventory-BakeryManager
+
+Muestra 4 stats con la barra de busqueda/filtro y una tabla con barra de nivel del stock actual.
+![Inventory-Mock.jpeg](assets/Inventory-Mock.jpeg)
+
+Production-BakeryManager
+
+Muestra 4 stats con el panel de lotes activos con progreso y dos gráficos de barras.
+![ProductionMock.jpeg](assets/ProductionMock.jpeg)
 
 ### 4.4.4 Web Applications User Flow Diagrams
 ## 4.5 Web Applications Prototyping
