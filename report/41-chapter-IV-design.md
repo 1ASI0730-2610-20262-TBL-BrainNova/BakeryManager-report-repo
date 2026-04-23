@@ -556,6 +556,39 @@ Cada prototipo fue diseñado respetando estrictamente los recorridos definidos e
 3. Las tareas críticas (revisar una fuga de gas o confirmar un horneado) se completen con la menor cantidad de clics posible.
 ## 4.6 Domain-Driven Software Architecture
 ### 4.6.1 Design-Level Event Storming
+
+El equipo de Brainova realizó una sesión de Design-Level Event Storming con una duración aproximada de 90 minutos, utilizando la herramienta Miro como espacio colaborativo de trabajo. El objetivo principal de esta sesión fue profundizar en el modelado del dominio de BakeryManager, identificando con mayor nivel de detalle los comandos, eventos, agregados y políticas que conforman cada bounded context, partiendo de los resultados obtenidos previamente en el Big Picture Event Storming.
+
+Durante la sesión, el equipo siguió la convención de colores estándar para Event Storming: azul para commands, naranja para events, amarillo para aggregates y morado para policies. Se trabajó de forma colaborativa, identificando los flujos principales de cada subdominio y las relaciones entre ellos, incluyendo las dependencias cross-context.
+
+Como resultado de la sesión, se identificaron y refinaron cuatro bounded contexts principales para BakeryManager, los cuales se alinean con los subdominios típicos de una plataforma SaaS orientada a negocios de servicio:
+
+**Identity & Access Management (IAM):** Subdominio de soporte encargado de la autenticación, autorización y gestión de roles y permisos. Se identificaron los comandos `login`, `createUser`, `assignPermission` y `registerPermission`, los agregados `User`, `Role`, `Permission` y `UserSession`, los eventos `SessionIssued` e `IncidentResolved`, y las políticas `OnSessionIssued` y `log inEventHistory`.
+
+**IoT Monitoring:** Subdominio core que corresponde a Service Execution and Monitoring, encargado del procesamiento de lecturas de sensores, detección de anomalías, gestión del ciclo de vida de incidentes y generación de alertas en tiempo real. Se identificaron los comandos `processReading`, `createIncident`, `generateAlert` y `resolveIncident`, los agregados `Sensor`, `Incident` y `Alert`, los eventos `SensorReadingRecorded`, `IncidentCreated`, `AlertGenerated` e `IncidentResolved`, y las políticas `checkThreshold` y `OnIncidentCreated`.
+
+**Inventory Management:** Subdominio de soporte que corresponde a Resource and Asset Management, encargado del control de insumos, movimientos de stock y recálculo de niveles. Se identificaron los comandos `createItem`, `registerEntry`, `recalcStock` y `registerExit`, los agregados `Inventory`, `StockMovement` y `Stock`, los eventos `StockEntered` y `StockExited`, y las políticas `OnStockEntered` y `OnStockExited`.
+
+**Production Monitoring:** Subdominio core que corresponde a Service Design and Planning, encargado de la planificación y ejecución de lotes de producción, verificación de equipos y supervisión de sedes. Se identificaron los comandos `createBatch`, `checkEquipmentStatus` y `startBatch`, los agregados `ProductionBatch` y `Equipment`, los eventos `BatchPlanned` y `BatchStarted`, y las políticas `OnBatchPlanned` y `triggerRegisterStockExit`, esta última estableciendo una dependencia cross-context hacia el bounded context de Inventory.
+
+A continuación se presentan las capturas del Design-Level Event Storming elaborado en Miro para cada bounded context:
+
+**Identity & Access Management**
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/IAM-ES.jpg" alt="IAM Design-Level Event Storming" width="800">
+
+**IoT Monitoring**
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/IoT-ES.jpg" alt="IoT Monitoring Design-Level Event Storming" width="800">
+
+**Inventory Management**
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/Iventory-ES.jpg" alt="Inventory Design-Level Event Storming" width="800">
+
+**Production Monitoring**
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/Production-ES.jpg" alt="Production Design-Level Event Storming" width="800">
+
 ### 4.6.2 Software Architecture Context Diagram
 
 El siguiente diagrama de contexto  presenta una vista de alto nivel de BakeryManager como sistema central, mostrando sus interacciones con los actores y sistemas externos que forman parte de su entorno. El sistema es utilizado por dos tipos de usuarios: el Propietario/Administrador, quien supervisa múltiples sedes, monitorea equipos y consulta dashboards en tiempo real, y el Personal Operativo, quien gestiona el inventario y recibe alertas operativas. A nivel de sistemas externos, BakeryManager se integra con una Plataforma IoT en la Nube (AWS IoT Core / Firebase), la cual recibe y procesa los datos enviados por los Dispositivos IoT / Sensores instalados en los equipos críticos de las panaderías, como hornos y cámaras frigoríficas.
