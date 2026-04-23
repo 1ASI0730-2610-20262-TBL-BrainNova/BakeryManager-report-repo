@@ -489,6 +489,71 @@ Muestra 4 stats con el panel de lotes activos con progreso y dos gráficos de ba
 
 ### 4.4.4 Web Applications User Flow Diagrams
 ## 4.5 Web Applications Prototyping
+
+La sección de Web Applications Prototyping presenta los prototipos interactivos diseñados para la versión Desktop y Mobile Web de **BakeryManager**. Estos prototipos permiten simular la navegación real dentro de la plataforma y visualizar cómo los usuarios recorren los principales paths definidos en los User Flow Diagrams, integrando la gestión operativa con el monitoreo IoT.
+
+Las decisiones de interacción tomadas en esta etapa responden a tres criterios fundamentales:
+
+* **Claridad y eficiencia operativa:** Considerando que el personal de panadería requiere interfaces que no interrumpan su flujo de trabajo físico.
+* **Inmediatez en la gestión de incidentes:** Alineada con la necesidad de monitoreo técnico en tiempo real para evitar pérdidas críticas.
+* **Consistencia visual y funcional:** Asegurando que las interacciones sean predecibles y estén alineadas con el sistema de diseño de BakeryManager.
+
+### Criterios que guiaron las decisiones de interacción
+
+#### 1. Arquitectura de Información basada en prioridades del usuario
+La estructura del contenido se organizó priorizando los elementos más críticos para la continuidad del negocio y la seguridad:
+
+* **Monitoreo IoT:** Estado de hornos y cámaras frigoríficas.
+* **Gestión de Incidentes:** Alertas de gas, humo y sobrecalentamiento.
+* **Control de Producción:** Seguimiento de lotes y tiempos.
+* **Inventario FEFO:** Estado de insumos próximos a vencer.
+* **Reportes Operativos:** Resumen de rendimiento por sede.
+
+Estos componentes se ubicaron en zonas de acceso rápido tanto en desktop como en mobile, asegurando rutas de navegación cortas y directas para minimizar el tiempo de respuesta ante alertas.
+
+#### 2. Navegación clara y consistente
+Se optó por un sistema de navegación híbrido adaptado al contexto de uso:
+
+* **En Desktop:** Un menú lateral (Sidebar) persistente que mantiene visibles los módulos de monitoreo y producción en todo momento, facilitando el cambio entre múltiples sedes.
+* **En Mobile:** Un menú inferior (Tab-bar) para accesos frecuentes a alertas y sensores, y un menú hamburguesa para configuraciones secundarias.
+* **Coherencia con User Flows:** Esta decisión garantiza que las rutas de navegación coincidan con los diagramas de flujo previamente definidos, eliminando pasos innecesarios.
+
+#### 3. Interacciones basadas en patrones familiares
+Para reducir la curva de aprendizaje del personal operativo, se utilizaron patrones estándar:
+
+* **Tarjetas (Cards):** Para resumir el estado de cada sensor IoT.
+* **Indicadores Semánticos:** Uso de colores (Verde/Ámbar/Rojo) para comunicar estados de urgencia sin necesidad de lectura exhaustiva.
+* **Acordeones:** Para desplegar detalles técnicos de maquinaria sin saturar la vista principal.
+* **Iconografía Universal:** Símbolos claros para fuego, temperatura, niveles de stock y notificaciones.
+
+#### 4. Principios de diseño inclusivo y adaptativo
+Los prototipos consideran el entorno físico de una panadería:
+
+* **Contraste elevado:** Para asegurar legibilidad en áreas con alta iluminación o vapor.
+* **Botones amplios:** En la versión mobile, para facilitar el toque incluso si el operario está en movimiento.
+* **Lenguaje directo:** Instrucciones claras y notificaciones accionables ante incidentes.
+
+### Prototipos UI – Versión Desktop
+Los prototipos desktop muestran una interfaz robusta, optimizada para supervisores que consultan información desde una estación de trabajo o laptop. Entre los elementos destacados:
+
+* **Dashboard de Monitoreo:** Vista general de todas las máquinas conectadas y sus métricas en tiempo real.
+* **Panel de Control de Inventario:** Visualización de alertas de vencimiento mediante el método FEFO.
+* **Gráficos de Tendencia:** Visualización interactiva de la evolución de temperatura y humedad por periodos.
+
+### Prototipos UI – Versión Mobile Web Browser
+La versión móvil prioriza la inmediatez y la accesibilidad, permitiendo al personal recibir alertas de incidentes mientras realiza tareas en el área de producción.
+
+* **Home Simplificado:** Resumen al instante del estado de los sensores y acceso directo a la lista de incidentes activos.
+* **Tab-Bar Inferior:** Incluye 4 accesos principales: Home, Monitoreo, Producción y Perfil. Esto reduce la carga cognitiva y facilita el uso con una sola mano.
+* **Interacción Táctil Optimizada:** Scroll vertical continuo para favorecer la fluidez y sliders fáciles de usar para reportar avances de producción.
+
+
+### Relación con los User Flow Diagrams
+Cada prototipo fue diseñado respetando estrictamente los recorridos definidos en los flujos de usuario, garantizando que:
+
+1. Las pantallas aparezcan en el orden lógico previsto por el negocio.
+2. No existan rutas muertas o pasos que retrasen la atención de una alerta IoT.
+3. Las tareas críticas (revisar una fuga de gas o confirmar un horneado) se completen con la menor cantidad de clics posible.
 ## 4.6 Domain-Driven Software Architecture
 ### 4.6.1 Design-Level Event Storming
 ### 4.6.2 Software Architecture Context Diagram
