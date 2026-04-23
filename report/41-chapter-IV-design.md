@@ -411,6 +411,7 @@ A continuación se presentan los mock-ups de la Landing Page de BakeryManager, d
 
 ## 4.4 Web Applications UX/UI Design
 ### 4.4.1 Web Applications Wireframes
+
 En esta sección se presentan los wireframes de la interfaz de usuario de BakeryManager. Cada pantalla resopnde a las funcionalidades principales del producto y a los distintos roles de usuario.
 
 Login-BakeryManager
@@ -440,11 +441,30 @@ Muestra 4 stats con el panel de lotes activos con progreso y dos gráficos de ba
 ![Production-Wireframe.jpeg](assets/Production-Wireframe.jpeg)
 
 ### 4.4.2 Web Applications Wireflow Diagrams
+
+**Wireflow 1 — Owner / Admin**
+
+**User goal:** Como Owner/Admin, quiero navegar entre los módulos principales de BakeryManager (Dashboard, IoT Monitoring, Incidents, Inventory y Production) para monitorear y gestionar todas las operaciones de mis sedes de forma centralizada.
+
+**Flujo:** El usuario inicia sesión seleccionando el rol Owner/Admin e ingresando sus credenciales. El sistema lo redirige al Dashboard, donde visualiza las métricas globales y alertas recientes. Desde el sidebar puede acceder a IoT Monitoring para revisar sensores en tiempo real, a Incidents para registrar y hacer seguimiento de incidentes, a Inventory para revisar y ajustar stock de ingredientes, y a Production para gestionar los lotes del día. El Owner/Admin tiene acceso completo a todas las funciones y todas las sedes.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/Wireflow-Owner.jpg" alt="Wireflow Owner - BakeryManager" style="max-width: 100%; height: auto;">
+
+
+**Wireflow 2 — Operational Staff**
+
+**User goal:** Como Operational Staff, quiero acceder a los módulos operativos de mi sede asignada para monitorear sensores, reportar incidentes, consultar el inventario disponible y actualizar el progreso de los lotes de producción.
+
+**Flujo:** El usuario inicia sesión seleccionando el rol Operational Staff e ingresando sus credenciales. El sistema lo redirige al Dashboard con vista limitada a su sede asignada. Desde el sidebar puede acceder a IoT Monitoring en modo solo lectura para consultar el estado de los sensores, a Incidents para reportar nuevos incidentes de su sede, a Inventory con vista completa para consultar y registrar los niveles de stock disponibles en su sede, y a Production para actualizar el progreso de los lotes activos. El Operational Staff no tiene acceso a configuraciones globales ni a otras sedes.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/Wireflow-Staff.jpg" alt="Wireflow Staff - BakeryManager" style="max-width: 100%; height: auto;">
+
 ### 4.4.3 Web Applications Mock-ups
 
 Login-BakeryManager
 
 Pantalla de inicio donde los usuarios acceden a su cuenta y se registran según su rol. Incluye campos de correo y contreceña. Además de la validación de acceso.
+
 ![Login-Mock.jpeg](assets/Login-Mock.jpeg)
 
 Dashboard-BakeryManager
