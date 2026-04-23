@@ -88,7 +88,7 @@ En esta sección se presenta el diseño de las entrevistas realizadas a los prin
 13. ¿Qué aspectos le generarían desconfianza al implementar este tipo de tecnología?
 ---
 
-### **Segmento 2: Personal Operativo (Cajeros y Encargados de Producción)**
+### **Segmento 2: Personal Operativo ( Encargados de Producción)**
 
 **Datos generales:**
 - Nombre completo
@@ -110,7 +110,7 @@ En esta sección se presenta el diseño de las entrevistas realizadas a los prin
 10. ¿Qué tipo de información le gustaría ver en una pantalla o sistema?
 11. ¿Cree que recibir alertas automáticas le ayudaría en su trabajo diario? ¿Por qué?
 ---
-### Preguntas complementarias (adaptadas a BakeryManager)
+### Preguntas complementarias 
 
 1. ¿Qué dispositivos utiliza con más frecuencia durante su trabajo en producción?
    (Ejemplo: celular, computadora, tablet)
@@ -139,9 +139,81 @@ En esta sección se presenta el diseño de las entrevistas realizadas a los prin
 
 Segmento 1 - Propietarios y administradores de panaderias
 
+#### Entrevista  1
+ 
+* Nombre :  Teresa Jesus Jiron Chirinos
+* Edad : 50 años 
+* Distrito : San Martin de Porres
+* Cargo : Dueña de panadería
+
+![Entrevista1](assets/segmento1-entrevista-teresa-jesus.png)
+
+[Enlace de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQDhh6Y5fAbuRZVqnrRfCPYxAfSB4UhcTxYR5DH-S8AFWhk)
+
+Teresa Jesús Jirón Chirinos, de 50 años, es dueña de una panadería ubicada en el distrito de San Martín de Porres. Durante la entrevista, manifestó que la gestión de su negocio le demanda una gran cantidad de tiempo, ya que necesita estar constantemente presente en el local para supervisar las operaciones.
+Incluso fuera del horario laboral, continúa pendiente del negocio mediante la revisión de cámaras de seguridad desde su hogar, lo que le impide desconectarse completamente. Además, señaló que cuando ocurre algún incidente, depende de que el personal la contacte para recién tomar acción. Este proceso resulta poco eficiente, ya que posteriormente debe comunicarse con un técnico, generando demoras en la resolución del problema.
+También destacó que su herramienta principal en el día a día es el teléfono móvil, el cual utiliza para monitorear y gestionar aspectos del negocio.
+
+#### Entrevista 2
+
+* Nombre :  Maria Lopez Garcia
+* Edad : 38 años 
+* Distrito : San Martin de Porres
+* Cargo : Dueña de 2 panaderías
+
+![Entrevista2](./assets/segmento1-entrevista-maria-lopez.png)
+
+[Enlace de la entrevista](https://upcedupe-my.sharepoint.com/personal/u202316878_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202316878_upc_edu_pe%2FDocuments%2Fentrevista-brainova%2Emp4)
+
+María López García, de 38 años, es dueña de dos panaderías ubicadas en el distrito de San Martín de Porres. Durante la entrevista, comentó que la comunicación sobre incidencias en sus locales se realiza principalmente a través de llamadas telefónicas o WhatsApp.
+Señaló que ha enfrentado problemas técnicos, como hornos que no alcanzan la temperatura adecuada y cámaras frigoríficas que no enfrían correctamente. Sin embargo, indicó que usualmente se entera de estos inconvenientes una vez que ya han ocurrido, lo que dificulta una respuesta oportuna.
+Esta falta de notificación en tiempo real genera retrasos en la producción y afecta la eficiencia operativa de sus negocios
+
+---
 Segmento 2 - Personal Operativo
 
-### 2.2.3. Análisis de entrevistas.
+#### Entrevista 1
+
+* Nombre : Keysi Dandleay Torres
+* Edad : 20 años
+* Distrito : San Martin de Porres
+* Cargo : Encargada de producción
+
+![Entrevista1](assets/segmento2-entrevista-keytssi-dandleay.png)
+
+[Enlace de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g231_upc_edu_pe/IQDe6VUmnMjxRaTLigq8l6btAShZI7k40bl9t4L-kOsoTv8)
+
+Keysi Dandleay Torres, de 20 años, es encargada de producción en una panadería de San Martín de Porres y realiza el monitoreo de los equipos de forma manual como parte de su rutina diaria. Señala que verifica personalmente la temperatura de las refrigeradoras y supervisa los hornos periódicamente para asegurarse de que alcancen la temperatura adecuada antes de iniciar el horneado. Indica que suele detectar fallas a partir de señales como olor a quemado, ruidos inusuales o desajustes en el funcionamiento. Cuando los problemas son simples, los resuelven rápidamente; sin embargo, en casos más complejos, debe comunicarse con el encargado para reportarlos, lo que puede generar demoras. En general, su labor depende de la observación constante, lo que implica riesgos de detección tardía y posibles impactos en la producción.
+
+### 2.2.3. Análisis de entrevistas
+#### Segmento 1 - Propietarios y administradores de panaderias
+Hallazgos:
+* Las entrevistadas coinciden en que la gestión de sus panaderías les demanda una supervisión constante, lo que limita su tiempo personal y las obliga a mantenerse conectadas incluso fuera del horario laboral.
+* Existe una fuerte dependencia de su presencia o atención directa para asegurar el correcto funcionamiento del negocio.
+* Ambas dependen principalmente del teléfono (llamadas o WhatsApp) para recibir información sobre incidentes, lo que genera una comunicación reactiva en lugar de preventiva.
+* En la mayoría de los casos, se enteran de los problemas cuando estos ya han ocurrido, como fallas en hornos o cámaras frigoríficas, afectando directamente la producción.
+* Se evidencia una ausencia de sistemas automatizados de monitoreo o alertas en tiempo real, lo que provoca retrasos en la toma de decisiones y en la resolución de problemas técnicos.
+* El proceso de solución de incidentes es poco eficiente, ya que implica múltiples pasos (notificación, validación y contacto con técnico), generando demoras.
+
+Conclusiones:
+
+Las dueñas de panaderías entrevistadas enfrentan una sobrecarga operativa derivada de la falta de digitalización y automatización en la gestión de sus locales. Existe una necesidad clara de contar con sistemas que permitan monitorear equipos críticos en tiempo real y recibir alertas inmediatas ante cualquier anomalía. Además, se evidencia un deseo explícito de reducir la necesidad de estar constantemente pendientes del negocio, ya que esta supervisión continua impacta directamente en su tiempo personal.
+Un sistema como BakeryManager tiene el potencial de optimizar significativamente la gestión del negocio al reducir la dependencia de la supervisión manual, agilizar la atención de incidentes y mejorar la continuidad operativa. La propuesta de valor se fortalece si se enfoca en la automatización, notificaciones inteligentes y una experiencia móvil intuitiva. De esta manera, no solo se mejora la eficiencia operativa, sino que también se genera un beneficio directo en la calidad de vida de las dueñas, quienes podrían disponer de más tiempo y tranquilidad al no tener que monitorear constantemente sus locales.
+
+#### Segmento 2 - Personal Operativo
+Hallazgos:
+* El personal operativo realiza el monitoreo de equipos de forma manual, verificando directamente la temperatura de refrigeradoras y hornos.
+* La supervisión de los hornos se hace de manera periódica y visual, dependiendo de la experiencia del trabajador para determinar si están listos para su uso.
+* La detección de fallas se basa en señales perceptibles como olores (quemado), ruidos inusuales o comportamientos anómalos de los equipos.
+* No existen herramientas que alerten automáticamente sobre fallas, lo que provoca que los problemas se identifiquen cuando ya están ocurriendo o han generado impacto.
+* Los problemas simples suelen resolverse rápidamente por el mismo personal, pero los incidentes más complejos requieren escalarse al encargado.
+* La comunicación de incidencias depende de procesos manuales, lo que puede generar retrasos en la toma de decisiones.
+
+Conclusiones: 
+
+El personal operativo enfrenta limitaciones debido a la falta de herramientas tecnológicas que automaticen el monitoreo y la detección de fallas en los equipos. La dependencia de procesos manuales y de la percepción humana incrementa el riesgo de errores y retrasos en la producción. Además, desde la perspectiva del panadero, se evidencian problemas críticos como la falta de alertas en equipos de conservación, lo que puede derivar en pérdidas de productos cuando, por ejemplo, se deja una puerta abierta y la masa no se conserva adecuadamente. Asimismo, existen fallas en los sistemas actuales, como detectores de humo que generan falsas alarmas al no diferenciar correctamente entre calor del horno y condiciones reales de riesgo, afectando la confianza en estos dispositivos.
+En este contexto, se hace evidente la necesidad de implementar soluciones inteligentes que integren monitoreo continuo, alertas precisas y sensores más adecuados (temperatura, humedad y apertura de puertas). Esto permitiría prevenir pérdidas, reducir errores humanos y mejorar la eficiencia operativa, tanto para el personal como para los responsables del negocio.
+
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
