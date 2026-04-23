@@ -158,3 +158,24 @@ La documentación de servicios será considerada en los siguientes Sprints, una 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
+Durante el desarrollo del primer Sprint, cada miembro del equipo participó activamente en la implementación de la **Landing Page**. El trabajo fue dividido en secciones según el diseño y el contenido definido previamente.
+
+A continuación, se detalla la participación específica de cada integrante del equipo:
+
+| Nombre | Actividades |
+|--------|-------------|
+| Molina Vásquez, Manuel Alejandro | Implementación de la sección de Módulo de Sensores |
+| Tufiño Argüelles, Luis Angel | Implementación de Branding |
+| Céspedes Pillco, Jarod Jack | Implementación de Responsiveness |
+| Vidal Malaga, Jareth Beycker | Implementación de la sección de Problemáticas |
+| Chipana Huarancca, Emanuel | Implementación de seccion de Planes |
+
+> **Nota:** Algunos integrantes colaboraron en secciones compartidas para asegurar consistencia en diseño y funcionalidad.
+
+##### Evidencia de Colaboración en GitHub
+
+A continuación, se presentan capturas de pantalla de los gráficos de analíticas de colaboración desde el repositorio oficial, donde se evidencia la participación actia de todos los miembros del equipo.
+
+![Landing Page Collaboration Analytics](./assets/landing-page-collaboration-analytics.png)
+
+Como se evidencia, el equipo ha trabajador equitativamente. Se ha respetado el flujo de trabajo y se aseguró que cada item del Sprint cuente con participación de todos los miembros.
