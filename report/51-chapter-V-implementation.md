@@ -160,6 +160,22 @@ La documentación de servicios será considerada en los siguientes Sprints, una 
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+Durante este Sprint, se llevaron a cabo las actividades de despliegue para la primera versión funcional del **Landing Page** de BakeryManager. El objetivo principal fue publicar el sitio web estático en un proveedor cloud para que sea accesible públicamente en internet y pueda ser validado.
+
+Para este primer entregable, el proceso se realizó utilizando **Netlify** como proveedor de servicios, ejecutando un despliegue manual de los artefactos generados.
+
+1. **Inicio de sesión y preparación:** Se ingresó a la consola de administración de Netlify con la cuenta del equipo y se seleccionó la opción para agregar un nuevo sitio de forma manual (Add new site).
+![Deployment Evidence 1](./assets/deployment-evidence-1.jpeg)
+2. **Carga del directorio fuente:** A través de la interfaz de la plataforma, se procedió a seleccionar y cargar directamente la carpeta local que contenía los archivos estáticos finalizados (HTML, CSS, JS) correspondientes al Landing Page.
+![Deployment Evidence 2](./assets/deployment-evidence-2.jpeg)
+![Deployment Evidence 3](./assets/deployment-evidence-3.jpeg)
+4. **Publicación y generación de URL:** Una vez que Netlify procesó los archivos subidos, el sitio fue desplegado exitosamente en los servidores de producción, asignándole un dominio público.
+![Deployment Evidence 4](./assets/deployment-evidence-.jpeg)
+
+**Evidencias del Despliegue:**
+* **Estado del sitio:** El panel de control de Netlify confirma que el sitio de la organización se encuentra en estado "Published".
+* **URL Pública del Landing Page:** https://bakery-manager.netlify.app/
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
 Durante el desarrollo del primer Sprint, cada miembro del equipo participó activamente en la implementación de la **Landing Page**. El trabajo fue dividido en secciones según el diseño y el contenido definido previamente.
