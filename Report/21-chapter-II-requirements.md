@@ -176,7 +176,8 @@ Esta falta de notificación en tiempo real genera retrasos en la producción y a
 * Distrito : Callao
 * Cargo : Administradora de panaderia
 
-![Entrevista3](./assets/segmento1-entrevista-fabiola-atoche.png)
+![Entrevista3](./assets/segmento1-entrevista-fabiola-atoche.jpg)
+
 
 [Enlace de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214074_upc_edu_pe/IQCvcXRA7C5QQJ6pZmevcMCzAWegYCTpF6nE368RUdpgHoQ?e=3e4gVc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
