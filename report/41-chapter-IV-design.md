@@ -428,3 +428,19 @@ Este diagrama representa el bounded context responsable de la gestión de la pro
 
 ## 4.8 Database Design
 ### 4.8.1 Database Diagrams
+
+A continuación se presenta el Database Diagram general de BakeryManager, elaborado con PostgreSQL como motor de base de datos relacional. El diagrama incluye todas las tablas, columnas, tipos de datos, constraints (Primary Key y Foreign Key) y las relaciones entre tablas para cada uno de los bounded contexts identificados en el sistema.
+
+El diagrama está organizado en cuatro bounded contexts: **Identity & Access Management**, **IoT Monitoring**, **Inventory Management** y **Production Monitoring**. Cada bounded context agrupa sus tablas correspondientes y se evidencian las relaciones entre bounded contexts mediante Foreign Keys cruzadas, garantizando la integridad referencial del sistema.
+
+A continuación se detalla cada bounded context:
+
+**Identity & Access Management** gestiona la persistencia de usuarios, roles, permisos y sesiones. La tabla `users` referencia a `roles` mediante Foreign Key, y la tabla intermedia `role_permissions` establece la relación muchos a muchos entre `roles` y `permissions`. La tabla `sessions` registra los tokens JWT activos de cada usuario mediante Foreign Key hacia `users`.
+
+**IoT Monitoring** gestiona la persistencia de sensores, lecturas, incidentes, alertas e historial de eventos. La tabla `sensors` referencia a `branches` del bounded context de producción, evidenciando que cada sensor está instalado en una sede específica. La tabla `sensor_readings` registra cada lectura asociada a un sensor. La tabla `incidents` referencia tanto al sensor que lo generó como al usuario que lo gestiona. Las tablas `alerts` y `event_history` referencian al incidente correspondiente.
+
+**Inventory Management** gestiona la persistencia de inventarios, ítems, stock y movimientos. La tabla `inventory_items` referencia a `inventories` mediante Foreign Key. La tabla `stocks` mantiene una relación uno a uno con `inventory_items`. La tabla `stock_movements` referencia tanto al stock afectado como al usuario que registró el movimiento.
+
+**Production Monitoring** gestiona la persistencia de sedes, equipos, hornos, cámaras frigoríficas, lotes de producción y reportes. La tabla `equipment` referencia a `branches`. Las tablas `ovens` y `refrigeration_chambers` extienden `equipment` mediante Foreign Key. La tabla `production_batches` referencia a `branches`, `ovens`, `inventory_items` y `users`, consolidando las relaciones entre bounded contexts.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/DATABASE.jpeg" alt="Database Diagram" width="900">
