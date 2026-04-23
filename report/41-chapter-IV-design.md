@@ -345,6 +345,44 @@ La navegación se personaliza mediante un menú lateral dinámico que cambia seg
 <img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter4/report/assets/Footer.png" alt="Footer Section" width="100%">
 
 ### 4.3.2 Landing Page Mock-up
+A continuación se presentan los mock-ups de la Landing Page de BakeryManager, desarrollada por Brainova. Cada sección fue diseñada para comunicar claramente el valor del producto, presentar al equipo y facilitar la conversión de visitantes en usuarios.
+
+**Hero Section** — Sección principal con el titular de valor, los dos call-to-action principales ("Get started" y "View features"), el dashboard animado con métricas en tiempo real y la alerta flotante de inventario bajo.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/mock1.jpeg" alt="Mockup 1 - Hero" width="800">
+
+**About Section** — Presenta a Brainova como startup estudiantil de la UPC, con cuatro tarjetas que describen el origen del equipo, la misión, la visión y el producto BakeryManager.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/mock2.jpeg" alt="Mockup 2 - About" width="800">
+
+**Team Section** — Muestra a los 5 integrantes del equipo con foto, nombre completo y rol (Developer), reforzando la credibilidad del proyecto.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/mock3.jpeg" alt="Mockup 3 - Team" width="800">
+
+**Pain Points Section** — Sección oscura de alto impacto que presenta los 6 problemas principales que enfrentan las panaderías: registros manuales, inventario no controlado, falta de monitoreo, múltiples sedes sin coordinación, decisiones sin datos e incidentes sin alertas.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/mock4.jpeg" alt="Mockup 4 - Pain Points" width="800">
+
+**Features EP-01 & EP-02** — Detalla los módulos de monitoreo de producción en tiempo real (EP-01) y gestión de incidentes (EP-02), cada uno acompañado de un mock de interfaz funcional con sensores y panel de alertas.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/mock5.jpeg" alt="Mockup 5 - Features EP-01" width="800">
+
+**Features EP-03 & EP-04** — Presenta el módulo de analytics e historial (EP-03) con gráficos de temperatura por periodo, y el módulo de gestión de sensores IoT (EP-04) con tabla de sensores registrados por tipo, equipo y estado.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/mock6.jpeg" alt="Mockup 6 - Features EP-03 y EP-04" width="800">
+
+**Segments Section** — Sección oscura que diferencia los dos perfiles de usuario: Owner/Administrator con visibilidad total del negocio, y Operational Staff con control operativo del día a día en su sede.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/mock7.jpeg" alt="Mockup 7 - Segments" width="800">
+
+**Pricing Section** — Muestra los tres planes de suscripción: Starter (S/89/mes), Business (S/199/mes, destacado como el más popular) y Enterprise (S/399/mes), cada uno con sus características y call-to-action correspondiente.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/mock8.jpeg" alt="Mockup 8 - Pricing" width="800">
+
+**Footer** — Sección de cierre con el logo, descripción del producto, columnas de navegación (Product, Company, Legal) y el copyright de Brainova — UPC 2026.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/mock9.jpeg" alt="Mockup 9 - Footer" width="800">
+
 ## 4.4 Web Applications UX/UI Design
 ### 4.4.1 Web Applications Wireframes
 ### 4.4.2 Web Applications Wireflow Diagrams
