@@ -119,6 +119,7 @@ El **Sprint #1** tiene como fecha de inicio el **07/04/2026** y plantea elaborar
 
 #### 5.2.1.3. Sprint Backlog 1
 
+El objetivo principal del Sprint 1 es desarrollar y desplegar una **Landing Page** funcional para el proyecto BakeryManager. A continuación, listamos las historias de usuario (US) que serán trabajadas en esta primera entrega.
 
 | US Id | User Story Title | Task Id | Task Title | Description | Est. (h) | Assigned To | Status |
 |:---|:---|:---|:---|:---|:---|:---|:-------|
