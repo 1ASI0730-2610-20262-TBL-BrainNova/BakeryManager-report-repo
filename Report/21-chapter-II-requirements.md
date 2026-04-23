@@ -169,6 +169,19 @@ María López García, de 38 años, es dueña de dos panaderías ubicadas en el 
 Señaló que ha enfrentado problemas técnicos, como hornos que no alcanzan la temperatura adecuada y cámaras frigoríficas que no enfrían correctamente. Sin embargo, indicó que usualmente se entera de estos inconvenientes una vez que ya han ocurrido, lo que dificulta una respuesta oportuna.
 Esta falta de notificación en tiempo real genera retrasos en la producción y afecta la eficiencia operativa de sus negocios
 
+#### Entrevista 3
+
+* Nombre :  Fabiola Atoche Seminario
+* Edad : 32 años 
+* Distrito : Callao
+* Cargo : Administradora de panaderia
+
+![Entrevista3](./assets/segmento1-entrevista-fabiola-atoche.png)
+
+[Enlace de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214074_upc_edu_pe/IQCvcXRA7C5QQJ6pZmevcMCzAWegYCTpF6nE368RUdpgHoQ?e=3e4gVc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Fabiola Atoche Seminario, de 32 años, es administradora de una sede de una cadena de panaderias ubicada en San Isidro. Durante la entrevista, comentó que durante su tiempo encagada de la tienda tiene que estar haciendo constantemente revisiones e inspecciones las camaras refrigerantes y hornos. Señaló que al enfrentar estas dificultades sin previo aviso la tienda la cual esta encargada sufre perdidas economicas.
+
 ---
 Segmento 2 - Personal Operativo
 
