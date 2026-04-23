@@ -169,8 +169,8 @@ Para este primer entregable, el proceso se realizó utilizando **Netlify** como 
 2. **Carga del directorio fuente:** A través de la interfaz de la plataforma, se procedió a seleccionar y cargar directamente la carpeta local que contenía los archivos estáticos finalizados (HTML, CSS, JS) correspondientes al Landing Page.
 ![Deployment Evidence 2](./assets/deployment-evidence-2.jpeg)
 ![Deployment Evidence 3](./assets/deployment-evidence-3.jpeg)
-4. **Publicación y generación de URL:** Una vez que Netlify procesó los archivos subidos, el sitio fue desplegado exitosamente en los servidores de producción, asignándole un dominio público.
-![Deployment Evidence 4](./assets/deployment-evidence-.jpeg)
+3. **Publicación y generación de URL:** Una vez que Netlify procesó los archivos subidos, el sitio fue desplegado exitosamente en los servidores de producción, asignándole un dominio público.
+![Deployment Evidence 4](./assets/deployment-evidence-4.jpeg)
 
 **Evidencias del Despliegue:**
 * **Estado del sitio:** El panel de control de Netlify confirma que el sitio de la organización se encuentra en estado "Published".
