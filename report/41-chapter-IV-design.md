@@ -411,8 +411,38 @@ A continuación se presentan los mock-ups de la Landing Page de BakeryManager, d
 
 ## 4.4 Web Applications UX/UI Design
 ### 4.4.1 Web Applications Wireframes
+En esta sección se presentan los wireframes de la interfaz de usuario de BakeryManager. Cada pantalla resopnde a las funcionalidades principales del producto y a los distintos roles de usuario.
+
+Login-BakeryManager
+
+Pantalla de inicio donde los usuarios acceden a su cuenta y se registran según su rol. Incluye campos de correo y contreceña. Además de la validación de acceso.
+
+![Login-Wireframe.jpeg](assets/Login-Wireframe.jpeg)
+
+Dashboard-BakeryManager
+
+Muestra 4 stats cards que representan los 4 principales indicadores de rendimiento de la empresa, adicionalmente muestra el panel de alertas de los sensores junto a sus sedes.
+![Dashboard-Wireframe.jpeg](assets/Dashboard-Wireframe.jpeg)
+
+Incident-BakeryManager
+
+Muestra 4 stats junto a los filtros que posee y una lista de incidentes que se han registrado en el sistema con su severidad y estado.
+![Incidents-Wireframe.jpeg](assets/Incidents-Wireframe.jpeg)
+
+Inventory-BakeryManager
+
+Muestra 4 stats con la barra de busqueda/filtro y una tabla con barra de nivel del stock actual.
+![Inventory-Wireframe.jpeg](assets/Inventory-Wireframe.jpeg)
+
+Production-BakeryManager
+
+Muestra 4 stats con el panel de lotes activos con progreso y dos gráficos de barras.
+![Production-Wireframe.jpeg](assets/Production-Wireframe.jpeg)
+
 ### 4.4.2 Web Applications Wireflow Diagrams
 ### 4.4.3 Web Applications Mock-ups
+
+
 ### 4.4.4 Web Applications User Flow Diagrams
 ## 4.5 Web Applications Prototyping
 ## 4.6 Domain-Driven Software Architecture
