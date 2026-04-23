@@ -488,6 +488,43 @@ Muestra 4 stats con el panel de lotes activos con progreso y dos gráficos de ba
 ![ProductionMock.jpeg](assets/ProductionMock.jpeg)
 
 ### 4.4.4 Web Applications User Flow Diagrams
+
+#### User Flow — Owner / Administrator
+
+**User goal:** Supervisar el estado operativo de la panadería, monitorear 
+sensores IoT, gestionar incidentes, controlar el inventario y supervisar 
+la producción del día.
+
+El Owner/Administrator inicia sesión seleccionando su rol en la pantalla 
+Sign In. Tras autenticarse exitosamente, accede al Dashboard donde visualiza 
+los indicadores principales del sistema. Desde el Dashboard puede navegar 
+hacia los cuatro módulos disponibles: IoT Monitoring para visualizar el 
+estado de sensores en tiempo real, Incidents para gestionar incidentes 
+detectados por el sistema, Inventory para controlar el stock de insumos, 
+y Production para supervisar los lotes activos y el rendimiento productivo 
+del día. Este perfil tiene acceso completo de lectura y escritura en todos 
+los módulos.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/Userflow-Owner.jpg" alt="User Flow - Owner/Administrator" width="800">
+
+#### User Flow — Operational Staff
+
+**User goal:** Consultar alertas del sistema, reportar incidentes, 
+gestionar el inventario de insumos y actualizar el estado de los 
+lotes de producción.
+
+El Operational Staff inicia sesión seleccionando su rol en la pantalla 
+Sign In. Tras autenticarse, accede al Dashboard con una vista operativa 
+del sistema. Desde allí puede navegar hacia: IoT Monitoring en modo solo 
+lectura para consultar el estado de los sensores, Incidents donde puede 
+reportar y consultar incidentes activos, Inventory para registrar 
+movimientos de stock y ajustar niveles de insumos, y Production para 
+actualizar el progreso de los lotes activos asignados. Este perfil tiene 
+permisos limitados en comparación con el Owner/Administrator, enfocados 
+en la operación diaria de la panadería.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/Userflow-Staff.jpg" alt="User Flow - Operational Staff" width="800">
+
 ## 4.5 Web Applications Prototyping
 
 La sección de Web Applications Prototyping presenta los prototipos interactivos diseñados para la versión Desktop y Mobile Web de **BakeryManager**. Estos prototipos permiten simular la navegación real dentro de la plataforma y visualizar cómo los usuarios recorren los principales paths definidos en los User Flow Diagrams, integrando la gestión operativa con el monitoreo IoT.
