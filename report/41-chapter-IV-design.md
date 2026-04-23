@@ -396,5 +396,35 @@ Gestiona el control de producción y la supervisión de múltiples sedes. Sus co
 <img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/ProductionAPIComponents-dark.png" alt="Production API Component Diagram" width="800">
 
 ### 4.7.1 Class Diagrams
+
+A continuación se presentan los Class Diagrams de UML para cada uno de los bounded contexts identificados en BakeryManager. Cada diagrama incluye clases, interfaces, enumeraciones, atributos con su scope (private, public, protected), métodos y relaciones con nombre, dirección y multiplicidad.
+
+
+#### Identity & Access Management
+
+Este diagrama representa el bounded context encargado de la autenticación, autorización y control de acceso basado en roles. La clase central es `User`, que se asocia con `Role` (relación muchos a uno) para determinar el nivel de acceso del usuario dentro del sistema. A su vez, `Role` se compone de múltiples instancias de `Permission` a través de la tabla intermedia `RolePermission`, permitiendo una gestión granular de permisos. La clase `Session` registra los tokens JWT activos asociados a cada usuario autenticado. Las enumeraciones `RoleType` y `PermissionType` garantizan la integridad de los valores permitidos para roles y permisos respectivamente. El `AuthService` gestiona el ciclo de vida de la autenticación, incluyendo login, logout y validación de tokens.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/IAM%20DIAGRAM.jpeg" alt="Identity & Access Management Class Diagram" width="800">
+
+#### Inventory Management
+
+Este diagrama representa el bounded context responsable de la gestión de insumos y control de stock de la panadería. La clase `Inventory` agrupa múltiples instancias de `InventoryItem` (relación uno a muchos), donde cada ítem representa un insumo específico con su unidad de medida y nivel mínimo de stock. Cada `InventoryItem` está asociado a exactamente una instancia de `Stock` (relación uno a uno), que mantiene el nivel actual y el estado del stock. Los movimientos de entrada, salida y ajuste quedan registrados en `StockMovement` (relación uno a muchos con `Stock`). La enumeración `MovementType` define los tipos de movimiento permitidos y `StockStatus` refleja el estado actual del stock. El `InventoryService` y `StockService` implementan la lógica de negocio para la gestión y detección de bajo stock.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/INVENTORY%20DIAGRAM.jpeg" alt="Inventory Management Class Diagram" width="800">
+
+
+#### IoT Monitoring
+
+Este diagrama representa el bounded context encargado del monitoreo en tiempo real de los sensores instalados en los equipos críticos de la panadería. La clase `Sensor` es el elemento central, registrando lecturas continuas mediante `SensorReading` (relación uno a muchos). Cuando una lectura supera los umbrales configurados, el sistema genera un `Incident` (relación uno a muchos con `Sensor`), el cual a su vez produce una `Alert` (relación uno a uno) y registra eventos en `EventHistory` (relación uno a muchos). Las enumeraciones `SensorType`, `SensorStatus`, `IncidentStatus` y `AlertSeverity` garantizan la consistencia de los valores en el sistema. El `SensorService`, `IncidentService` y `AlertService` orquestan el flujo de detección, gestión de incidentes y despacho de alertas en tiempo real mediante WebSocket.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/IOT%20DIAGRAM.jpeg" alt="IoT Monitoring Class Diagram" width="800">
+
+
+#### Production Monitoring
+
+Este diagrama representa el bounded context responsable de la gestión de la producción y supervisión de múltiples sedes. La clase `Branch` es el elemento central, agrupando el equipamiento (`Equipment`) y los lotes de producción (`ProductionBatch`). La clase `Equipment` es extendida por `Oven` y `RefrigerationChamber`, representando los equipos específicos monitoreados mediante herencia. Cada `ProductionBatch` se asocia con una `Branch`, un `Oven` y un `InventoryItem` del bounded context de inventario, reflejando el consumo de insumos durante la producción. La enumeración `BatchStatus` controla el ciclo de vida de cada lote y `EquipmentStatus` refleja el estado operativo de los equipos. El `ProductionService` y `BranchService` implementan la lógica de negocio para la gestión de lotes y sedes respectivamente.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/refs/heads/feature/Chapter4/report/assets/PRODUCTION%20DIAGRAM.jpeg" alt="Production Monitoring Class Diagram" width="800">
+
 ## 4.8 Database Design
 ### 4.8.1 Database Diagrams
