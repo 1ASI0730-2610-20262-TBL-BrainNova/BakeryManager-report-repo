@@ -26,99 +26,273 @@ Nuestra visión es ser una solución tecnológica líder en la digitalización d
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
 
-#### Who (¿Quiénes son los involucrados?)
-Los principales involucrados son los propietarios y administradores de panaderías que buscan optimizar la gestión de sus operaciones, especialmente en contextos de crecimiento o expansión a múltiples sedes. Asimismo, el personal operativo forma parte del entorno del problema, ya que depende de herramientas adecuadas para monitorear la producción, controlar condiciones operativas y supervisar el estado de los equipos.
+#### Contexto del mercado y oportunidad
+
+En el mercado peruano, las micro y pequeñas empresas cumplen un rol estratégico dentro de la economía. Según el Ministerio de la Producción, al cierre del 2024 el Perú registró 2 346 592 empresas formales, de las cuales el 99,1 % correspondía a micro y pequeñas empresas, aportando el 20,2 % del PBI nacional. Además, las MYPE emplearon el 86,5 % del empleo total del sector privado, lo que evidencia su relevancia económica y social.
+
+Dentro de este ecosistema, las panaderías representan negocios con alta rotación de productos, dependencia de procesos productivos diarios y necesidad constante de controlar calidad, tiempos, insumos y equipos. Sin embargo, muchas de estas empresas aún gestionan sus operaciones mediante procesos manuales, hojas de cálculo o sistemas aislados, lo que limita su capacidad para escalar de forma eficiente.
+
+Actualmente, existe una oportunidad de mercado para soluciones digitales enfocadas en la transformación operativa de las MYPE. PRODUCE impulsa la línea “Mype Digital”, orientada a acompañar a las empresas en su proceso de digitalización mediante asesoría, servicios tecnológicos, capacitación y automatización de procesos productivos clave. Esto confirma que la digitalización ya no es solo una mejora tecnológica, sino una necesidad competitiva para que las pequeñas empresas sean más productivas, sostenibles y escalables.
+
+No obstante, en el caso específico de las panaderías, muchas soluciones disponibles se concentran en funciones generales como ventas, caja, facturación o inventario básico. Estas herramientas no siempre resuelven el problema operativo central: la falta de visibilidad en tiempo real sobre la producción, el estado de la maquinaria y las condiciones críticas que afectan directamente la calidad del producto. Esta brecha representa una oportunidad para BakeryManager, una solución especializada que integra gestión operativa con sensores IoT para mejorar la supervisión, reducir riesgos y facilitar la toma de decisiones basada en datos.
 
 ---
 
-#### What (¿Qué se necesita?)
-Se requiere una solución tecnológica que permita centralizar la gestión de la producción, el monitoreo de maquinaria y la supervisión de múltiples sedes, integrando sensores IoT. Esta solución debe proporcionar información precisa en tiempo real que facilite la supervisión de procesos y la toma de decisiones.
+#### Who — ¿Quiénes son los involucrados?
+
+Los principales involucrados son los propietarios y administradores de panaderías MYPE que buscan optimizar sus operaciones, controlar costos y sostener el crecimiento del negocio. Este grupo toma decisiones estratégicas relacionadas con producción, compras, mantenimiento, personal y apertura de nuevas sedes.
+
+También forman parte del entorno del problema los encargados de producción, operarios y responsables de tienda, quienes necesitan información clara y oportuna para controlar hornos, cámaras frigoríficas, insumos, tiempos de preparación y estado de los equipos. Su desempeño impacta directamente en la calidad del producto final y en la eficiencia del negocio.
 
 ---
 
-#### Where (¿Dónde ocurre el problema?)
-El problema se presenta principalmente en panaderías ubicadas en entornos urbanos, donde existe alta demanda y dinamismo comercial, lo que impulsa el crecimiento del negocio y la apertura de nuevas sedes.
+#### What — ¿Qué se necesita?
+
+Se necesita una solución tecnológica integrada que centralice la gestión de producción, el monitoreo de maquinaria, el control de condiciones operativas y la supervisión de múltiples sedes. Esta solución debe permitir que los responsables del negocio accedan a información en tiempo real sobre variables críticas como temperatura, humedad, estado de hornos, cámaras frigoríficas, alertas de fallas y avance de la producción.
+
+Desde una perspectiva de negocio, la solución debe contribuir a mejorar la eficiencia operativa, reducir pérdidas por fallas o desperdicio de insumos, aumentar la trazabilidad de los procesos y facilitar decisiones gerenciales basadas en datos.
 
 ---
 
-#### When (¿Cuándo surge esta necesidad?)
-La necesidad surge cuando las panaderías incrementan su volumen de producción y se expanden a múltiples locales. En este punto, la gestión manual o el uso de sistemas no integrados resulta insuficiente para mantener el control operativo y garantizar la calidad del producto.
+#### Where — ¿Dónde ocurre el problema?
+
+El problema se presenta principalmente en panaderías ubicadas en zonas urbanas y comerciales, donde existe una alta demanda diaria de productos panificados y una necesidad constante de producción eficiente. También se intensifica en panaderías que operan más de una sede, ya que la supervisión descentralizada exige mayor coordinación, control y visibilidad operativa.
 
 ---
 
-#### Why (¿Por qué existe esta necesidad?)
-El crecimiento del negocio incrementa la complejidad operativa, especialmente en la supervisión de producción, control de condiciones ambientales y mantenimiento de equipos. La ausencia de herramientas tecnológicas adecuadas dificulta la eficiencia operativa y limita la capacidad de tomar decisiones basadas en datos en tiempo real.
+#### When — ¿Cuándo surge esta necesidad?
+
+La necesidad surge cuando la panadería incrementa su volumen de producción, amplía su cartera de productos o abre nuevas sedes. En esta etapa, los métodos manuales dejan de ser suficientes porque el negocio requiere mayor control, estandarización de procesos y monitoreo continuo.
+
+También aparece en situaciones críticas, como fallas de hornos, pérdida de refrigeración, inconsistencias en la cocción, retrasos en la producción o desperdicio de insumos. Estos eventos afectan directamente la rentabilidad y la experiencia del cliente.
 
 ---
 
-#### How (¿Cómo se manifiesta el problema?)
-El problema se manifiesta mediante el uso de procesos manuales o herramientas aisladas, lo que genera desorganización, falta de visibilidad del estado de la producción y dificultades para supervisar condiciones críticas como la temperatura de hornos o el estado de cámaras frigoríficas.
+#### Why — ¿Por qué existe esta necesidad?
+
+Esta necesidad existe porque las panaderías dependen de procesos productivos sensibles al tiempo, la temperatura, la humedad y el correcto funcionamiento de sus equipos. Cuando estas variables no se monitorean de manera constante, se incrementa el riesgo de errores operativos, productos defectuosos, pérdida de insumos y baja productividad.
+
+Además, la falta de integración entre producción, inventario, mantenimiento y supervisión impide tener una visión completa del negocio. Esto limita la capacidad del propietario o administrador para identificar cuellos de botella, anticipar fallas, controlar costos y tomar decisiones estratégicas.
 
 ---
 
-#### How Much (¿Qué magnitud tiene el problema?)
-El impacto del problema es significativo, ya que genera pérdidas económicas, desperdicio de insumos, disminución de la calidad del producto y baja eficiencia operativa. Esto afecta directamente la rentabilidad y limita el crecimiento sostenible de las panaderías.
+#### How — ¿Cómo se manifiesta el problema?
+
+El problema se manifiesta a través de procesos manuales, comunicación informal entre trabajadores, registros incompletos y falta de alertas tempranas. Por ejemplo, el administrador puede no detectar a tiempo que un horno está operando fuera del rango adecuado de temperatura o que una cámara frigorífica presenta una falla que compromete los insumos.
+
+También se evidencia cuando el negocio tiene varias sedes y no cuenta con una plataforma centralizada para supervisar la producción de cada local. Esto genera pérdida de control, duplicidad de tareas, baja trazabilidad y dificultad para mantener estándares uniformes de calidad.
 
 ---
 
-#### Descripción de la problemática
+#### How Much — ¿Qué magnitud tiene el problema?
 
-En el contexto peruano, las micro y pequeñas empresas, especialmente las panaderías, desempeñan un rol fundamental en la economía; sin embargo, enfrentan importantes limitaciones en su gestión operativa que afectan su sostenibilidad y crecimiento.
+La magnitud del problema es alta porque impacta directamente en indicadores clave del negocio, como costos operativos, desperdicio de insumos, productividad del personal, calidad del producto, continuidad operativa y rentabilidad.
 
-En muchas panaderías, la supervisión de la producción y el control de condiciones operativas se realiza de manera manual o mediante herramientas no integradas, lo que genera inconsistencias, pérdida de información y dificultades para conocer el estado real de los procesos. Esta situación se agrava cuando el negocio crece y se expande a múltiples sedes, donde la coordinación operativa y la supervisión de equipos se vuelven más complejas.
+Aunque la magnitud exacta debe validarse mediante entrevistas y pruebas con usuarios, se identifican como métricas críticas: reducción de mermas, disminución de fallas no detectadas, mejora en tiempos de producción, reducción de productos defectuosos, aumento de la visibilidad operativa y mejora en la capacidad de supervisar múltiples sedes.
 
-A diferencia de otros rubros comerciales, las panaderías dependen en gran medida del correcto funcionamiento de sus equipos de producción, como hornos y cámaras frigoríficas. La falta de monitoreo continuo de variables críticas como temperatura, humedad o estado de los equipos puede generar fallas en la cocción, pérdida de insumos o deterioro de la calidad del producto final. Asimismo, la ausencia de alertas tempranas ante incidentes como sobrecalentamientos, fugas de gas o fallas en refrigeración incrementa el riesgo operativo.
+---
 
-En este contexto, la carencia de soluciones tecnológicas integradas que permitan automatizar procesos, centralizar la información y monitorear en tiempo real tanto la producción como la maquinaria limita la capacidad de las panaderías para optimizar su gestión. Esto se traduce en ineficiencias operativas, pérdidas económicas y dificultades para escalar de manera sostenible, evidenciando la necesidad de implementar herramientas digitales como BakeryManager, que integren la gestión operativa con tecnologías IoT.
+### Descripción consolidada de la problemática
+Las panaderías MYPE en el Perú enfrentan dificultades para gestionar sus operaciones de manera eficiente, ya que dependen de procesos manuales y herramientas no integradas, lo que limita el control sobre la producción y el monitoreo en tiempo real de los equipos. Esto afecta la calidad del producto, aumenta los costos operativos y dificulta la expansión, especialmente cuando se gestionan múltiples sedes.
+
+La solución **BakeryManager** busca centralizar la gestión operativa mediante sensores IoT y un dashboard en tiempo real, optimizando la eficiencia, reduciendo desperdicios y mejorando la calidad del producto. Esta plataforma permitirá la gestión eficiente de múltiples sedes, garantizando un crecimiento escalable y sostenible para las panaderías.
 
 ## 1.2.2. Lean UX Process
 ### 1.2.2.1. Lean UX Problem Statements
 
-Los dueños y trabajadores de panaderías que gestionan operaciones en una o varias sedes enfrentan dificultades para supervisar en tiempo real la producción y el estado de los equipos, debido al uso de procesos manuales y sistemas no digitalizados. Esto genera falta de visibilidad operativa, detección tardía de incidentes como fallas en hornos, fugas de gas o problemas de refrigeración, y dificultades en la coordinación del personal, lo que afecta la eficiencia, la seguridad y la continuidad de la producción diaria.
+#### **Dominio y Alcance del Problema**
 
-Las soluciones actuales no integran tecnología IoT junto con una aplicación web centralizada que permita monitorear en tiempo real los equipos críticos ni generar alertas automáticas basadas en datos de sensores, lo que limita la capacidad de prevención y respuesta ante riesgos operativos.
+El proyecto se enfoca en el sector de las panaderías MYPE en el Perú, particularmente en aquellas que operan en múltiples sedes. A pesar de la importancia de la calidad del producto y la eficiencia operativa, muchas panaderías aún gestionan sus procesos mediante métodos manuales o sistemas no digitalizados, lo que dificulta la supervisión en tiempo real de la producción y el estado de los equipos.
 
-Nuestra solución abordará este problema mediante **BakeryManager**, una aplicación web con tecnología IoT que conectará sensores instalados en equipos como hornos, cámaras de refrigeración y áreas de producción para recopilar datos en tiempo real (temperatura, estado de máquinas, gas y humo). Esta información será visualizada en un dashboard web centralizado, permitiendo a los usuarios supervisar múltiples sedes desde cualquier dispositivo, recibir alertas automáticas ante anomalías y optimizar la gestión operativa. Inicialmente, el enfoque estará en panaderías multisede en ciudades como Lima Metropolitana.
+El problema afecta principalmente a las panaderías urbanas, especialmente aquellas en proceso de expansión, como las de Lima Metropolitana, que requieren optimizar la gestión de múltiples sedes de manera eficiente. Las limitaciones tecnológicas y la falta de herramientas adecuadas para monitorear en tiempo real las condiciones operativas (temperatura de hornos, estado de cámaras frigoríficas, conservación de masas, etc.) generan **pérdidas económicas** debido a la baja eficiencia operativa y la **variabilidad en la calidad del producto**.
+
+#### **Actores Involucrados (Segmentos de Cliente)**
+
+- **Propietarios y administradores de panaderías MYPE:** Son responsables de la gestión de operaciones, control de costos y expansión del negocio. Necesitan soluciones que centralicen la gestión y ofrezcan visibilidad en tiempo real para mejorar la eficiencia operativa.
+
+- **Encargados de producción y personal operativo:** Supervisan la producción diaria, el estado de los equipos y las condiciones operativas. Necesitan herramientas que les permitan gestionar la producción de manera más eficiente y recibir alertas ante cualquier desviación.
+
+- **Clientes (consumidores):** Aunque no son directamente involucrados en el proceso de gestión, la calidad del producto y la consistencia en la producción impactan en la satisfacción y fidelidad del cliente final.
+
+---
+
+#### **Problemas, Puntos de Dolor y Causas**
+
+##### **Puntos de dolor**
+
+- **Falta de herramientas tecnológicas para supervisar en tiempo real:** El personal encargado de la producción carece de un sistema automatizado que permita monitorear las condiciones críticas de los equipos, lo que genera vulnerabilidades operativas y falta de control sobre la calidad.
+
+- **Dificultad para detectar fallos en los equipos a tiempo:** Las fallas en hornos, cámaras frigoríficas, conservadoras de masa, y cajas de fermentación pueden pasar desapercibidas hasta que afecten la calidad del producto o generen pérdidas.
+
+- **Falta de alertas automáticas:** La ausencia de un sistema que avise inmediatamente sobre anomalías operativas retrasa las decisiones correctivas, lo que aumenta el riesgo de pérdidas económicas y productos defectuosos.
+
+- **Desorganización y falta de visibilidad en la gestión de múltiples sedes:** Las panaderías con varias sedes tienen dificultades para centralizar la información y monitorear el estado de las operaciones en tiempo real.
+
+##### **Causas raíz**
+
+- **Infraestructura inadecuada:** La falta de sistemas automatizados y la dependencia de procesos manuales genera ineficiencias en el control de la producción y en la supervisión de los equipos.
+
+- **Ausencia de soluciones tecnológicas integradas:** La falta de una solución digital que conecte los equipos a un sistema centralizado dificulta la supervisión y el control de los procesos críticos.
+
+- **Procesos manuales propensos a errores:** Los registros físicos y el monitoreo manual son procesos lentos y vulnerables a fallos, lo que aumenta los riesgos operativos.
+
+- **Falta de sistemas de monitoreo continuo:** Las panaderías no cuentan con un sistema de monitoreo en tiempo real que permita detectar anomalías y garantizar que los equipos operen dentro de los parámetros ideales.
+
+---
+
+#### **Brecha, Impactos e Indicadores**
+
+##### **Brecha detectada**
+En la actualidad, no existe una plataforma integrada para monitorear en tiempo real el estado de los equipos y las condiciones operativas de las panaderías. Esto genera ineficiencias operativas y afecta la calidad del producto, lo que limita la capacidad de las panaderías para crecer y mantener la rentabilidad.
+
+##### **Impactos y riesgos**
+
+- **Baja calidad del producto:** La falta de monitoreo en tiempo real puede generar productos defectuosos debido a fallas no detectadas en los equipos. Esto incluye panes mal cocidos, masas que no fermentan correctamente o pasteles dañados por condiciones inadecuadas.
+
+- **Pérdidas económicas:** La ineficiencia operativa, la baja visibilidad y las fallas de equipos no detectadas a tiempo generan **desperdicio de insumos** y **reducción de márgenes de ganancia**.
+
+- **Dificultades para escalar:** La falta de herramientas para supervisar varias sedes limita el crecimiento ordenado y la expansión de las panaderías.
+
+- **Riesgos operativos:** La falta de alertas automáticas ante incidentes como sobrecalentamiento de hornos o problemas de refrigeración puede llevar a incidentes graves que afecten la producción y la seguridad.
+
+##### **Indicadores**
+
+- **% de productos defectuosos:** Proporción de productos que no cumplen con los estándares de calidad debido a problemas operativos en el proceso de producción, como panes quemados, masas mal fermentadas o pasteles defectuosos. Este indicador se calcula dividiendo el número de **productos defectuosos** entre el total de productos producidos y multiplicando por 100 para obtener el porcentaje.
+
+- **Número de fallas no detectadas:** Cantidad de incidentes operativos que ocurrieron sin ser detectados a tiempo. Esto incluye fallos en hornos, conservadoras de masa y cámaras de refrigeración.
+
+- **Tiempo promedio de respuesta ante incidentes:** El tiempo que transcurre desde que ocurre un incidente hasta que se toma una acción correctiva.
+
+- **% de productos defectuosos:** Proporción de productos que no cumplen con los estándares de calidad debido a problemas operativos. Este indicador puede medir, por ejemplo, la cantidad de **productos rechazados** por no cumplir con los criterios de calidad (como pan quemado o mal cocido) debido a fallos en los hornos o variaciones en la temperatura.
+
+- **Reducción de costos operativos:** Porcentaje de reducción en los costos operativos como resultado de la mejora en la eficiencia operativa.
+
+- **Visibilidad operativa en tiempo real:** Porcentaje de tiempo en que los administradores pueden supervisar las operaciones desde una plataforma centralizada.
+
 
 ### 1.2.2.2. Lean UX Assumptions
 
-Creemos que los dueños y trabajadores de panaderías necesitan una forma más eficiente de controlar sus operaciones sin depender de procesos manuales ni supervisión constante en cada sede. Pensamos que si cuentan con una aplicación web con monitoreo IoT en tiempo real, se animarán a usarla para mejorar el control de la producción y el estado de sus equipos.
+#### **Sobre los usuarios: propietarios, administradores y encargados de producción**
 
-Los primeros usuarios serían dueños de panaderías multisede y personal de producción. El valor principal que buscan es evitar pérdidas, detectar fallas a tiempo y tener mayor control operativo desde cualquier lugar.
+- **Asumimos** que los propietarios y administradores de panaderías MYPE buscan optimizar la eficiencia operativa y mantener altos estándares de calidad en sus productos, por lo que priorizan el monitoreo de condiciones críticas como temperatura, humedad, conservación de masas y estado de los equipos.  
+  **Métrica de éxito:** Reducir las fallas operativas en un 30% mediante la integración de un sistema de monitoreo en tiempo real.  
+  **Definition of Done:** El sistema asegura que el 95% de las condiciones operativas sean monitoreadas en tiempo real, con alertas automáticas sobre variaciones críticas.  
+  **Objetivos del grupo objetivo:** Minimizar el riesgo de productos defectuosos, mejorar la eficiencia operativa y garantizar la calidad del producto.  
+  **Características de la solución:** Integración de sensores IoT para monitorear temperatura, humedad y estado de los equipos, además de alertas automáticas en caso de anomalías.
 
-Llegaremos a ellos mediante demostraciones, redes sociales y contacto directo con negocios del sector panadero. BakeryManager generará ingresos mediante un modelo de suscripción y servicios de instalación de sensores IoT.
+- **Asumimos** que los encargados de producción necesitan información en tiempo real sobre el estado de los equipos y las condiciones operativas para tomar decisiones rápidas y garantizar la calidad del producto.  
+  **Métrica de éxito:** Reducir el tiempo de respuesta ante alertas críticas en un 30%, pasando de 15 a 10 minutos mediante el uso de alertas automáticas.  
+  **Definition of Done:** El sistema permite la recepción de alertas en tiempo real y facilita que los encargados tomen decisiones correctivas de manera oportuna.  
+  **Objetivos del grupo objetivo:** Minimizar el impacto de variaciones operativas en la calidad del producto y optimizar los tiempos de producción.  
+  **Características de la solución:** Dashboard centralizado para visualización en tiempo real, accesible para los encargados de producción.
+
+- **Asumimos** que los usuarios valoran soluciones fáciles de usar debido a la carga operativa diaria, por lo que la interfaz debe ser intuitiva y sencilla de implementar.  
+  **Métrica de éxito:** El 85% de los usuarios deben ser capaces de utilizar la solución de manera efectiva con menos de 30 minutos de capacitación inicial.  
+  **Definition of Done:** La solución se considera implementada cuando al menos el 85% de los usuarios activos completan tareas básicas sin asistencia adicional.  
+  **Objetivos del grupo objetivo:** Mejorar la eficiencia operativa diaria sin añadir complejidad al trabajo del personal.  
+  **Características de la solución:** Interfaz intuitiva, diseño simple y accesibilidad desde dispositivos móviles y computadoras.
+
+- **Asumimos** que los usuarios consideran importante recibir alertas inmediatas ante cualquier variación crítica en las condiciones operativas para mitigar riesgos y prevenir pérdidas.  
+  **Métrica de éxito:** El 95% de las alertas deben ser gestionadas de forma efectiva dentro del tiempo estipulado.  
+  **Definition of Done:** El sistema estará completo cuando el 95% de las alertas generen una respuesta de acción dentro de un tiempo máximo de 30 minutos desde su emisión.  
+  **Objetivos del grupo objetivo:** Minimizar el riesgo de deterioro de masas, pasteles, insumos o productos terminados mediante la rápida identificación de problemas.  
+  **Características de la solución:** Sistema de alertas automáticas basado en condiciones predefinidas, con opción de personalización de umbrales.
+
+---
+
+#### **Sobre las panaderías y sus operaciones**
+
+- **Asumimos** que muchas panaderías MYPE gestionan sus operaciones con procesos manuales o sistemas no integrados, lo que dificulta el control y la trazabilidad de la producción.  
+  **Métrica de éxito:** Implementar el sistema en al menos el 60% de las panaderías MYPE objetivo dentro de los primeros 12 meses.  
+  **Definition of Done:** El sistema se considera implementado cuando el 60% de las panaderías objetivo gestionan sus operaciones con una plataforma digital centralizada.  
+  **Objetivos del grupo objetivo:** Mejorar la trazabilidad de la producción y optimizar el control operativo del negocio.  
+  **Características de la solución:** Plataforma centralizada para monitorear producción, equipos, condiciones críticas y datos históricos.
+
+- **Asumimos** que las panaderías carecen de sistemas automatizados de monitoreo continuo de condiciones operativas.  
+  **Métrica de éxito:** Automatizar el monitoreo en tiempo real en el 80% de las panaderías usuarias durante los primeros 6 meses de implementación.  
+  **Definition of Done:** El sistema se considera completamente implementado cuando el 80% de las panaderías usuarias tienen conectados sus equipos críticos a la plataforma de monitoreo en tiempo real.  
+  **Objetivos del grupo objetivo:** Mejorar la eficiencia operativa, reducir riesgos de fallas y garantizar la calidad del producto.  
+  **Características de la solución:** Sensores IoT integrados para monitoreo continuo de hornos, cámaras frigoríficas, conservadoras de masa y cajas de fermentación.
+
+- **Asumimos** que las panaderías necesitan mantener estándares de calidad e inocuidad en la producción de alimentos para reducir reclamos, pérdidas y riesgos operativos.  
+  **Métrica de éxito:** Reducir en un 25% los incidentes asociados a productos defectuosos durante los primeros 6 meses de uso.  
+  **Definition of Done:** El sistema se considera exitoso cuando permite registrar, monitorear y alertar sobre condiciones críticas que puedan afectar la calidad de panes, masas, pasteles e insumos refrigerados.  
+  **Objetivos del grupo objetivo:** Garantizar productos más consistentes, reducir reclamos y mantener estándares adecuados de calidad.  
+  **Características de la solución:** Reportes automáticos de condiciones operativas, historial de eventos y alertas por desviaciones en temperatura, humedad, gas, humo o estado de equipos.
+
+---
+
+#### **Sobre comportamiento y riesgos**
+
+- **Asumimos** que la falta de monitoreo en tiempo real incrementa el riesgo de productos defectuosos, desperdicio de insumos y fallas operativas no detectadas.  
+  **Métrica de éxito:** Reducir el riesgo de productos defectuosos en un 30% mediante monitoreo en tiempo real y alertas preventivas.  
+  **Definition of Done:** El sistema se considerará exitoso cuando el 90% de los incidentes operativos registrados sean detectados antes de afectar la producción final.  
+  **Objetivos del grupo objetivo:** Prevenir pérdidas económicas, proteger la calidad del producto y mejorar la continuidad operativa.  
+  **Características de la solución:** Sistema de monitoreo en tiempo real con alertas automáticas que permitan tomar acciones correctivas antes de que los productos sean afectados.
+
+- **Asumimos** que la falta de supervisión centralizada dificulta la gestión de múltiples sedes y reduce la capacidad de respuesta de los administradores.  
+  **Métrica de éxito:** Lograr que el 90% de las sedes conectadas puedan ser supervisadas desde un dashboard centralizado.  
+  **Definition of Done:** El sistema se considera completo cuando los administradores pueden visualizar el estado operativo de cada sede desde una sola plataforma.  
+  **Objetivos del grupo objetivo:** Facilitar la supervisión remota, mejorar la coordinación entre sedes y tomar decisiones basadas en datos.  
+  **Características de la solución:** Dashboard multisede con indicadores de producción, estado de equipos, alertas activas e historial de incidentes.
+
+---
+
+#### **Sobre tecnología y datos**
+
+- **Asumimos** que las panaderías están dispuestas a implementar sensores IoT si estos mejoran el control de condiciones operativas y reducen riesgos en la producción.  
+  **Métrica de éxito:** Implementar sensores IoT en el 80% de los equipos críticos definidos durante el primer año.  
+  **Definition of Done:** El sistema se considera completo cuando el 80% de los equipos críticos seleccionados cuentan con sensores conectados a la plataforma.  
+  **Objetivos del grupo objetivo:** Aumentar la precisión del monitoreo y mejorar la seguridad del proceso productivo.  
+  **Características de la solución:** Sensores IoT para recolección de datos en tiempo real, integrados a una plataforma web accesible.
+
+- **Asumimos** que existe disponibilidad de conexión a internet en la mayoría de panaderías urbanas objetivo, lo que facilita la implementación de una solución basada en la nube.  
+  **Métrica de éxito:** El 95% de las panaderías objetivo deben contar con conexión a internet suficiente para sincronizar datos operativos en tiempo real.  
+  **Definition of Done:** El sistema se considera implementado cuando el 95% de las panaderías conectadas pueden enviar y visualizar datos desde la plataforma sin interrupciones críticas.  
+  **Objetivos del grupo objetivo:** Facilitar el monitoreo remoto, centralizar información y mantener continuidad en la supervisión operativa.  
+  **Características de la solución:** Plataforma web basada en la nube, acceso remoto, sincronización continua de datos y visualización desde diferentes dispositivos.
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
-#### Hipótesis 1
-Creemos que la implementación de una plataforma centralizada que permita supervisar la producción y el estado de los equipos mejorará el control operativo de las panaderías.  
-Tendremos éxito si observamos una reducción en los errores operativos y una mejora en la toma de decisiones basada en información actualizada y en tiempo real.
+**Hipótesis 1:**
+
+Si implementamos un sistema de monitoreo en tiempo real que utilice sensores IoT para medir condiciones clave como la temperatura y la humedad de los hornos y las conservadoras de masa, entonces los encargados de producción podrán actuar rápidamente ante cualquier desviación de los parámetros ideales, evitando productos defectuosos y mejorando la eficiencia operativa.
+
+- **Usuarios:** Encargados de producción, operarios.
+- **User Outcome:** Mejorar la toma de decisiones en tiempo real, asegurando la calidad del producto y la eficiencia operativa.
+- **Feature:** Plataforma web con sensores IoT integrados para monitoreo continuo y alertas automáticas sobre variaciones críticas.
 
 ---
 
-#### Hipótesis 2
-Creemos que la incorporación de monitoreo en tiempo real mediante sensores IoT en equipos clave como hornos y cámaras frigoríficas permitirá detectar fallas de manera oportuna.  
-Tendremos éxito si se reduce la frecuencia de incidentes no detectados y disminuyen las pérdidas asociadas a fallas en maquinaria o condiciones inadecuadas.
+**Hipótesis 2:**
+
+Si los encargados de producción reciben alertas automáticas en tiempo real sobre variaciones en las condiciones operativas de los equipos, como hornos o cámaras de refrigeración, entonces podrán reducir el tiempo de respuesta ante incidencias críticas, optimizando los tiempos de producción y garantizando que la calidad del producto no se vea afectada.
+
+- **Usuarios:** Encargados de producción, operarios.
+- **User Outcome:** Minimizar el impacto de variaciones operativas en la calidad del producto y optimizar los tiempos de producción.
+- **Feature:** Sistema de alertas automáticas con un dashboard accesible para monitoreo en tiempo real.
 
 ---
 
-#### Hipótesis 3
-Creemos que la gestión de múltiples sedes desde una única interfaz permitirá a los negocios en expansión organizar sus operaciones de manera más eficiente.  
-Tendremos éxito si se evidencia una mejora en la coordinación entre sedes y una reducción en los tiempos de supervisión y control.
+**Hipótesis 3:**
+
+Si implementamos una plataforma intuitiva y fácil de usar que permita a los usuarios acceder a información operativa clave con mínima capacitación, entonces la adopción de la solución será rápida, mejorando la eficiencia operativa sin añadir complejidad al trabajo diario del personal.
+
+- **Usuarios:** Propietarios de panaderías, administradores, operarios.
+- **User Outcome:** Mejorar la eficiencia operativa diaria sin aumentar la carga operativa ni la complejidad.
+- **Feature:** Interfaz de usuario intuitiva, diseño simple, fácil de usar con menos de 30 minutos de capacitación inicial.
 
 ---
 
-#### Hipótesis 4
-Creemos que una interfaz intuitiva para el personal operativo facilitará la supervisión de la producción y el monitoreo de equipos.  
-Tendremos éxito si se reduce la cantidad de errores en la supervisión de procesos y se optimiza el tiempo requerido para realizar tareas operativas.
+**Hipótesis 4:**
 
----
+Si se integra un sistema centralizado para monitorear la producción y el estado de los equipos en tiempo real a través de múltiples sedes, entonces los administradores podrán gestionar la operación de varias ubicaciones desde una sola plataforma, lo que optimizará los recursos, reducirá los costos y mejorará la eficiencia general de las panaderías.
 
-#### Hipótesis 5
-Creemos que la generación de alertas automáticas ante incidentes y la disponibilidad de información en tiempo real incrementará la capacidad de respuesta del negocio.  
-Tendremos éxito si se reduce el tiempo de reacción ante eventos críticos y se mejora la continuidad operativa de las panaderías.
+- **Usuarios:** Propietarios de panaderías, administradores, responsables de operaciones multisede.
+- **User Outcome:** Mejorar la gestión de recursos y la eficiencia operativa en panaderías con múltiples sedes.
+- **Feature:** Plataforma centralizada para monitoreo en tiempo real de las condiciones operativas de múltiples sedes.
+
 ### 1.2.2.4 Lean UX Canvas
-
 ![Lean UX Canvas](./assets/lean-ux-canva.jpg)
 
 ## 1.3. Segmentos objetivo
