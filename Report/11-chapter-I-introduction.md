@@ -295,7 +295,7 @@ Si se integra un sistema centralizado para monitorear la producción y el estado
 ### 1.2.2.4 Lean UX Canvas
 ![Lean UX Canvas](./assets/lean-ux-canva.jpg)
 
-[Enlace al Lean UX Canvas en Miro](https://miro.com/app/board/uXjVGg5xObY=/)
+Enlace al Lean UX Canvas en Miro : https://miro.com/app/board/uXjVGg5xObY=/
 
 ## 1.3. Segmentos objetivo
 
