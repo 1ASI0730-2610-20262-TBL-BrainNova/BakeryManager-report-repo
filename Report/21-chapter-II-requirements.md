@@ -2,6 +2,13 @@
 
 ## 2.1. Competidores
 
+En esta sección, se analiza a los principales competidores en el mercado que ofrecen soluciones tecnológicas orientadas al control de producción y al monitoreo de equipos en panaderías. Estos aspectos son esenciales para garantizar que los productos como panes, pasteles y otros productos panificados cumplan con los estándares de calidad y no se presenten retrasos en la producción. Además, el monitoreo de equipos asegura el funcionamiento óptimo de equipos críticos como hornos, cámaras frigoríficas, conservadoras de masa, entre otros, así como la prevención de fallas operativas mediante mantenimientos programados. También se incluyen eventos críticos, como incendios, fugas de gas, sobrecalentamientos de equipos, entre otros, que podrían afectar la seguridad y la producción. Al entender cómo estas soluciones abordan estos desafíos, podemos identificar oportunidades para mejorar y diferenciar BakeryManager, ofreciendo funcionalidades clave como el monitoreo en tiempo real mediante sensores IoT y alertas automáticas ante cualquier anomalía.
+
+---
+
+Algunos de nuestros competidores actuales, con una visión de cómo sus soluciones se comparan con las necesidades específicas del mercado de panaderías y cómo BakeryManager puede ofrecer una propuesta superior:
+
+---
 ### Odoo
 
 Odoo es una plataforma ERP desarrollada en 2005 que integra distintos módulos de gestión empresarial, tales como ventas, inventarios, contabilidad y producción. Se caracteriza por su flexibilidad y capacidad de adaptación a diversos tipos de negocio, incluidas las micro y pequeñas empresas. No obstante, su implementación suele implicar un alto nivel de complejidad técnica y no se encuentra específicamente orientada al sector panadero ni contempla, de manera nativa, funcionalidades de monitoreo de maquinaria mediante tecnologías IoT.
@@ -18,13 +25,8 @@ Loyverse POS es un sistema de punto de venta diseñado para pequeños comercios,
 
 FlexiBake es una solución tecnológica especializada en la industria panadera, orientada a la gestión de procesos como la producción, el control de recetas y la administración de inventarios. A pesar de su enfoque sectorial, su adopción está principalmente dirigida a empresas de mediana o gran escala, lo que limita su accesibilidad para MYPES. Asimismo, no integra capacidades de monitoreo en tiempo real mediante IoT ni ofrece una solución simplificada adaptada a entornos de menor complejidad operativa.
 
-### Competitive Analysis Landscape
 
-#### ¿Por qué llevar a cabo este análisis?
-
-El presente análisis tiene como objetivo identificar las soluciones tecnológicas existentes en el mercado, evaluar sus principales características y limitaciones, y determinar en qué medida responden a las necesidades del sector panadero.
-
-Asimismo, permite evidenciar la oportunidad de desarrollar una herramienta integral que no solo centralice la gestión de inventarios, ventas y producción, sino que también incorpore capacidades de monitoreo en tiempo real mediante tecnologías IoT, orientadas específicamente a panaderías MYPES en proceso de crecimiento.
+### 2.1.1 Análisis de Competidores
 
 ### Competitive Analysis Landscape
 
@@ -47,6 +49,7 @@ Asimismo, permite evidenciar la oportunidad de desarrollar una herramienta integ
 | **Análisis SWOT** | **Debilidades** | Alta complejidad de implementación y necesidad de personalización técnica, lo que dificulta su adopción en MYPES. | Funcionalidad limitada, sin integración de producción, gestión de múltiples sedes ni monitoreo de maquinaria. | Alto costo y enfoque en empresas de mayor escala, lo que reduce su accesibilidad para pequeñas panaderías. | Dependencia de sensores IoT y necesidad de infraestructura tecnológica, lo que puede dificultar la adopción en panaderías con baja digitalización. |
 | **Análisis SWOT** | **Oportunidades** | Creciente digitalización de las MYPES y necesidad de integrar procesos empresariales en una sola plataforma. | Incremento de pequeños negocios que buscan soluciones accesibles para digitalizar sus ventas. | Mayor demanda de herramientas especializadas en la industria alimentaria y de producción. | Creciente adopción de tecnologías IoT en el sector productivo y necesidad de optimizar la eficiencia y calidad en panaderías MYPES. |
 | **Análisis SWOT** | **Amenazas** | Alta competencia de otros ERP más simples o especializados que pueden ser más accesibles para MYPES. | Aparición de soluciones más completas que integren producción y gestión avanzada del negocio. | Limitada adopción en mercados emergentes debido a costos elevados y barreras de implementación. | Aparición de soluciones similares con IoT y baja adopción tecnológica en algunas panaderías, además de competencia de sistemas más simples. |
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 | **Matriz FODA / CAME** | **Descripción** | **Estrategias y Tácticas** |
@@ -178,6 +181,8 @@ En esta sección se presenta el diseño de las entrevistas realizadas a los prin
 | **Resumen de entrevista**                        | Luis Rivera Pérez, de 50 años, se desempeña como maestro panadero en el distrito de San Martín de Porres. Durante la entrevista, señaló que uno de los problemas más frecuentes en su trabajo son los cortes de energía eléctrica, los cuales afectan directamente la producción y cuyo tiempo de solución varía según la magnitud del incidente. Indicó que realiza el monitoreo de los equipos de manera manual y que, en muchos casos, detecta fallas cuando ya son evidentes, por ejemplo, cuando los equipos emiten ruidos inusuales, lo que suele indicar que ya se encuentran averiados. Asimismo, mencionó que utiliza el teléfono móvil de forma constante en su rutina diaria y expresó su interés en contar con un sistema que le brinde alertas automáticas, lo que le permitiría anticiparse a los problemas y mejorar la eficiencia en su trabajo.                                                        |
 | Entrevistado N° 6: Mariana Fernanda, Rojas Reyes | ![Entrevista3](assets/segmento2-entrevista-mariana-rojas.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | **Apellidos y nombre del entrevistador**         | Chipana Huarancca, Emanuel
+
+
 ### 2.2.3. Análisis de entrevistas
 #### Segmento 1 - Propietarios y administradores de panaderias
 Hallazgos:
