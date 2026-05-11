@@ -204,6 +204,24 @@ Como se evidencia, el equipo ha trabajador equitativamente. Se ha respetado el f
 
 ### 5.2.2. Sprint 2
 #### 5.2.2.1. Sprint Planning 2
+El **sprint** es aquel periodo corto y de periodo fijo durante el cual es desarrollado un conjunto de tareas o actividades específicas en un proyecto, el cual está estrechamente relacionado con metodologías ágiles como **Scrum**.
+
+El **Sprint #2** tiene como fecha de inicio el **30/04/2026** y plantea elaborar un avance de la **Aplicacion Web** para **BakeryManager**.
+
+| **Sprint #** | Sprint 2 |
+| :---- | :---- |
+| **Sprint Planning Background** | **Sprint Planning Background** |
+| **Date** | 30/04/2026 |
+| **Time** | 5:00 PM - 6:30 PM |
+| **Location** | Google Meet |
+| **Prepared by** | Molina Vásquez Manuel Alejandro |
+| **Attendees** | • Molina Vásquez, Manuel Alejandro (u20221g231)<br>• Tufiño Argüelles, Luis Angel (U202216240)<br>• Céspedes Pillco, Jarod Jack (u202318588)<br>• Vidal Malaga, Jareth Beycker (u202316878)<br>• Chipana Huarancca, Emanuel (u202214074) |
+| **Sprint Goal & User Stories** | **Sprint Goal & User Stories** |
+| **Sprint 2 Goal** | Our focus is on developing and deploying the frontend application of BakeryManager.
+We believe it delivers a functional and complete user interface to our future users, such as bakers and bakery owners.
+This will be confirmed when the frontend is successfully deployed and accessible, with all core views implemented and navigable. |
+| **Sprint 2 Velocity** | 58  |
+| **Sum of Story Point** | 58  |
 #### 5.2.2.2. Aspect Leaders and Collaborators
 #### 5.2.2.3. Sprint Backlog 2
 #### 5.2.2.4. Development Evidence for Sprint Review
