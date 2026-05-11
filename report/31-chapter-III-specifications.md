@@ -95,7 +95,9 @@
 | EP06 | Administración y Control de Accesos | Como administrador global, quiero gestionar sedes, roles y permisos específicos, para organizar la estructura operativa de la startup de manera eficiente. | US-66, US-67, US-68, US-69, US-70 |
 | EP07 | Presencia Comercial del Landing Page | Como visitante interesado, quiero navegar por una plataforma comercial con identidad visual clara y contenido persuasivo, para conocer la propuesta de valor y suscribirme al servicio. | US-71, US-72, US-73, US-74, US-75, US-76, US-77, US-78, US-79, US-80 |
 ## 3.2. Impact Mapping
-![Impact-Mapping](./assets/impact-mapping.png)
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter3/report/assets/impact-mapping.png" alt="Impact Mapping" width="100%">
+
 
 ## 3.3 Product Backlog
 Para el desarrollo de la plataforma **BakeryManager IoT**, se ha definido un **Product Backlog**, el cual representa una lista priorizada y dinámica de todas las funcionalidades, características y tareas técnicas necesarias para la evolución del proyecto. Este backlog permite organizar el trabajo del equipo, enfocándose en entregar valor de negocio de manera incremental.
@@ -110,7 +112,7 @@ La interpretación de la escala es la siguiente:
 - **5:** Tareas complejas que implican mayor análisis o desarrollo.
 - **8:** Tareas de alta complejidad que impactan múltiples componentes del sistema.  
 
-![Product-Backlog](./assets/product-backlog.png)
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter3/report/assets/product-backlog.png" alt="Product Backlog" width="100%">
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |------|--------------|--------|------------|--------------|
