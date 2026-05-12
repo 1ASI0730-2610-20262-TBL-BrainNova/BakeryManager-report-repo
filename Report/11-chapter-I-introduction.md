@@ -4,7 +4,7 @@
 
 Somos Brainova, un equipo de estudiantes de la Universidad Peruana de Ciencias Aplicadas comprometidos con el desarrollo de soluciones tecnológicas innovadoras para optimizar la gestión de negocios como panaderías, pastelerías y otros emprendimientos en crecimiento. Nuestra propuesta consiste en una plataforma web que permite mejorar la eficiencia operativa, automatizar procesos y facilitar la toma de decisiones mediante el uso de tecnología.
 
-Para ello, uno de nuestros productos es BakeryManager, una solución enfocada en negocios de panadería que integra el control de producción, monitoreo de maquinaria y supervisión de condiciones operativas mediante sensores IoT, permitiendo una gestión más eficiente, centralizada y en tiempo real de sus operaciones, especialmente en
+Para que el producto BakeryManager, una solución enfocada en negocios de panadería que integra el control de producción, monitoreo de maquinaria y supervisión de condiciones operativas mediante sensores IoT, permitiendo una gestión más eficiente, centralizada y en tiempo real de sus operaciones, especialmente en
 entornos multisede.
 
 **Misión:**  
@@ -75,7 +75,7 @@ Esta necesidad existe porque las panaderías dependen de procesos productivos se
 
 Además, la falta de integración entre producción, inventario, mantenimiento y supervisión impide tener una visión completa del negocio. Esto limita la capacidad del propietario o administrador para identificar cuellos de botella, anticipar fallas, controlar costos y tomar decisiones estratégicas.
 
-### 1.1.1. Descripción de la Startup
+---
 
 #### How — ¿Cómo se manifiesta el problema?
 
@@ -145,7 +145,7 @@ BakeryManager fue diseñado para lograr el monitoreo automatizado y en tiempo re
    Con una interfaz simple, clara y con codificación visual por colores (verde/amarillo/rojo) que permita al personal interpretar el estado operativo en segundos, sin necesidad de capacitación técnica extensa, y accesible desde cualquier dispositivo con conexión a internet.
 
 
-### 1.2.1. Antecedentes y problemática
+### 1.2.2.3. Lean UX Hypothesis Statements
 
 **Hipótesis 1**
 
@@ -203,3 +203,62 @@ Con **[el módulo de reportes históricos y analítica de tendencias de producci
 Enlace al Lean UX Canvas en Miro : https://miro.com/app/board/uXjVGg5xObY=/
 
 ## 1.3. Segmentos objetivo
+
+En el presente proyecto se identifican dos segmentos principales de usuarios, directamente vinculados con el dominio del problema: los propietarios y administradores de panaderías en proceso de crecimiento, y el personal operativo encargado de la ejecución diaria de las actividades del negocio. A continuación, se describen ambos perfiles.
+
+---
+
+### Propietarios y Administradores de Panaderías
+
+Este segmento corresponde a personas naturales o jurídicas responsables de la gestión integral de panaderías y negocios afines, como pastelerías y minimarkets, quienes buscan optimizar sus operaciones y expandir sus actividades mediante la apertura de nuevas sedes.
+
+#### Características demográficas
+
+- **Ubicación:** Zonas urbanas y comerciales con alta demanda de productos de consumo diario.
+- **Edad promedio:** Entre 30 y 55 años.
+- **Nivel socioeconómico:** Medio.
+- **Tipo de negocio:** Micro y pequeñas empresas, en muchos casos de carácter familiar..
+
+#### Datos relevantes
+
+- El sector panadero en el Perú está conformado por miles de unidades productivas a nivel nacional, en su mayoría micro y pequeñas empresas, lo que evidencia su alta representatividad dentro de la economía.
+- La industria panadera ha registrado pérdidas económicas significativas, lo que pone en evidencia deficiencias en la gestión operativa, el control de recursos y la toma de decisiones dentro del sector.
+- Durante campañas estacionales, como la Navidad, se proyecta la producción de millones de unidades de productos, lo que evidencia un incremento significativo en la demanda y en la carga operativa, exigiendo mayor capacidad de planificación y control.
+
+#### Necesidades clave
+
+- Centralización de la información operativa, incluyendo ventas, inventarios y producción, en una única plataforma.
+- Monitoreo en tiempo real del estado de las sedes y maquinaria mediante tecnologías IoT.
+- Control eficiente del flujo de ventas y gestión financiera básica.
+- Supervisión y administración de múltiples locales de manera integrada.
+- Reducción de pérdidas operativas a través de una gestión optimizada de recursos.
+
+---
+
+### Personal Operativo
+
+Este segmento está conformado por los trabajadores responsables de la ejecución de las actividades productivas y el monitoreo básico de las condiciones operativas del negocio. Son usuarios clave del sistema, ya que interactúan directamente con Bakery Manager durante la jornada laboral.
+
+#### Características demográficas
+
+- **Edad:** Entre 20 y 45 años.
+- **Nivel educativo:** Secundaria completa o formación técnica.
+- **Ocupación:** Panaderos, asistentes de producción y encargados de turno.
+- **Nivel de experiencia:** Variable, con predominio de aprendizaje práctico en el entorno laboral.
+- **Nivel tecnológico:** Básico a intermedio.
+
+#### Datos relevantes
+
+- En muchas panaderías, los procesos de producción se gestionan de forma manual, lo que incrementa errores en tiempos de horneado, control de lotes y uso de insumos.
+- La supervisión de condiciones críticas (temperatura, humedad, estado de equipos) suele ser limitada o no sistematizada.
+- La detección de incidentes depende frecuentemente de la observación humana, lo que retrasa la reacción ante fallas o riesgos.
+- En periodos de alta demanda, la presión operativa incrementa la probabilidad de errores y reduce la capacidad de respuesta ante incidencias.
+
+#### Necesidades clave
+
+- Monitoreo en tiempo real de variables críticas como temperatura, humedad y estado de maquinaria.
+- Recepción de alertas inmediatas ante condiciones anómalas o posibles incidentes (por ejemplo, sobrecalentamiento o riesgo de incendio).
+- Interfaces simples que permitan interpretar rápidamente la información del sistema.
+- Reducción de la dependencia de la supervisión manual mediante automatización basada en sensores IoT.
+- Apoyo en la toma de decisiones operativas durante la producción (ajustes, pausas, revisión de equipos).
+- Mejora en la coordinación con administradores ante incidentes, sin necesidad de reportes manuales.  
