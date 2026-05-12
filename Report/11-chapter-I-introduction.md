@@ -4,7 +4,8 @@
 
 Somos Brainova, un equipo de estudiantes de la Universidad Peruana de Ciencias Aplicadas comprometidos con el desarrollo de soluciones tecnológicas innovadoras para optimizar la gestión de negocios como panaderías, pastelerías y otros emprendimientos en crecimiento. Nuestra propuesta consiste en una plataforma web que permite mejorar la eficiencia operativa, automatizar procesos y facilitar la toma de decisiones mediante el uso de tecnología.
 
-Para ello, uno de nuestros productos es **BakeryManager**, una solución enfocada en negocios de panadería que integra el control de producción, monitoreo de maquinaria y supervisión de condiciones operativas mediante sensores IoT, permitiendo una gestión más eficiente, centralizada y en tiempo real de sus operaciones, especialmente en entornos multisede.
+Para ello, uno de nuestros productos es BakeryManager, una solución enfocada en negocios de panadería que integra el control de producción, monitoreo de maquinaria y supervisión de condiciones operativas mediante sensores IoT, permitiendo una gestión más eficiente, centralizada y en tiempo real de sus operaciones, especialmente en
+entornos multisede.
 
 **Misión:**  
 Nuestra misión es desarrollar soluciones digitales que optimicen la gestión operativa de panaderías en crecimiento, mediante el monitoreo en tiempo real de sus procesos productivos y equipos a través de tecnología IoT. Buscamos mejorar la eficiencia, reducir pérdidas y facilitar la supervisión de múltiples sedes a través de una plataforma centralizada.
