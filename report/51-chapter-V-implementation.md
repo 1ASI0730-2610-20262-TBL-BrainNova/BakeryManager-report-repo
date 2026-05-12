@@ -140,17 +140,25 @@ El equipo ha desarrollado una **Landing Page** atractiva y funcional que cumple 
 
 A continuación, mostramos capturas de pantallas donde se visualiza a la **Landing Page** en ejecución:
 
-![Bakery Landing Page Evidence 1](./assets/bakery-landing-page-evidence-1.png)
-![Bakery Landing Page Evidence 2](./assets/bakery-landing-page-evidence-2.png)
-![Bakery Landing Page Evidence 3](./assets/bakery-landing-page-evidence-3.png)
-![Bakery Landing Page Evidence 4](./assets/bakery-landing-page-evidence-4.png)
-![Bakery Landing Page Evidence 5](./assets/bakery-landing-page-evidence-5.png)
-![Bakery Landing Page Evidence 6](./assets/bakery-landing-page-evidence-6.png)
-![Bakery Landing Page Evidence 7](./assets/bakery-landing-page-evidence-7.png)
-![Bakery Landing Page Evidence 8](./assets/bakery-landing-page-evidence-8.png)
-![Bakery Landing Page Evidence 9](./assets/bakery-landing-page-evidence-9.png)
-![Bakery Landing Page Evidence 10](./assets/bakery-landing-page-evidence-10.png)
-![Bakery Landing Page Evidence 11](./assets/bakery-landing-page-evidence-11.png)
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/bakery-landing-page-evidence-1.png" alt="Bakery Landing Page Evidence 1" width="100%">
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/bakery-landing-page-evidence-2.png" alt="Bakery Landing Page Evidence 2" width="100%">
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/bakery-landing-page-evidence-3.png" alt="Bakery Landing Page Evidence 3" width="100%">
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/bakery-landing-page-evidence-4.png" alt="Bakery Landing Page Evidence 4" width="100%">
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/bakery-landing-page-evidence-5.png" alt="Bakery Landing Page Evidence 5" width="100%">
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/bakery-landing-page-evidence-6.png" alt="Bakery Landing Page Evidence 6" width="100%">
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/bakery-landing-page-evidence-7.png" alt="Bakery Landing Page Evidence 7" width="100%">
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/bakery-landing-page-evidence-8.png" alt="Bakery Landing Page Evidence 8" width="100%">
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/bakery-landing-page-evidence-9.png" alt="Bakery Landing Page Evidence 9" width="100%">
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/bakery-landing-page-evidence-10.png" alt="Bakery Landing Page Evidence 10" width="100%">
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
