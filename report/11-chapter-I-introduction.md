@@ -98,74 +98,13 @@ La solución **BakeryManager** busca centralizar la gestión operativa mediante 
 ## 1.2.2. Lean UX Process
 ### 1.2.2.1. Lean UX Problem Statements
 
-#### **Dominio y Alcance del Problema**
-
-El proyecto se enfoca en el sector de las panaderías MYPE en el Perú, particularmente en aquellas que operan en múltiples sedes. A pesar de la importancia de la calidad del producto y la eficiencia operativa, muchas panaderías aún gestionan sus procesos mediante métodos manuales o sistemas no digitalizados, lo que dificulta la supervisión en tiempo real de la producción y el estado de los equipos.
-
-El problema afecta principalmente a las panaderías urbanas, especialmente aquellas en proceso de expansión, como las de Lima Metropolitana, que requieren optimizar la gestión de múltiples sedes de manera eficiente. Las limitaciones tecnológicas y la falta de herramientas adecuadas para monitorear en tiempo real las condiciones operativas (temperatura de hornos, estado de cámaras frigoríficas, conservación de masas, etc.) generan **pérdidas económicas** debido a la baja eficiencia operativa y la **variabilidad en la calidad del producto**.
-
-#### **Actores Involucrados (Segmentos de Cliente)**
-
-- **Propietarios y administradores de panaderías MYPE:** Son responsables de la gestión de operaciones, control de costos y expansión del negocio. Necesitan soluciones que centralicen la gestión y ofrezcan visibilidad en tiempo real para mejorar la eficiencia operativa.
-
-- **Encargados de producción y personal operativo:** Supervisan la producción diaria, el estado de los equipos y las condiciones operativas. Necesitan herramientas que les permitan gestionar la producción de manera más eficiente y recibir alertas ante cualquier desviación.
-
-- **Clientes (consumidores):** Aunque no son directamente involucrados en el proceso de gestión, la calidad del producto y la consistencia en la producción impactan en la satisfacción y fidelidad del cliente final.
-
----
-
-#### **Problemas, Puntos de Dolor y Causas**
-
-##### **Puntos de dolor**
-
-- **Falta de herramientas tecnológicas para supervisar en tiempo real:** El personal encargado de la producción carece de un sistema automatizado que permita monitorear las condiciones críticas de los equipos, lo que genera vulnerabilidades operativas y falta de control sobre la calidad.
-
-- **Dificultad para detectar fallos en los equipos a tiempo:** Las fallas en hornos, cámaras frigoríficas, conservadoras de masa, y cajas de fermentación pueden pasar desapercibidas hasta que afecten la calidad del producto o generen pérdidas.
-
-- **Falta de alertas automáticas:** La ausencia de un sistema que avise inmediatamente sobre anomalías operativas retrasa las decisiones correctivas, lo que aumenta el riesgo de pérdidas económicas y productos defectuosos.
-
-- **Desorganización y falta de visibilidad en la gestión de múltiples sedes:** Las panaderías con varias sedes tienen dificultades para centralizar la información y monitorear el estado de las operaciones en tiempo real.
-
-##### **Causas raíz**
-
-- **Infraestructura inadecuada:** La falta de sistemas automatizados y la dependencia de procesos manuales genera ineficiencias en el control de la producción y en la supervisión de los equipos.
-
-- **Ausencia de soluciones tecnológicas integradas:** La falta de una solución digital que conecte los equipos a un sistema centralizado dificulta la supervisión y el control de los procesos críticos.
-
-- **Procesos manuales propensos a errores:** Los registros físicos y el monitoreo manual son procesos lentos y vulnerables a fallos, lo que aumenta los riesgos operativos.
-
-- **Falta de sistemas de monitoreo continuo:** Las panaderías no cuentan con un sistema de monitoreo en tiempo real que permita detectar anomalías y garantizar que los equipos operen dentro de los parámetros ideales.
-
----
-
-#### **Brecha, Impactos e Indicadores**
-
-##### **Brecha detectada**
-En la actualidad, no existe una plataforma integrada para monitorear en tiempo real el estado de los equipos y las condiciones operativas de las panaderías. Esto genera ineficiencias operativas y afecta la calidad del producto, lo que limita la capacidad de las panaderías para crecer y mantener la rentabilidad.
-
-##### **Impactos y riesgos**
-
-- **Baja calidad del producto:** La falta de monitoreo en tiempo real puede generar productos defectuosos debido a fallas no detectadas en los equipos. Esto incluye panes mal cocidos, masas que no fermentan correctamente o pasteles dañados por condiciones inadecuadas.
-
-- **Pérdidas económicas:** La ineficiencia operativa, la baja visibilidad y las fallas de equipos no detectadas a tiempo generan **desperdicio de insumos** y **reducción de márgenes de ganancia**.
-
-- **Dificultades para escalar:** La falta de herramientas para supervisar varias sedes limita el crecimiento ordenado y la expansión de las panaderías.
-
-- **Riesgos operativos:** La falta de alertas automáticas ante incidentes como sobrecalentamiento de hornos o problemas de refrigeración puede llevar a incidentes graves que afecten la producción y la seguridad.
-
-##### **Indicadores**
-
-- **% de productos defectuosos:** Proporción de productos que no cumplen con los estándares de calidad debido a problemas operativos en el proceso de producción, como panes quemados, masas mal fermentadas o pasteles defectuosos. Este indicador se calcula dividiendo el número de **productos defectuosos** entre el total de productos producidos y multiplicando por 100 para obtener el porcentaje.
-
-- **Número de fallas no detectadas:** Cantidad de incidentes operativos que ocurrieron sin ser detectados a tiempo. Esto incluye fallos en hornos, conservadoras de masa y cámaras de refrigeración.
-
-- **Tiempo promedio de respuesta ante incidentes:** El tiempo que transcurre desde que ocurre un incidente hasta que se toma una acción correctiva.
-
-- **% de productos defectuosos:** Proporción de productos que no cumplen con los estándares de calidad debido a problemas operativos. Este indicador puede medir, por ejemplo, la cantidad de **productos rechazados** por no cumplir con los criterios de calidad (como pan quemado o mal cocido) debido a fallos en los hornos o variaciones en la temperatura.
-
-- **Reducción de costos operativos:** Porcentaje de reducción en los costos operativos como resultado de la mejora en la eficiencia operativa.
-
-- **Visibilidad operativa en tiempo real:** Porcentaje de tiempo en que los administradores pueden supervisar las operaciones desde una plataforma centralizada.
+Los dueños y trabajadores de panaderías que gestionan operaciones en una o varias sedes enfrentan dificultades para supervisar en tiempo real la producción y el estado de los equipos, debido al uso de procesos manuales y sistemas no digitalizados. Esto genera falta de visibilidad operativa, detección tardía de incidentes como fallas en hornos, fugas de gas o problemas de refrigeración, y dificultades en la coordinación del personal, lo que afecta la eficiencia, la
+seguridad y la continuidad de la producción diaria.
+Las soluciones actuales no integran tecnología IoT junto con una aplicación web centralizada que permita monitorear en tiempo real los equipos críticos ni generar alertas automáticas basadas en datos de sensores, lo que limita la
+capacidad de prevención y respuesta ante riesgos operativos.
+Nuestra solución abordará este problema mediante BakeryManager, una aplicación web con tecnología IoT que conectará sensores instalados en equipos como hornos, cámaras de refrigeración y áreas de producción para recopilar datos en tiempo real (temperatura, estado de máquinas, gas y humo). Esta información será visualizada en un
+dashboard web centralizado, permitiendo a los usuarios supervisar múltiples sedes desde cualquier dispositivo, recibir alertas automáticas ante anomalías y optimizar la gestión operativa. Inicialmente, el enfoque estará en panaderías
+multisede en ciudades como Lima Metropolitana.
 
 
 ### 1.2.2.2. Lean UX Assumptions
