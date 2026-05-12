@@ -314,5 +314,20 @@ El equipo ha desarrollado el módulo IAM, Inventory, IoT Monitoring y Production
 <img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/sign-up.PNG" alt="Sign Up" width="100%">
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
+Durante el Sprint 2, el equipo no ha realizado el despliegue de Web Services propios, dado que el desarrollo se ha enfocado en el Frontend Web Application. Para simular el consumo de servicios, se utilizó **JSON Server** como fake API local, permitiendo validar la integración de los bounded contexts de IAM, Inventory y Production sin depender del backend real.
+
+| Bounded Context | Endpoint simulado | HTTP Verb | Acción | Descripción |
+|:---|:---|:---|:---|:---|
+| IAM | `/users` | POST | signUp | Registro de nuevo usuario con email, contraseña y rol |
+| IAM | `/users` | POST | signIn | Autenticación de usuario registrado y retorno de token mock |
+| Inventory | `/inventory-items` | GET | getAll | Obtiene la lista de todos los insumos registrados |
+| Inventory | `/inventory-items` | POST | create | Registra un nuevo insumo con stock inicial y unidad |
+| Inventory | `/inventory-items/:id` | PUT | update | Actualiza los datos de un insumo existente |
+| Inventory | `/inventory-items/:id` | DELETE | delete | Elimina un insumo del inventario |
+| Production | `/ovens` | GET | getAll | Obtiene el estado en tiempo real de los hornos activos |
+| Production | `/ovens/:id` | GET | getById | Obtiene el detalle de un horno específico |
+| Production | `/ovens` | POST | create | Registra un nuevo horno en el sistema |
+| Production | `/ovens/:id` | PUT | update | Actualiza el estado y parámetros de un horno |
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 #### 5.2.2.8. Team Collaboration Insights during Sprint
