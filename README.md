@@ -82,7 +82,9 @@
 
 **Link del repositorio del Frontend:** https://github.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-frontend.git
 
-**Link del video de la TP1:** https://goo.su/oaRjb
+**Link del video About The Team:** https://goo.su/oaRjb
+
+**Link del video TB1:** https://goo.su/I6MnU
 
 ### Reporte de colaboración de la entrega del TP: 
 
