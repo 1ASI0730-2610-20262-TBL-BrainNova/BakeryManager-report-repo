@@ -33,6 +33,7 @@ En el panorama económico actual, la industria de la panificación en el Perú s
 A pesar de la importancia cultural y económica del pan en la dieta peruana, la sostenibilidad de las panaderías artesanales se ve amenazada por cuellos de botella que trascienden la simple preparación del producto. Para identificar las raíces de estas ineficiencias, se ha elaborado el siguiente diagrama de Ishikawa, el cual permite visualizar de manera sistémica cómo la carencia de herramientas tecnológicas afecta la maquinaria, los métodos y la rentabilidad final del negocio (Vásquez, 2024):
 
 El análisis sistémico a través del diagrama de Ishikawa revela que la vulnerabilidad de las panaderías ante la crisis de costos (BCRP, 2024) se debe principalmente a la ausencia de un ecosistema digital que conecte la maquinaria con la gestión de materiales. Mientras los métodos sigan siendo manuales y el monitoreo de la maquinaria sea visual, la merma del 15% seguirá erosionando los márgenes de ganancia. BrainNova interviene precisamente en los ejes de Maquinaria y Medida, transformando datos en tiempo real en herramientas de ahorro directo para el microempresario panadero.
+
 ---
 
 #### Who — ¿Quiénes son los involucrados?
