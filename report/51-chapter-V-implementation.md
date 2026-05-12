@@ -302,6 +302,17 @@ El equipo ha desarrollado el módulo IAM, Inventory, IoT Monitoring y Production
 | BakeryManager-frontend | feat/production-... | beae0a8 | feat(i18n): update footer translations for English and Spanish | - | 12/05/2026 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/Iventory1.png" alt="Inventory 1" width="100%">
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/Iventory2.png" alt="Inventory 2" width="100%">
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/production.PNG" alt="Production" width="100%">
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/sign-in.PNG" alt="Sign In" width="100%">
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/sign-up.PNG" alt="Sign Up" width="100%">
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 #### 5.2.2.8. Team Collaboration Insights during Sprint
