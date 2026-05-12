@@ -139,45 +139,40 @@ multisede en ciudades como Lima Metropolitana.
       
 - Módulo de gestión de inventario con alertas de stock mínimo.
 
+---
+
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
 **Hipótesis 1:**
 
-Si implementamos un sistema de monitoreo en tiempo real que utilice sensores IoT para medir condiciones clave como la temperatura y la humedad de los hornos y las conservadoras de masa, entonces los encargados de producción podrán actuar rápidamente ante cualquier desviación de los parámetros ideales, evitando productos defectuosos y mejorando la eficiencia operativa.
-
-- **Usuarios:** Encargados de producción, operarios.
-- **User Outcome:** Mejorar la toma de decisiones en tiempo real, asegurando la calidad del producto y la eficiencia operativa.
-- **Feature:** Plataforma web con sensores IoT integrados para monitoreo continuo y alertas automáticas sobre variaciones críticas.
+Creemos que la fidelización de los clientes se logrará si los dueños de panaderías obtienen reportes de rentabilidad precisos con el uso de un dashboard analítico de ventas e insumos.
 
 ---
 
 **Hipótesis 2:**
 
-Si los encargados de producción reciben alertas automáticas en tiempo real sobre variaciones en las condiciones operativas de los equipos, como hornos o cámaras de refrigeración, entonces podrán reducir el tiempo de respuesta ante incidencias críticas, optimizando los tiempos de producción y garantizando que la calidad del producto no se vea afectada.
-
-- **Usuarios:** Encargados de producción, operarios.
-- **User Outcome:** Minimizar el impacto de variaciones operativas en la calidad del producto y optimizar los tiempos de producción.
-- **Feature:** Sistema de alertas automáticas con un dashboard accesible para monitoreo en tiempo real.
+Creemos que la eficiencia operativa se logrará si el maestro panadero evita la pérdida de lotes de producción mediante un sistema de alertas de temperatura por sensores IoT.
 
 ---
 
 **Hipótesis 3:**
 
-Si implementamos una plataforma intuitiva y fácil de usar que permita a los usuarios acceder a información operativa clave con mínima capacitación, entonces la adopción de la solución será rápida, mejorando la eficiencia operativa sin añadir complejidad al trabajo diario del personal.
-
-- **Usuarios:** Propietarios de panaderías, administradores, operarios.
-- **User Outcome:** Mejorar la eficiencia operativa diaria sin aumentar la carga operativa ni la complejidad.
-- **Feature:** Interfaz de usuario intuitiva, diseño simple, fácil de usar con menos de 30 minutos de capacitación inicial.
+Creemos que la reducción de costos operativos se logrará si el dueño de negocio obtiene un mejor control sobre el flujo de caja con un módulo de inventario automatizado que previene el vencimiento de insumos.
 
 ---
 
 **Hipótesis 4:**
 
-Si se integra un sistema centralizado para monitorear la producción y el estado de los equipos en tiempo real a través de múltiples sedes, entonces los administradores podrán gestionar la operación de varias ubicaciones desde una sola plataforma, lo que optimizará los recursos, reducirá los costos y mejorará la eficiencia general de las panaderías.
+Creemos que la optimización del tiempo se logrará si el equipo de producción obtiene un registro de tareas diario automatizado con la herramienta de gestión de órdenes de producción.
 
-- **Usuarios:** Propietarios de panaderías, administradores, responsables de operaciones multisede.
-- **User Outcome:** Mejorar la gestión de recursos y la eficiencia operativa en panaderías con múltiples sedes.
-- **Feature:** Plataforma centralizada para monitoreo en tiempo real de las condiciones operativas de múltiples sedes.
+---
+
+**Hipótesis 5:**
+
+Creemos que la generación de alertas automáticas ante incidentes y la disponibilidad de información en tiempo real incrementará la capacidad de respuesta del negocio.
+Tendremos éxito si se reduce el tiempo de reacción ante eventos críticos y se mejora la continuidad operativa de las panaderías.
+
+---
 
 ### 1.2.2.4 Lean UX Canvas
 ![Lean UX Canvas](./assets/lean-ux-canva.jpg)
