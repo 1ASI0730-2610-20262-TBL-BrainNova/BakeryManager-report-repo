@@ -109,85 +109,34 @@ multisede en ciudades como Lima Metropolitana.
 
 ### 1.2.2.2. Lean UX Assumptions
 
-#### **Sobre los usuarios: propietarios, administradores y encargados de producción**
+#### **Business Outcomes**
 
-- **Asumimos** que los propietarios y administradores de panaderías MYPE buscan optimizar la eficiencia operativa y mantener altos estándares de calidad en sus productos, por lo que priorizan el monitoreo de condiciones críticas como temperatura, humedad, conservación de masas y estado de los equipos.  
-  **Métrica de éxito:** Reducir las fallas operativas en un 30% mediante la integración de un sistema de monitoreo en tiempo real.  
-  **Definition of Done:** El sistema asegura que el 95% de las condiciones operativas sean monitoreadas en tiempo real, con alertas automáticas sobre variaciones críticas.  
-  **Objetivos del grupo objetivo:** Minimizar el riesgo de productos defectuosos, mejorar la eficiencia operativa y garantizar la calidad del producto.  
-  **Características de la solución:** Integración de sensores IoT para monitorear temperatura, humedad y estado de los equipos, además de alertas automáticas en caso de anomalías.
+- **Reducción de Merma:** Lograr una disminución del 10% en el desperdicio de insumos por lotes quemados o mal gestionados en los primeros 6 meses de uso.
+   
+- **Adopción de Mercado** Conseguir que el 15% de las panaderías artesanales del sector objetivo se registren en la plataforma durante el primer año.
+      
+- **Eficiencia de Tiempo:** El sistema asegura que el 95% de las condiciones operativas sean monitoreadas en tiempo real, con alertas automáticas sobre variaciones críticas.
+    
+- **Definition of Done:** Una funcionalidad se considera finalizada cuando ha sido probada en el entorno de despliegue, cumple con los criterios de aceptación Gherkin y es validada por el usuario final mediante pruebas de usabilidad.
+   
+#### **Business Outcomes**
 
-- **Asumimos** que los encargados de producción necesitan información en tiempo real sobre el estado de los equipos y las condiciones operativas para tomar decisiones rápidas y garantizar la calidad del producto.  
-  **Métrica de éxito:** Reducir el tiempo de respuesta ante alertas críticas en un 30%, pasando de 15 a 10 minutos mediante el uso de alertas automáticas.  
-  **Definition of Done:** El sistema permite la recepción de alertas en tiempo real y facilita que los encargados tomen decisiones correctivas de manera oportuna.  
-  **Objetivos del grupo objetivo:** Minimizar el impacto de variaciones operativas en la calidad del producto y optimizar los tiempos de producción.  
-  **Características de la solución:** Dashboard centralizado para visualización en tiempo real, accesible para los encargados de producción.
-
-- **Asumimos** que los usuarios valoran soluciones fáciles de usar debido a la carga operativa diaria, por lo que la interfaz debe ser intuitiva y sencilla de implementar.  
-  **Métrica de éxito:** El 85% de los usuarios deben ser capaces de utilizar la solución de manera efectiva con menos de 30 minutos de capacitación inicial.  
-  **Definition of Done:** La solución se considera implementada cuando al menos el 85% de los usuarios activos completan tareas básicas sin asistencia adicional.  
-  **Objetivos del grupo objetivo:** Mejorar la eficiencia operativa diaria sin añadir complejidad al trabajo del personal.  
-  **Características de la solución:** Interfaz intuitiva, diseño simple y accesibilidad desde dispositivos móviles y computadoras.
-
-- **Asumimos** que los usuarios consideran importante recibir alertas inmediatas ante cualquier variación crítica en las condiciones operativas para mitigar riesgos y prevenir pérdidas.  
-  **Métrica de éxito:** El 95% de las alertas deben ser gestionadas de forma efectiva dentro del tiempo estipulado.  
-  **Definition of Done:** El sistema estará completo cuando el 95% de las alertas generen una respuesta de acción dentro de un tiempo máximo de 30 minutos desde su emisión.  
-  **Objetivos del grupo objetivo:** Minimizar el riesgo de deterioro de masas, pasteles, insumos o productos terminados mediante la rápida identificación de problemas.  
-  **Características de la solución:** Sistema de alertas automáticas basado en condiciones predefinidas, con opción de personalización de umbrales.
-
+- **Dueño de Panadería:** Busca maximizar la rentabilidad y tener tranquilidad mental mediante el control remoto de su negocio.
+   
+- **Maestro Panadero:** Busca precisión en el horneado y una herramienta que le facilite el reporte de insumos utilizados.
+      
+- **Beneficio:** Obtención de alertas preventivas que eviten la pérdida de producción y reportes analíticos para compras inteligentes.
+    
 ---
 
-#### **Sobre las panaderías y sus operaciones**
+#### **Features & Solutions**
 
-- **Asumimos** que muchas panaderías MYPE gestionan sus operaciones con procesos manuales o sistemas no integrados, lo que dificulta el control y la trazabilidad de la producción.  
-  **Métrica de éxito:** Implementar el sistema en al menos el 60% de las panaderías MYPE objetivo dentro de los primeros 12 meses.  
-  **Definition of Done:** El sistema se considera implementado cuando el 60% de las panaderías objetivo gestionan sus operaciones con una plataforma digital centralizada.  
-  **Objetivos del grupo objetivo:** Mejorar la trazabilidad de la producción y optimizar el control operativo del negocio.  
-  **Características de la solución:** Plataforma centralizada para monitorear producción, equipos, condiciones críticas y datos históricos.
-
-- **Asumimos** que las panaderías carecen de sistemas automatizados de monitoreo continuo de condiciones operativas.  
-  **Métrica de éxito:** Automatizar el monitoreo en tiempo real en el 80% de las panaderías usuarias durante los primeros 6 meses de implementación.  
-  **Definition of Done:** El sistema se considera completamente implementado cuando el 80% de las panaderías usuarias tienen conectados sus equipos críticos a la plataforma de monitoreo en tiempo real.  
-  **Objetivos del grupo objetivo:** Mejorar la eficiencia operativa, reducir riesgos de fallas y garantizar la calidad del producto.  
-  **Características de la solución:** Sensores IoT integrados para monitoreo continuo de hornos, cámaras frigoríficas, conservadoras de masa y cajas de fermentación.
-
-- **Asumimos** que las panaderías necesitan mantener estándares de calidad e inocuidad en la producción de alimentos para reducir reclamos, pérdidas y riesgos operativos.  
-  **Métrica de éxito:** Reducir en un 25% los incidentes asociados a productos defectuosos durante los primeros 6 meses de uso.  
-  **Definition of Done:** El sistema se considera exitoso cuando permite registrar, monitorear y alertar sobre condiciones críticas que puedan afectar la calidad de panes, masas, pasteles e insumos refrigerados.  
-  **Objetivos del grupo objetivo:** Garantizar productos más consistentes, reducir reclamos y mantener estándares adecuados de calidad.  
-  **Características de la solución:** Reportes automáticos de condiciones operativas, historial de eventos y alertas por desviaciones en temperatura, humedad, gas, humo o estado de equipos.
-
+- Dashboard administrativo con indicadores clave (KPIs) de ventas y stock.
+   
+- Sistema de monitoreo IoT para temperatura y humedad de hornos y almacén
+      
+- Módulo de gestión de inventario con alertas de stock mínimo.
 ---
-
-#### **Sobre comportamiento y riesgos**
-
-- **Asumimos** que la falta de monitoreo en tiempo real incrementa el riesgo de productos defectuosos, desperdicio de insumos y fallas operativas no detectadas.  
-  **Métrica de éxito:** Reducir el riesgo de productos defectuosos en un 30% mediante monitoreo en tiempo real y alertas preventivas.  
-  **Definition of Done:** El sistema se considerará exitoso cuando el 90% de los incidentes operativos registrados sean detectados antes de afectar la producción final.  
-  **Objetivos del grupo objetivo:** Prevenir pérdidas económicas, proteger la calidad del producto y mejorar la continuidad operativa.  
-  **Características de la solución:** Sistema de monitoreo en tiempo real con alertas automáticas que permitan tomar acciones correctivas antes de que los productos sean afectados.
-
-- **Asumimos** que la falta de supervisión centralizada dificulta la gestión de múltiples sedes y reduce la capacidad de respuesta de los administradores.  
-  **Métrica de éxito:** Lograr que el 90% de las sedes conectadas puedan ser supervisadas desde un dashboard centralizado.  
-  **Definition of Done:** El sistema se considera completo cuando los administradores pueden visualizar el estado operativo de cada sede desde una sola plataforma.  
-  **Objetivos del grupo objetivo:** Facilitar la supervisión remota, mejorar la coordinación entre sedes y tomar decisiones basadas en datos.  
-  **Características de la solución:** Dashboard multisede con indicadores de producción, estado de equipos, alertas activas e historial de incidentes.
-
----
-
-#### **Sobre tecnología y datos**
-
-- **Asumimos** que las panaderías están dispuestas a implementar sensores IoT si estos mejoran el control de condiciones operativas y reducen riesgos en la producción.  
-  **Métrica de éxito:** Implementar sensores IoT en el 80% de los equipos críticos definidos durante el primer año.  
-  **Definition of Done:** El sistema se considera completo cuando el 80% de los equipos críticos seleccionados cuentan con sensores conectados a la plataforma.  
-  **Objetivos del grupo objetivo:** Aumentar la precisión del monitoreo y mejorar la seguridad del proceso productivo.  
-  **Características de la solución:** Sensores IoT para recolección de datos en tiempo real, integrados a una plataforma web accesible.
-
-- **Asumimos** que existe disponibilidad de conexión a internet en la mayoría de panaderías urbanas objetivo, lo que facilita la implementación de una solución basada en la nube.  
-  **Métrica de éxito:** El 95% de las panaderías objetivo deben contar con conexión a internet suficiente para sincronizar datos operativos en tiempo real.  
-  **Definition of Done:** El sistema se considera implementado cuando el 95% de las panaderías conectadas pueden enviar y visualizar datos desde la plataforma sin interrupciones críticas.  
-  **Objetivos del grupo objetivo:** Facilitar el monitoreo remoto, centralizar información y mantener continuidad en la supervisión operativa.  
-  **Características de la solución:** Plataforma web basada en la nube, acceso remoto, sincronización continua de datos y visualización desde diferentes dispositivos.
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
