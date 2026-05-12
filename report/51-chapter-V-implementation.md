@@ -258,6 +258,49 @@ El **Sprint #2** tiene como fecha de inicio el **30/04/2026** y plantea elaborar
 | **US-62** | Ubicación del sensor           | **F-23** | Vista de ubicación de sensores      | Como encargado quiero asignar ubicación a cada sensor para identificar dónde está instalado.                             | 3h       | Manuel Molina    | `To-do`       |
 
 #### 5.2.2.4. Development Evidence for Sprint Review
+El equipo ha desarrollado el módulo IAM, Inventory, IoT Monitoring y Production durante el Sprint 2.
+
+| **Repository** | **Branch** | Commit ID | Commit Message | Commit Message (Body) | Committed on (Date) |
+|:---|:---|:---|:---|:---|:---|
+| BakeryManager-frontend | IAM | 272f219 | fix(i18n): apply translate pipe to sign-in and sign-up components | - | 11/05/2026 |
+| BakeryManager-frontend | IAM | 186d13c | fix(auth): add mock responses to authentication http service for frontend testing | - | 11/05/2026 |
+| BakeryManager-frontend | IAM | b9d1fd8 | fix(layout): hide footer on iam routes | - | 11/05/2026 |
+| BakeryManager-frontend | IAM | 1f484c2 | fix(footer): apply translate pipe to footer content | - | 11/05/2026 |
+| BakeryManager-frontend | IAM | e8deb91 | fix(auth): implement mock user registration and validation with localStorage | - | 11/05/2026 |
+| BakeryManager-frontend | IAM | e61f62b | feat(IAM): implement sign-in and sign-up components with routing and validation | - | 09/05/2026 |
+| BakeryManager-frontend | feat/Inventory_Management | 5717c1b | refactor(inventory): redesign inventory ui components and styles for improved ux and maintainability | - | 12/05/2026 |
+| BakeryManager-frontend | feat/Inventory_Management | 73af9da | feat(inventory): enhance unit display with translation support in list and form components | - | 11/05/2026 |
+| BakeryManager-frontend | feat/Inventory_Management | 2efe644 | feat(inventory): implement inventory service, testing, and integration with translation updates | - | 11/05/2026 |
+| BakeryManager-frontend | feat/Inventory_Management | e0ce728 | feat(environment): add environments configuration and integrate Firebase dependencies | - | 11/05/2026 |
+| BakeryManager-frontend | feat/Inventory_Management | 4b3acd1 | fix(inventory): improve form validation and error handling during item creation | - | 11/05/2026 |
+| BakeryManager-frontend | feat/Inventory_Management | 8bd2459 | feat(server): add json server setup with custom routes for api simulation | - | 11/05/2026 |
+| BakeryManager-frontend | feat/Inventory_Management | fbe4fdb | feat(inventory): integrate inventory service to handle api calls and refactor component initialization logic | - | 11/05/2026 |
+| BakeryManager-frontend | feat/Inventory_Management | 61dc12d | feat(inventory): add form toggle functionality with fab button and enhance i18n translations | - | 11/05/2026 |
+| BakeryManager-frontend | feat/Inventory_Management | c13970b | feat(inventory): enhance inventory item list with detailed documentation and integrate i18n in inventory management | - | 11/05/2026 |
+| BakeryManager-frontend | feat/Inventory_Management | a0b9932 | refactor(inventory): remove redundant comments and integrate i18n for dynamic labels | - | 11/05/2026 |
+| BakeryManager-frontend | feat/Inventory_Management | 1c61f13 | feat(i18n): add Spanish translations for inventory management module | - | 11/05/2026 |
+| BakeryManager-frontend | feat/iot-monitoring | d7be6b6 | feat(environment): add monitoring bounded context related environment variables for both production and development | - | 12/05/2026 |
+| BakeryManager-frontend | feat/iot-monitoring | fdec75b | feat(fake-api): add simulated iot data for fake api implementation, and configuration | - | 12/05/2026 |
+| BakeryManager-frontend | feat/iot-monitoring | 9dae08f | feat: implement monitoring-store for orchestrating monitoring use cases and managing sensor, incident, and alert data | - | 11/05/2026 |
+| BakeryManager-frontend | feat/iot-monitoring | c9cc0c5 | feat: add monitoring api facade for iot operations with sensors, incidents, and alerts | - | 11/05/2026 |
+| BakeryManager-frontend | feat/iot-monitoring | 66129bd | feat: add alerts api endpoint for crud integration with alert data | - | 11/05/2026 |
+| BakeryManager-frontend | feat/iot-monitoring | dd9719f | feat: add incidents api endpoint for crud integration with incident data | - | 11/05/2026 |
+| BakeryManager-frontend | feat/iot-monitoring | a08ae79 | feat: add sensors api endpoint for crud integration with sensor data | - | 11/05/2026 |
+| BakeryManager-frontend | feat/iot-monitoring | 6239fca | feat: add alert assembler for mapping alert infrastructure contracts to domain entities and viceversa | - | 11/05/2026 |
+| BakeryManager-frontend | feat/iot-monitoring | 455e27b | feat: add alert resource and response interfaces for contract alert payloads and queries | - | 11/05/2026 |
+| BakeryManager-frontend | feat/iot-monitoring | 6e29c58 | feat: add incident assembler for mapping incident infrastructure contracts to domain entities and viceversa | - | 11/05/2026 |
+| BakeryManager-frontend | feat/iot-monitoring | fd7e9ff | feat: add incident resource and response interfaces for contract incident payloads and queries | - | 11/05/2026 |
+| BakeryManager-frontend | feat/iot-monitoring | cc29e82 | fix: correct typo in attribute's name | - | 11/05/2026 |
+| BakeryManager-frontend | feat/iot-monitoring | accc5a9 | feat: add sensor assembler for mapping sensor infrastructure contracts to domain entities and viceversa | - | 11/05/2026 |
+| BakeryManager-frontend | feat/production-... | 3a6c8c7 | feat(i18n): enhance language support and fallback mechanisms for production monitoring | - | 12/05/2026 |
+| BakeryManager-frontend | feat/production-... | ac268a1 | feat(fonts): update font styles to DM Sans and Playfair Display for improved typography | - | 12/05/2026 |
+| BakeryManager-frontend | feat/production-... | 9023188 | feat(i18n): add production and IoT monitoring translations for English and Spanish | - | 12/05/2026 |
+| BakeryManager-frontend | feat/production-... | 50132c0 | chore(layout): remove footer, keep single language switcher and update sidebar styles | - | 12/05/2026 |
+| BakeryManager-frontend | feat/production-... | 112ae85 | feat(styles): enhance language switcher button styles for better visibility | - | 12/05/2026 |
+| BakeryManager-frontend | feat/production-... | 13f2468 | feat(routes): add production route and new logo asset | - | 12/05/2026 |
+| BakeryManager-frontend | feat/production-... | d66bbc6 | feat(animation): add Angular animations provider to application config | - | 12/05/2026 |
+| BakeryManager-frontend | feat/production-... | beae0a8 | feat(i18n): update footer translations for English and Spanish | - | 12/05/2026 |
+
 #### 5.2.2.5. Execution Evidence for Sprint Review
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
