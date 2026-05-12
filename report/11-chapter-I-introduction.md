@@ -118,7 +118,9 @@ multisede en ciudades como Lima Metropolitana.
 - **Eficiencia de Tiempo:** El sistema asegura que el 95% de las condiciones operativas sean monitoreadas en tiempo real, con alertas automáticas sobre variaciones críticas.
     
 - **Definition of Done:** Una funcionalidad se considera finalizada cuando ha sido probada en el entorno de despliegue, cumple con los criterios de aceptación Gherkin y es validada por el usuario final mediante pruebas de usabilidad.
-   
+
+---
+
 #### **Business Outcomes**
 
 - **Dueño de Panadería:** Busca maximizar la rentabilidad y tener tranquilidad mental mediante el control remoto de su negocio.
@@ -136,7 +138,6 @@ multisede en ciudades como Lima Metropolitana.
 - Sistema de monitoreo IoT para temperatura y humedad de hornos y almacén
       
 - Módulo de gestión de inventario con alertas de stock mínimo.
----
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
