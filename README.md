@@ -61,13 +61,13 @@
 
 # Project Report Collaboration Insights
 
-**Link de los repositorios de la organización:** [BrainNova Organization](https://github.com/1ASI0730-2610-20262-TBL-BrainNova) 
+**Link de los repositorios de la organización:** https://github.com/1ASI0730-2610-20262-TBL-BrainNova
 
-**Link del repositorio del reporte:** [BakeryManager Report](https://github.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo.git)
+**Link del repositorio del reporte:** https://github.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo.git
 
-### Reporte de colaboración de la entrega del TB1: 
+### Reporte de colaboración de la entrega del TP: 
 
-En esta primera entrega (TB1), el objetivo principal fue la creación de nuestra startupTodos los miembros de **BrainNova** participaron de forma activa en la elaboración del informe empleando herramientas colaborativas como GitHub, Trello, UXPressia, Miro, entre otras. 
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/main/report/assets/TEAMCOLAB1.jpeg" alt="Team Collaboration" width="100%">
 
 ---
 
