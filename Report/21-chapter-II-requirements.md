@@ -239,26 +239,26 @@ En la presente sección se detallan las tareas de usuario identificadas para los
 #### Segmento 1: Rosa María (Dueña / Administradora)
 Este segmento representa la gestión estratégica y el control administrativo de las sedes de la panadería.
 
-| Tarea | Actividad | Frecuencia | Importancia |
-| :--- | :--- | :--- | :--- |
-| Gestión de accesos | Administrar cuentas de usuario, roles y permisos del sistema. | Sometimes | Muy Alta |
-| Configuración de infraestructura | Registrar nuevas sedes y vincular dispositivos IoT a los equipos. | Rarely | Muy Alta |
-| Análisis de rendimiento | Evaluar reportes de producción y KPIs de eficiencia diaria. | Always | Muy Alta |
-| Control de seguridad | Definir los umbrales críticos para las alertas de temperatura y gas. | Sometimes | Alta |
-| Auditoría de incidentes | Consultar el historial de alertas y eventos para control de riesgos. | Often | Alta |
-| Supervisión de red | Monitorear el estado de salud y conexión de los sensores en red. | Often | Alta |
+| Tarea                            | Actividad                                                            | Frecuencia | Importancia |
+|:---------------------------------|:---------------------------------------------------------------------|:-----------|:------------|
+| Gestión de accesos               | Administrar cuentas de usuario, roles y permisos del sistema.        | Sometimes  | Muy Alta    |
+| Configuración de infraestructura | Registrar nuevas sedes y vincular dispositivos IoT a los equipos.    | Rarely     | Muy Alta    |
+| Análisis de rendimiento          | Evaluar reportes de producción y KPIs de eficiencia diaria.          | Always     | Muy Alta    |
+| Control de seguridad             | Definir los umbrales críticos para las alertas de temperatura y gas. | Sometimes  | Alta        |
+| Auditoría de incidentes          | Consultar el historial de alertas y eventos para control de riesgos. | Often      | Alta        |
+| Supervisión de red               | Monitorear el estado de salud y conexión de los sensores en red.     | Often      | Alta        |
 
 #### Segmento 2: Juan Pérez (Maestro Panadero / Operativo)
 Este segmento representa la interacción directa con el proceso de producción y la respuesta inmediata ante anomalías.
 
-| Tarea | Actividad | Frecuencia | Importancia |
-| :--- | :--- | :--- | :--- |
-| Monitoreo de fermentación | Supervisar temperatura y humedad para el leudado de la masa. | Always | Muy Alta |
-| Control de cocción | Monitorear el calor de los hornos en tiempo real. | Always | Muy Alta |
-| Gestión de emergencias | Atender y confirmar alertas de humo, gas o calor extremo. | Always | Muy Alta |
-| Cadena de frío | Verificar la temperatura de conservación en cámaras de refrigeración. | Always | Muy Alta |
-| Registro de producción | Notificar el inicio y fin de cada lote de horneado. | Always | Alta |
-| Verificación de hardware | Validar el estado operativo de los sensores en su zona de trabajo. | Often | Alta |
+| Tarea                     | Actividad                                                             | Frecuencia | Importancia |
+|:--------------------------|:----------------------------------------------------------------------|:-----------|:------------|
+| Monitoreo de fermentación | Supervisar temperatura y humedad para el leudado de la masa.          | Always     | Muy Alta    |
+| Control de cocción        | Monitorear el calor de los hornos en tiempo real.                     | Always     | Muy Alta    |
+| Gestión de emergencias    | Atender y confirmar alertas de humo, gas o calor extremo.             | Always     | Muy Alta    |
+| Cadena de frío            | Verificar la temperatura de conservación en cámaras de refrigeración. | Always     | Muy Alta    |
+| Registro de producción    | Notificar el inicio y fin de cada lote de horneado.                   | Always     | Alta        |
+| Verificación de hardware  | Validar el estado operativo de los sensores en su zona de trabajo.    | Often      | Alta        |
 
 ---
 ### 2.3.3. User Journey Mapping.
