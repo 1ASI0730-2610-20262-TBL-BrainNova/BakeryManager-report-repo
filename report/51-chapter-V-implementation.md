@@ -364,3 +364,6 @@ firebase init
 firebase deploy
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+En este apartado se presenta un resumen de la dinámica de trabajo colaborativo y la gestión de tareas realizada por el equipo durante el Sprint 2. Se incluyen evidencias visuales que muestran la participación activa de los integrantes, así como el registro de los commits y contribuciones en el repositorio. Estas evidencias reflejan el compromiso, la organización y la comunicación efectiva que caracterizaron el desarrollo de este sprint.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/teamColab.PNG" alt="Team Collaboration" width="100%">
