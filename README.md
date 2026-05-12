@@ -41,20 +41,33 @@
 
 ## Registro de Versiones
 
-| Versión | Fecha | Autor | Descripción |
-| :--- | :--- | :--- | :--- |
-| 1.0.0 | 07/04/2026 | Luis Tufiño, Manuel Molina | Creó el repositorio junto a los branch de cada capítulo. |
-| 1.0.1 | 08/04/2026 | Luis Tufiño, Jareth Vidal | Realizó el Solution Profile, Lean UX Process del capítulo 1. |
-| 1.0.2 | 10/04/2026 | Luis Tufiño, Emanuel Chipana | Realizó la lista y comparativa de competidores, diseño de entrevistas y Needfinding del capítulo 2. |
-| 1.0.3 | 12/04/2026 | Jarod Céspedes, Jareth Vidal | Realizó el Big Picture Event Storming, Ubiquitous Language del capítulo 2. |
-| 1.0.4 | 13/04/2026 | Luis Tufiño, Manuel Molina | Realizó Los user Stories y los epics, Impact Mapping y Product Backlog del capítulo 3. |
-| 1.0.5 | 16/04/2026 | Jarod Céspedes | Realizó los Style Guidelines, Information Architecture del capítulo 4. |
-| 1.0.6 | 18/04/2026 | Jarod Céspedes, Manuel Molina | Realizó el Landing Page Wireframe, Landing Page Mock-Up del capítulo 4. |
-| 1.0.7 | 19/04/2026 | Emmanuel Chipana | Realizó el Web Applications UX/UI Design del capítulo 4. |
-| 1.0.8 | 20/04/2026 | Emmanuel Chipana, Jareth Vidal | Realizó el Web Applications Prototyping y Domain-Drive Software Architecture del capítulo 4. |
-| 1.0.9 | 21/04/2026 | Jareth Vidal | Realizó el Database Design del capítulo 4. |
-| 1.1.0 | 22/04/2026 | Luis Tufiño, Manuel Molina | Realizó el Software Configuration Management del capítulo 4. |
-| 1.1.1 | 23/04/2026 | Emmanuel Chipana, Manuel Molina | Realizó el Landing Page, Services & Application del capítulo 5. |
+| Versión | Fecha      | Autor                           | Descripción                                                                                              |
+|:--------|:-----------|:--------------------------------|:---------------------------------------------------------------------------------------------------------|
+| 1.0.0   | 07/04/2026 | Luis Tufiño, Manuel Molina      | Creó el repositorio junto a los branch de cada capítulo.                                                 |
+| 1.0.1   | 08/04/2026 | Luis Tufiño, Jareth Vidal       | Realizó el Solution Profile, Lean UX Process del capítulo 1.                                             |
+| 1.0.2   | 10/04/2026 | Luis Tufiño, Emanuel Chipana    | Realizó la lista y comparativa de competidores, diseño de entrevistas y Needfinding del capítulo 2.      |
+| 1.0.3   | 12/04/2026 | Jarod Céspedes, Jareth Vidal    | Realizó el Big Picture Event Storming, Ubiquitous Language del capítulo 2.                               |
+| 1.0.4   | 13/04/2026 | Luis Tufiño, Manuel Molina      | Realizó Los user Stories y los epics, Impact Mapping y Product Backlog del capítulo 3.                   |
+| 1.0.5   | 16/04/2026 | Jarod Céspedes                  | Realizó los Style Guidelines, Information Architecture del capítulo 4.                                   |
+| 1.0.6   | 18/04/2026 | Jarod Céspedes, Manuel Molina   | Realizó el Landing Page Wireframe, Landing Page Mock-Up del capítulo 4.                                  |
+| 1.0.7   | 19/04/2026 | Emmanuel Chipana                | Realizó el Web Applications UX/UI Design del capítulo 4.                                                 |
+| 1.0.8   | 20/04/2026 | Emmanuel Chipana, Jareth Vidal  | Realizó el Web Applications Prototyping y Domain-Drive Software Architecture del capítulo 4.             |
+| 1.0.9   | 21/04/2026 | Jareth Vidal                    | Realizó el Database Design del capítulo 4.                                                               |
+| 1.1.0   | 22/04/2026 | Luis Tufiño, Manuel Molina      | Realizó el Software Configuration Management del capítulo 4.                                             |
+| 1.1.1   | 23/04/2026 | Emmanuel Chipana, Manuel Molina | Realizó el Landing Page, Services & Application del capítulo 5.                                          |
+| 1.1.2   | 8/05/2026  | Jarod Céspedes                  | Creó el Frontend.                                                                                        |
+| 1.1.3   | 9/05/2026  | Manuel Molina                   | Corrigió los Criterios de Aceptación de los User Stories, User Task Matrix y el registro de entrevistas. |
+| 1.1.4   | 9/05/2026  | Luis Tufiño                     | Terminó de editar el video y completar el cuadro del registro de versiones.                              
+| 1.1.5   | 10/05/2026 | Jareth Vidal                    | Corregio el Lean UX Process y el IAM.                                                                    |
+| 1.1.6   | 10/05/2026 | Jareth Vidal                    | Corrigio el Landing Page.                                                                                |
+| 1.1.7   | 10/05/2026 | Manuel Molina                   | Implementó el Inventory Management dentro del proyecto.                                                  |
+| 1.1.8   | 10/05/2026 | Jarod Céspedes                  | Implementó el Monitoring IoT dentro del proyecto.                                                        |
+| 1.1.9   | 11/05/2026 | Luis Tufiño                     | Implementó el Production Monitoring dentro del proyecto.                                                 |
+| 1.2.0   | 11/05/2026 | Emmanuel Chipana                | Corrigió el Problem Statement, el Lean UX Assumptions y el Hypothesis Statements.                        |
+| 1.2.1   | 11/05/2026 | Emmanuel Chipana                | Corrigió los antecedentes y problemáticas junto a los links de las imágenes.                             |
+| 1.2.2   | 12/05/2026 | Luis Tufiño                     | Terminó la implementacion el Production Monitoring dentro del proyecto.                                  |
+| 1.2.3   | 12/05/2026 | Manuel Molina                   | Terminó la implementacion del Inventory Management dentro del proyecto.                                  |
+| 1.2.3   | 12/05/2026 | Jarod Céspedes                  | Terminó la implementacion del Monitoring IoT dentro del proyecto.                                        |
 
 ---
 ---
@@ -64,6 +77,12 @@
 **Link de los repositorios de la organización:** https://github.com/1ASI0730-2610-20262-TBL-BrainNova
 
 **Link del repositorio del reporte:** https://github.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo.git
+
+**Link del repositorio del Landing-Page:** https://github.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-Landing-Page.git
+
+**Link del repositorio del Frontend:** https://github.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-frontend.git
+
+**Link del video de la TP1:** https://goo.su/oaRjb
 
 ### Reporte de colaboración de la entrega del TP: 
 
