@@ -1,0 +1,1 @@
+# BakeryManager-report-repository
