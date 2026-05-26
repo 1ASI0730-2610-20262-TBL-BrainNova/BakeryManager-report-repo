@@ -85,14 +85,38 @@ No obstante, en el caso específico de las panaderías, muchas soluciones dispon
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-* **Hipótesis 1:** Creemos que lograremos una reducción significativa en las pérdidas económicas por fallas en equipos si los propietarios y administradores de panaderías alcanzan la capacidad de detectar anomalías en equipos críticos antes de que impacten la producción con el sistema de monitoreo IoT en tiempo real y alertas automáticas de BakeryManager. Sabremos que esto es verdad cuando observemos una reducción del 30% en incidentes operativos no detectados durante los primeros 3 meses de uso.
-* **Hipótesis 2:** Creemos que lograremos una reducción del tiempo promedio de respuesta ante incidentes de 15 a menos de 10 minutos si el personal operativo, panaderos y encargados de turno alcanzan la capacidad de recibir alertas automáticas inmediatas cuando hornos o cámaras frigoríficas operan fuera de los parámetros normales con el módulo de monitoreo IoT en tiempo real y el sistema de notificaciones de BakeryManager. Sabremos que esto es verdad cuando el tiempo promedio de respuesta ante incidentes se reduzca en un 33% durante el primer mes de uso activo.
-* **Hipótesis 3:** Creemos que lograremos una gestión multisede más eficiente y centralizada si los propietarios de panaderías con más de una sede alcanzan visibilidad completa del estado operativo de todas sus sedes desde una sola plataforma con el dashboard centralizado multisede de BakeryManager. Sabremos que esto es verdad cuando el 90% de los usuarios con más de una sede accedan al dashboard al menos una vez al día durante el primer mes de uso.
-* **Hipótesis 4:** Creemos que lograremos una adopción rápida del producto con mínima capacitación si el personal operativo con nivel tecnológico básico a intermedio alcanzan la capacidad de interpretar el estado de los equipos y responder a alertas sin asistencia técnica adicional con la interfaz visual simplificada y la codificación por colores de BakeryManager. Sabremos que esto es verdad cuando el 85% de los nuevos usuarios completen tareas básicas de monitoreo sin asistencia en su primera semana de uso, con menos de 30 minutos de capacitación inicial.
-* **Hipótesis 5:** Creemos que lograremos altas tasas de renovación de suscripción, 70% o más al finalizar el primer trimestre si los propietarios de panaderías alcanzan evidencia clara y medible de reducción en productos defectuosos y pérdidas operativas con el módulo de reportes históricos y analítica de tendencias de producción de BakeryManager. Sabremos que esto es verdad cuando el 70% de los usuarios suscritos renueven su plan al finalizar el primer trimestre de uso.
+**Hipótesis 1:** 
+
+Creemos que lograremos [una reducción significativa en las pérdidas económicas por fallas en equipos] Si [los propietarios y administradores de panaderías] Alcanzan [la capacidad de detectar anomalías en equipos críticos antes de que impacten la producción] Con [el sistema de monitoreo IoT en tiempo real y alertas automáticas de BakeryManager].
+
+> Sabremos que esto es verdad cuando observemos una reducción del 30% en incidentes operativos no detectados durante los primeros 3 meses de uso.
+
+**Hipótesis 2:** 
+
+Creemos que lograremos [una reducción del tiempo promedio de respuesta ante incidentes de 15 a menos de 10 minutos] Si [el personal operativo, panaderos y encargados de turno] Alcanzan [la capacidad de recibir alertas automáticas inmediatas cuando hornos o cámaras frigoríficas operan fuera de los parámetros normales] Con [el módulo de monitoreo IoT en tiempo real y el sistema de notificaciones de BakeryManager]. 
+
+>Sabremos que esto es verdad cuando el tiempo promedio de respuesta ante incidentes se reduzca en un 33% durante el primer mes de uso activo.
+
+**Hipótesis 3:** 
+
+Creemos que lograremos [una gestión multisede más eficiente y centralizada] Si [los propietarios de panaderías con más de una sede] Alcanzan [visibilidad completa del estado operativo de todas sus sedes desde una sola plataforma] Con [el dashboard centralizado multisede de BakeryManager]. 
+
+>Sabremos que esto es verdad cuando el 90% de los usuarios con más de una sede accedan al dashboard al menos una vez al día durante el primer mes de uso.
+
+**Hipótesis 4:** 
+
+Creemos que lograremos [una adopción rápida del producto con mínima capacitación] Si [el personal operativo con nivel tecnológico básico a intermedio] Alcanzan [la capacidad de interpretar el estado de los equipos y responder a alertas sin asistencia técnica adicional] Con [la interfaz visual simplificada y la codificación por colores de BakeryManager]. 
+
+>Sabremos que esto es verdad cuando el 85% de los nuevos usuarios completen tareas básicas de monitoreo sin asistencia en su primera semana de uso, con menos de 30 minutos de capacitación inicial.
+
+**Hipótesis 5:** 
+
+Creemos que lograremos [altas tasas de renovación de suscripción, 70% o más al finalizar el primer trimestre] Si [los propietarios de panaderías] Alcanzan [evidencia clara y medible de reducción en productos defectuosos y pérdidas operativas] con [el módulo de reportes históricos y analítica de tendencias de producción de BakeryManager]. 
+
+>Sabremos que esto es verdad cuando el 70% de los usuarios suscritos renueven su plan al finalizar el primer trimestre de uso.
 
 #### 1.2.2.4 Lean UX Canvas
-
+![lean-ux-canva.jpg](assets/lean-ux-canva.jpg)
 * **Enlace al Lean UX Canvas en Miro:** [Miro Board - Lean UX Canvas](https://miro.com/app/board/uXjVGg5xObY=/)
 
 ---
