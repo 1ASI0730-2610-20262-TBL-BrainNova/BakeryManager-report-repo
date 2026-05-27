@@ -513,6 +513,7 @@ del día. Este perfil tiene acceso completo de lectura y escritura en todos
 los módulos.
 
 ![Userflow-Owner.jpg](assets/Userflow-Owner.jpg)
+
 #### User Flow — Operational Staff
 
 **User goal:** Consultar alertas del sistema, reportar incidentes,
@@ -530,6 +531,7 @@ permisos limitados en comparación con el Owner/Administrator, enfocados
 en la operación diaria de la panadería.
 
 ![Userflow-Staff.jpg](assets/Userflow-Staff.jpg)
+
 ## 4.5 Web Applications Prototyping
 
 La sección de Web Applications Prototyping presenta los prototipos interactivos diseñados para la versión Desktop y Mobile Web de **BakeryManager**. Estos prototipos permiten simular la navegación real dentro de la plataforma y visualizar cómo los usuarios recorren los principales paths definidos en los User Flow Diagrams, integrando la gestión operativa con el monitoreo IoT.
@@ -620,22 +622,27 @@ A continuación se presentan las capturas del Design-Level Event Storming elabor
 ![IAM-ES.jpg](assets/IAM-ES.jpg)
 
 **IoT Monitoring**
+
 ![IoT-ES.jpg](assets/IoT-ES.jpg)
 
 **Inventory Management**
+
 ![Iventory-ES.jpg](assets/Iventory-ES.jpg)
 
 **Production Monitoring**
+
 ![Production-ES.jpg](assets/Production-ES.jpg)
 
 ### 4.6.2 Software Architecture Context Diagram
 
 El siguiente diagrama de contexto  presenta una vista de alto nivel de BakeryManager como sistema central, mostrando sus interacciones con los actores y sistemas externos que forman parte de su entorno. El sistema es utilizado por dos tipos de usuarios: el Propietario/Administrador, quien supervisa múltiples sedes, monitorea equipos y consulta dashboards en tiempo real, y el Personal Operativo, quien gestiona el inventario y recibe alertas operativas. A nivel de sistemas externos, BakeryManager se integra con una Plataforma IoT en la Nube (AWS IoT Core / Firebase), la cual recibe y procesa los datos enviados por los Dispositivos IoT / Sensores instalados en los equipos críticos de las panaderías, como hornos y cámaras frigoríficas.
+
 ![ContextDiagram-V1.PNG](assets/ContextDiagram-V1.PNG)
 
 ### 4.6.3 Software Architecture Container Diagrams
 
 El siguiente diagrama de contenedores  descompone BakeryManager en sus principales bloques tecnológicos, mostrando cómo se distribuyen las responsabilidades y cómo se comunican entre sí. La solución está conformada por un Landing Page estático desplegado en Netlify (HTML5, CSS3, JavaScript), una Frontend Web Application desarrollada en Angular 17 y desplegada en Firebase Hosting, y cuatro RESTful APIs desarrolladas con Spring Boot (Java) y desplegadas en Azure mediante Docker: Identity & Access Management API, IoT Monitoring API, Inventory API y Production Monitoring API. Todas las APIs comparten una base de datos relacional PostgreSQL alojada en Azure Database for PostgreSQL. La comunicación entre el frontend y las APIs se realiza mediante REST sobre HTTPS, mientras que los datos de sensores llegan desde la Plataforma IoT en la Nube vía REST API, y los sensores físicos envían datos a dicha plataforma mediante el protocolo MQTT/TLS.
+
 ![ContainerDiagram-V2.png](assets/ContainerDiagram-V2.png)
 
 ### 4.6.4 Software Architecture Components Diagrams
@@ -645,21 +652,25 @@ Los siguientes diagramas de componentes  descomponen cada uno de los contenedore
 **Identity & Access Management API**
 
 Gestiona la autenticación, autorización y control de acceso basado en roles. Sus componentes principales son el Auth Controller y User Controller como puntos de entrada REST, el Auth Service y User Service como capa de lógica de negocio, el User Repository para la persistencia, el User Domain Model con las entidades User, Role y Permission, y el Security Configuration que define las políticas de seguridad mediante Spring Security y JWT.
+
 ![IdentityAPIComponents-dark.png](assets/IdentityAPIComponents-dark.png)
 
 **Inventory API**
 
 Gestiona el inventario de insumos y el control de stock de la panadería. Sus componentes incluyen el Inventory Controller y Stock Controller como endpoints REST, el Inventory Service y Stock Service como capa de negocio encargada del seguimiento de movimientos y detección de bajo stock, los repositorios correspondientes para persistencia, y el Inventory Domain Model con las entidades Inventory, Stock y StockMovement.
+
 ![InventoryAPIComponents-dark.png](assets/InventoryAPIComponents-dark.png)
 
 **IoT Monitoring API**
 
 Procesa en tiempo real los datos provenientes de los sensores IoT, gestiona incidentes y genera alertas automáticas. Sus componentes incluyen el Sensor Controller, Incident Controller y Alert Controller como puntos de entrada REST y WebSocket, los servicios correspondientes que implementan la lógica de detección de anomalías y ciclo de vida de incidentes, los repositorios de persistencia, el IoT Domain Model con las entidades Sensor, Incident, Alert y EventHistory, y el IoT Platform Client encargado de consumir datos desde la plataforma IoT externa.
+
 ![IoTAPIComponents-dark.png](assets/IoTAPIComponents-dark.png)
 
 **Production Monitoring API**
 
 Gestiona el control de producción y la supervisión de múltiples sedes. Sus componentes incluyen el Production Controller y Branch Controller como endpoints REST, el Production Service y Branch Service como capa de negocio para la gestión de lotes de producción y sedes, los repositorios de persistencia correspondientes, y el Production Domain Model con las entidades ProductionBatch, Branch, Oven y RefrigerationChamber.
+
 ![ProductionAPIComponents-dark.png](assets/ProductionAPIComponents-dark.png)
 
 ### 4.7.1 Class Diagrams
@@ -670,22 +681,26 @@ A continuación se presentan los Class Diagrams de UML para cada uno de los boun
 #### Identity & Access Management
 
 Este diagrama representa el bounded context encargado de la autenticación, autorización y control de acceso basado en roles. La clase central es `User`, que se asocia con `Role` (relación muchos a uno) para determinar el nivel de acceso del usuario dentro del sistema. A su vez, `Role` se compone de múltiples instancias de `Permission` a través de la tabla intermedia `RolePermission`, permitiendo una gestión granular de permisos. La clase `Session` registra los tokens JWT activos asociados a cada usuario autenticado. Las enumeraciones `RoleType` y `PermissionType` garantizan la integridad de los valores permitidos para roles y permisos respectivamente. El `AuthService` gestiona el ciclo de vida de la autenticación, incluyendo login, logout y validación de tokens.
+
 ![IAM DIAGRAM.jpeg](assets/IAM%20DIAGRAM.jpeg)
 
 #### Inventory Management
 
 Este diagrama representa el bounded context responsable de la gestión de insumos y control de stock de la panadería. La clase `Inventory` agrupa múltiples instancias de `InventoryItem` (relación uno a muchos), donde cada ítem representa un insumo específico con su unidad de medida y nivel mínimo de stock. Cada `InventoryItem` está asociado a exactamente una instancia de `Stock` (relación uno a uno), que mantiene el nivel actual y el estado del stock. Los movimientos de entrada, salida y ajuste quedan registrados en `StockMovement` (relación uno a muchos con `Stock`). La enumeración `MovementType` define los tipos de movimiento permitidos y `StockStatus` refleja el estado actual del stock. El `InventoryService` y `StockService` implementan la lógica de negocio para la gestión y detección de bajo stock.
+
 ![INVENTORY DIAGRAM.jpeg](assets/INVENTORY%20DIAGRAM.jpeg)
 
 
 #### IoT Monitoring
 
 Este diagrama representa el bounded context encargado del monitoreo en tiempo real de los sensores instalados en los equipos críticos de la panadería. La clase `Sensor` es el elemento central, registrando lecturas continuas mediante `SensorReading` (relación uno a muchos). Cuando una lectura supera los umbrales configurados, el sistema genera un `Incident` (relación uno a muchos con `Sensor`), el cual a su vez produce una `Alert` (relación uno a uno) y registra eventos en `EventHistory` (relación uno a muchos). Las enumeraciones `SensorType`, `SensorStatus`, `IncidentStatus` y `AlertSeverity` garantizan la consistencia de los valores en el sistema. El `SensorService`, `IncidentService` y `AlertService` orquestan el flujo de detección, gestión de incidentes y despacho de alertas en tiempo real mediante WebSocket.
+
 ![IOT DIAGRAM.jpeg](assets/IOT%20DIAGRAM.jpeg)
 
 #### Production Monitoring
 
 Este diagrama representa el bounded context responsable de la gestión de la producción y supervisión de múltiples sedes. La clase `Branch` es el elemento central, agrupando el equipamiento (`Equipment`) y los lotes de producción (`ProductionBatch`). La clase `Equipment` es extendida por `Oven` y `RefrigerationChamber`, representando los equipos específicos monitoreados mediante herencia. Cada `ProductionBatch` se asocia con una `Branch`, un `Oven` y un `InventoryItem` del bounded context de inventario, reflejando el consumo de insumos durante la producción. La enumeración `BatchStatus` controla el ciclo de vida de cada lote y `EquipmentStatus` refleja el estado operativo de los equipos. El `ProductionService` y `BranchService` implementan la lógica de negocio para la gestión de lotes y sedes respectivamente.
+
 ![PRODUCTION DIAGRAM.jpeg](assets/PRODUCTION%20DIAGRAM.jpeg)
 
 ## 4.8 Database Design
@@ -704,4 +719,5 @@ A continuación se detalla cada bounded context:
 **Inventory Management** gestiona la persistencia de inventarios, ítems, stock y movimientos. La tabla `inventory_items` referencia a `inventories` mediante Foreign Key. La tabla `stocks` mantiene una relación uno a uno con `inventory_items`. La tabla `stock_movements` referencia tanto al stock afectado como al usuario que registró el movimiento.
 
 **Production Monitoring** gestiona la persistencia de sedes, equipos, hornos, cámaras frigoríficas, lotes de producción y reportes. La tabla `equipment` referencia a `branches`. Las tablas `ovens` y `refrigeration_chambers` extienden `equipment` mediante Foreign Key. La tabla `production_batches` referencia a `branches`, `ovens`, `inventory_items` y `users`, consolidando las relaciones entre bounded contexts.
+
 ![DATABASE.jpeg](assets/DATABASE.jpeg)
