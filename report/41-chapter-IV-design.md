@@ -339,57 +339,74 @@ La navegación se personaliza mediante un menú lateral dinámico que cambia seg
 A continuación se presentan los wireframes de la Landing Page de BakeryManager. Cada wireframe representa la estructura y distribución de contenido de cada sección, previo al diseño visual final.
 
 **Hero Section** — Wireframe de la sección principal con la disposición del titular, subtítulo, los dos botones de call-to-action y el placeholder del dashboard visual a la derecha.
+
 ![Hero.png](assets/Hero.png)
 
 **About Brainova Section** — Wireframe con el encabezado de sección y la grilla de cuatro tarjetas que representan el origen, misión, visión y producto del equipo Brainova.
+
 ![About Brainova.png](assets/About%20Brainova.png)
 
 **Pain Points Section** — Wireframe de la sección de problemas con encabezado y grilla de seis tarjetas que representan los principales dolores operativos de las panaderías.
+
 ![Pain points.png](assets/Pain%20points.png)
 
 **Features Section — Part 1** — Wireframe de los primeros módulos de funcionalidades (EP-01 y EP-02), mostrando la disposición alternada de texto e imagen para cada feature.
+
 ![FEATURES1.PNG](assets/FEATURES1.PNG)
 
 **Features Section — Part 2** — Wireframe de los módulos EP-03 y EP-04 con la misma estructura alternada, completando la presentación de los cuatro módulos del producto.
+
 ![FEATURES2.PNG](assets/FEATURES2.PNG)
 
 **Segments Section** — Wireframe de la sección de roles con tres tarjetas que representan los perfiles de usuario: Owner, Branch Manager y Baker, cada uno con sus características listadas.
+
 ![Segmentos (roles).png](assets/Segmentos%20%28roles%29.png)
 
 **Pricing Section** — Wireframe de los tres planes de suscripción en columnas, con estructura de nombre, precio, lista de características y botón de call-to-action por plan.
+
 ![Pricing.png](assets/Pricing.png)
 
 **Footer Section** — Wireframe del pie de página con el logo, descripción del producto y las columnas de navegación secundaria (Product, Company, Legal) junto al copyright.
+
 ![Footer.png](assets/Footer.png)
 
 ### 4.3.2 Landing Page Mock-up
 A continuación se presentan los mock-ups de la Landing Page de BakeryManager, desarrollada por Brainova. Cada sección fue diseñada para comunicar claramente el valor del producto, presentar al equipo y facilitar la conversión de visitantes en usuarios.
 
 **Hero Section** — Sección principal con el titular de valor, los dos call-to-action principales ("Get started" y "View features"), el dashboard animado con métricas en tiempo real y la alerta flotante de inventario bajo.
+
 ![mock1.jpeg](assets/mock1.jpeg)
 
 **About Section** — Presenta a Brainova como startup estudiantil de la UPC, con cuatro tarjetas que describen el origen del equipo, la misión, la visión y el producto BakeryManager.
+
 ![mock2.jpeg](assets/mock2.jpeg)
 
 **Team Section** — Muestra a los 5 integrantes del equipo con foto, nombre completo y rol (Developer), reforzando la credibilidad del proyecto.
+
 ![mock3.jpeg](assets/mock3.jpeg)
 
 **Pain Points Section** — Sección oscura de alto impacto que presenta los 6 problemas principales que enfrentan las panaderías: registros manuales, inventario no controlado, falta de monitoreo, múltiples sedes sin coordinación, decisiones sin datos e incidentes sin alertas.
+
 ![mock4.jpeg](assets/mock4.jpeg)
 
 **Features EP-01 & EP-02** — Detalla los módulos de monitoreo de producción en tiempo real (EP-01) y gestión de incidentes (EP-02), cada uno acompañado de un mock de interfaz funcional con sensores y panel de alertas.
+
 ![mock5.jpeg](assets/mock5.jpeg)
 
 **Features EP-03 & EP-04** — Presenta el módulo de analytics e historial (EP-03) con gráficos de temperatura por periodo, y el módulo de gestión de sensores IoT (EP-04) con tabla de sensores registrados por tipo, equipo y estado.
+
 ![mock6.jpeg](assets/mock6.jpeg)
 
 **Segments Section** — Sección oscura que diferencia los dos perfiles de usuario: Owner/Administrator con visibilidad total del negocio, y Operational Staff con control operativo del día a día en su sede.
+
 ![mock7.jpeg](assets/mock7.jpeg)
 
 **Pricing Section** — Muestra los tres planes de suscripción: Starter (S/89/mes), Business (S/199/mes, destacado como el más popular) y Enterprise (S/399/mes), cada uno con sus características y call-to-action correspondiente.
+
 ![mock8.jpeg](assets/mock8.jpeg)
 
 **Footer** — Sección de cierre con el logo, descripción del producto, columnas de navegación (Product, Company, Legal) y el copyright de Brainova — UPC 2026.
+
 ![mock9.jpeg](assets/mock9.jpeg)
 
 ## 4.4 Web Applications UX/UI Design
@@ -402,24 +419,29 @@ Login-BakeryManager
 Pantalla de inicio donde los usuarios acceden a su cuenta y se registran según su rol. Incluye campos de correo y contreceña. Además de la validación de acceso.
 
 ![Login-Wireframe.jpeg](assets/Login-Wireframe.jpeg)
+
 Dashboard-BakeryManager
 
 Muestra 4 stats cards que representan los 4 principales indicadores de rendimiento de la empresa, adicionalmente muestra el panel de alertas de los sensores junto a sus sedes.
+
 ![Dashboard-Wireframe.jpeg](assets/Dashboard-Wireframe.jpeg) 
 
 Incident-BakeryManager
 
 Muestra 4 stats junto a los filtros que posee y una lista de incidentes que se han registrado en el sistema con su severidad y estado.
+
 ![Incidents-Wireframe.jpeg](assets/Incidents-Wireframe.jpeg) 
 
 Inventory-BakeryManager
 
 Muestra 4 stats con la barra de busqueda/filtro y una tabla con barra de nivel del stock actual.
+
 ![Inventory-Wireframe.jpeg](assets/Inventory-Wireframe.jpeg)
 
 Production-BakeryManager
 
 Muestra 4 stats con el panel de lotes activos con progreso y dos gráficos de barras.
+
 ![Production-Wireframe.jpeg](assets/Production-Wireframe.jpeg)
 
 ### 4.4.2 Web Applications Wireflow Diagrams
@@ -429,6 +451,7 @@ Muestra 4 stats con el panel de lotes activos con progreso y dos gráficos de ba
 **User goal:** Como Owner/Admin, quiero navegar entre los módulos principales de BakeryManager (Dashboard, IoT Monitoring, Incidents, Inventory y Production) para monitorear y gestionar todas las operaciones de mis sedes de forma centralizada.
 
 **Flujo:** El usuario inicia sesión seleccionando el rol Owner/Admin e ingresando sus credenciales. El sistema lo redirige al Dashboard, donde visualiza las métricas globales y alertas recientes. Desde el sidebar puede acceder a IoT Monitoring para revisar sensores en tiempo real, a Incidents para registrar y hacer seguimiento de incidentes, a Inventory para revisar y ajustar stock de ingredientes, y a Production para gestionar los lotes del día. El Owner/Admin tiene acceso completo a todas las funciones y todas las sedes.
+
 ![Wireflow-Owner.jpg](assets/Wireflow-Owner.jpg)
 
 **Wireflow 2 — Operational Staff**
@@ -436,6 +459,7 @@ Muestra 4 stats con el panel de lotes activos con progreso y dos gráficos de ba
 **User goal:** Como Operational Staff, quiero acceder a los módulos operativos de mi sede asignada para monitorear sensores, reportar incidentes, consultar el inventario disponible y actualizar el progreso de los lotes de producción.
 
 **Flujo:** El usuario inicia sesión seleccionando el rol Operational Staff e ingresando sus credenciales. El sistema lo redirige al Dashboard con vista limitada a su sede asignada. Desde el sidebar puede acceder a IoT Monitoring en modo solo lectura para consultar el estado de los sensores, a Incidents para reportar nuevos incidentes de su sede, a Inventory con vista completa para consultar y registrar los niveles de stock disponibles en su sede, y a Production para actualizar el progreso de los lotes activos. El Operational Staff no tiene acceso a configuraciones globales ni a otras sedes.
+
 ![Wireflow-Staff.jpg](assets/Wireflow-Staff.jpg)
 
 ### 4.4.3 Web Applications Mock-ups
@@ -449,21 +473,25 @@ Pantalla de inicio donde los usuarios acceden a su cuenta y se registran según 
 Dashboard-BakeryManager
 
 Muestra 4 stats cards que representan los 4 principales indicadores de rendimiento de la empresa, adicionalmente muestra el panel de alertas de los sensores junto a sus sedes.
+
 ![Dashboard-Mock.jpeg](assets/Dashboard-Mock.jpeg)
 
 Incident-BakeryManager
 
 Muestra 4 stats junto a los filtros que posee y una lista de incidentes que se han registrado en el sistema con su severidad y estado.
+
 ![Incidents-Mock.jpeg](assets/Incidents-Mock.jpeg)
 
 Inventory-BakeryManager
 
 Muestra 4 stats con la barra de busqueda/filtro y una tabla con barra de nivel del stock actual.
+
 ![Inventory-Mock.jpeg](assets/Inventory-Mock.jpeg)
 
 Production-BakeryManager
 
 Muestra 4 stats con el panel de lotes activos con progreso y dos gráficos de barras.
+
 ![ProductionMock.jpeg](assets/ProductionMock.jpeg)
 
 ### 4.4.4 Web Applications User Flow Diagrams
