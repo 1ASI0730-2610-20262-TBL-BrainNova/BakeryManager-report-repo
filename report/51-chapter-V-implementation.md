@@ -1388,16 +1388,18 @@ Las entrevistas de validación tienen como objetivo verificar que los flujos imp
 
 | Campo | Detalle |
 |---|---|
-| **Entrevistado** | [Nombre del entrevistado] |
-| **Edad** | [Edad] |
-| **Distrito** | [Distrito] |
-| **Entrevistador** | [Nombre del integrante] |
-| **Duración** | [Duración en minutos] |
-| **Link de la entrevista** | [Insertar URL del video] |
-| **Inicio en el video** | [Minuto de inicio] |
+| **Entrevistado** | Maria Lopez Garcia |
+| **Edad** | 38 |
+| **Distrito** | Los Olivos |
+| **Entrevistador** | Jareth Vidal |
+| **Duración** | 4:03 |
+| **Inicio en el video** | 0:01 |
 
 **Resumen:**
-> [Insertar resumen de las respuestas. Describir las opiniones del entrevistado sobre el monitoreo IoT, la gestión de lotes de producción, el flujo de inicio/completar/cancelar y las alertas en tiempo real. Incluir citas textuales relevantes.]
+> La propietaria María López García validó positivamente la propuesta de BakeryManager, destacando que el reporte de eficiencia por sede y la comparación entre la producción planificada y la real son las funciones más críticas del sistema para controlar las mermas y auditar pérdidas monetarias. Aunque su perfil de uso es estratégico y no operativo (revisa el panel solo 2 o 3 veces al día), considera vital recibir alertas IoT en tiempo real en su celular para evitar pérdidas de masa durante la madrugada, priorizando una interfaz visual simplificada tipo semáforo. Finalmente, planteó dos requerimientos clave para el backlog: la necesidad de integrar los lotes con recetas para automatizar el descuento de insumos en el inventario, y la obligatoriedad de registrar un motivo de cancelación al anular la producción.
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/entrevista_segmento1.PNG" alt="Entrevista Maria Lopez Segmento 1">
+
 
 ---
 
@@ -1410,7 +1412,6 @@ Las entrevistas de validación tienen como objetivo verificar que los flujos imp
 | **Distrito** | [Distrito] |
 | **Entrevistador** | [Nombre del integrante] |
 | **Duración** | [Duración en minutos] |
-| **Link de la entrevista** | [Insertar URL del video] |
 | **Inicio en el video** | [Minuto de inicio] |
 
 **Resumen:**
@@ -1427,7 +1428,6 @@ Las entrevistas de validación tienen como objetivo verificar que los flujos imp
 | **Distrito** | [Distrito] |
 | **Entrevistador** | [Nombre del integrante] |
 | **Duración** | [Duración en minutos] |
-| **Link de la entrevista** | [Insertar URL del video] |
 | **Inicio en el video** | [Minuto de inicio] |
 
 **Resumen:**
@@ -1444,7 +1444,6 @@ Las entrevistas de validación tienen como objetivo verificar que los flujos imp
 | **Distrito** | [Distrito] |
 | **Entrevistador** | [Nombre del integrante] |
 | **Duración** | [Duración en minutos] |
-| **Link de la entrevista** | [Insertar URL del video] |
 | **Inicio en el video** | [Minuto de inicio] |
 
 **Resumen:**
@@ -1462,7 +1461,6 @@ Las entrevistas de validación tienen como objetivo verificar que los flujos imp
 | **Distrito** | [Distrito] |
 | **Entrevistador** | [Nombre del integrante] |
 | **Duración** | [Duración en minutos] |
-| **Link de la entrevista** | [Insertar URL del video] |
 | **Inicio en el video** | [Minuto de inicio] |
 
 **Resumen:**
@@ -1479,7 +1477,6 @@ Las entrevistas de validación tienen como objetivo verificar que los flujos imp
 | **Distrito** | [Distrito] |
 | **Entrevistador** | [Nombre del integrante] |
 | **Duración** | [Duración en minutos] |
-| **Link de la entrevista** | [Insertar URL del video] |
 | **Inicio en el video** | [Minuto de inicio] |
 
 **Resumen:**
