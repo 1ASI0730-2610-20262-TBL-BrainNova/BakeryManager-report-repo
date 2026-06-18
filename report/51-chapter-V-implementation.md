@@ -1384,6 +1384,8 @@ Las entrevistas de validación tienen como objetivo verificar que los flujos imp
 
 #### 5.3.2. Registro de Entrevistas
 
+Link de entrevista:   
+
 **Entrevista 1 — Segmento: Propietarios y Administradores de Panaderías**
 
 <img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/entrevista_segmento1.PNG" alt="Entrevista Maria Lopez Segmento 1">
