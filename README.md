@@ -1,8 +1,5 @@
 <div align="center">
 <img src="assets/upc_logo.png" alt="UPC Logo" width="300"/>
-</div>
-
-<div align="center">
 
 # Universidad Peruana de Ciencias Aplicadas
 ### Carrera de Ingeniería de Software
@@ -42,12 +39,14 @@
 
 </div>
 
-**Código** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Apellidos y Nombres**<br>
+<p align="left">
+Código &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Apellidos y Nombres<br>
+U202219199 &nbsp;&nbsp;&nbsp;&nbsp; Acosta Elera, Abraam Bernabe<br>
 U202318588 &nbsp;&nbsp;&nbsp;&nbsp; Cespedes Pillco, Jarod Jack<br>
-U202214074 &nbsp;&nbsp;&nbsp;&nbsp; Chipana Huarancca, Emanuel Wilfredo<br>
+U20241A195 &nbsp;&nbsp;&nbsp;&nbsp; Diaz Yurivilca, Sofia<br>
 U20221G231 &nbsp;&nbsp;&nbsp;&nbsp; Molina Vasquez, Manuel Alejandro<br>
-U202216240 &nbsp;&nbsp;&nbsp;&nbsp; Tufiño Argüelles, Luis Angel<br>
 U202316878 &nbsp;&nbsp;&nbsp;&nbsp; Vidal Malaga, Jareth Beycker<br>
+</p>
 
 <div align="center">
 
