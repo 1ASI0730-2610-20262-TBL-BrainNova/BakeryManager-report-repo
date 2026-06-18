@@ -2,32 +2,64 @@
 <img src="assets/upc_logo.png" alt="UPC Logo" width="300"/>
 </div>
 
-## UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+<div align="center">
 
-* **Carrera:** Ingeniería de Software
-* **Periodo:** 2026-10
-* **Nombre del curso:** Aplicaciones Web (1ASI0729)
-* **NRC:** 20262
-* **Nombre del profesor:** Angel Augusto Velasquez Nuñez
+# Universidad Peruana de Ciencias Aplicadas
+### Carrera de Ingeniería de Software
 
-### Informe de Trabajo Final
+<br>
 
-* **Nombre del startup:** BrainNova
-* **Nombre del producto:** BakeryManager
+## **1ASI0729**
+## **Aplicaciones Web**
 
-### Relación de integrantes
+<br>
 
-| Apellidos y Nombres | Código de Alumno |
-| :--- | :--- |
-| Cespedes Pillco, Jarod Jack | U202318588 |
-| Chipana Huarancca, Emanuel Wilfredo | U202214074 |
-| Molina Vasquez, Manuel Alejandro | U20221G231 |
-| Tufiño Argüelles, Luis Angel | U202216240 |
-| Vidal Malaga, Jareth Beycker | U202316878 |
+### **NRC**
+### **20262**
 
-**Abril, 2026**
+<br>
 
----
+# **Informe del Trabajo Final**
+
+<br>
+
+### **Docente**
+### **Velasquez Nuñez, Angel Augusto**
+
+<br>
+
+### **Equipo**
+### **BrainNova**
+
+<br>
+
+### **Proyecto**
+### **BakeryManager**
+
+<br>
+
+## **Integrantes**
+
+</div>
+
+**Código** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Apellidos y Nombres**<br>
+U202318588 &nbsp;&nbsp;&nbsp;&nbsp; Cespedes Pillco, Jarod Jack<br>
+U202214074 &nbsp;&nbsp;&nbsp;&nbsp; Chipana Huarancca, Emanuel Wilfredo<br>
+U20221G231 &nbsp;&nbsp;&nbsp;&nbsp; Molina Vasquez, Manuel Alejandro<br>
+U202216240 &nbsp;&nbsp;&nbsp;&nbsp; Tufiño Argüelles, Luis Angel<br>
+U202316878 &nbsp;&nbsp;&nbsp;&nbsp; Vidal Malaga, Jareth Beycker<br>
+
+<div align="center">
+
+<br>
+
+### **Período 2026-10**
+
+<br>
+
+### **Abril, 2026**
+
+</div>
 
 ## Registro de Versiones
 
