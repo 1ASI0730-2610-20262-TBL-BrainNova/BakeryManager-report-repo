@@ -366,3 +366,1225 @@ firebase deploy
 En este apartado se presenta un resumen de la dinámica de trabajo colaborativo y la gestión de tareas realizada por el equipo durante el Sprint 2. Se incluyen evidencias visuales que muestran la participación activa de los integrantes, así como el registro de los commits y contribuciones en el repositorio. Estas evidencias reflejan el compromiso, la organización y la comunicación efectiva que caracterizaron el desarrollo de este sprint.
 
 ![TEAMCOLAB1.jpeg](assets/TEAMCOLAB1.jpeg)
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+Para este tercer Sprint, el equipo estableció como objetivo principal la implementación y despliegue de la primera versión de los RESTful Web Services de BakeryManager con Spring Boot, bajo arquitectura Domain-Driven Design. Los cuatro Bounded Contexts del backend (Production, Monitoring, Inventory, Shared) fueron distribuidos entre los integrantes del equipo, reemplazando la Fake RESTful API utilizada en el Sprint anterior por un backend real con persistencia JPA, documentación OpenAPI/Swagger y un Dockerfile preparado para deployment. La reunión de planificación se realizó de manera virtual y se acordaron las Technical Stories a abordar, el Sprint Goal y las responsabilidades de cada integrante.
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <tbody>
+    <tr><td colspan="2"><strong>Sprint 3</strong></td></tr>
+    <tr><td colspan="2"><strong>Sprint Planning Background</strong></td></tr>
+    <tr><td><strong>Date</strong></td><td>2026-06-02</td></tr>
+    <tr><td><strong>Time</strong></td><td>05:00 PM</td></tr>
+    <tr><td><strong>Location</strong></td><td>Reunión virtual vía Google Meet</td></tr>
+    <tr><td><strong>Prepared By</strong></td><td>Molina Vásquez, Manuel Alejandro</td></tr>
+    <tr><td><strong>Attendees (to planning meeting)</strong></td><td>Molina Vásquez, Manuel Alejandro / Díaz Yurivilca, Sofía / Céspedes Pillco, Jarod Jack / Vidal Malaga, Jareth Beycker / Acosta Elera, Abraam Bernabe</td></tr>
+    <tr><td><strong>Sprint 2 Review Summary</strong></td><td>En el Sprint 2 se implementó la Frontend Web Application en Angular con arquitectura de componentes standalone, cubriendo los módulos de IAM, Production Monitoring, IoT Monitoring e Inventory. La aplicación consumió una Fake RESTful API servida con JSON-Server sobre localhost:3000, con navegación entre módulos y primeras vistas funcionales.</td></tr>
+    <tr><td><strong>Sprint 2 Retrospective Summary</strong></td><td>El equipo identificó que la Fake API con JSON-Server no provee persistencia real ni validación de reglas de negocio del lado del servidor. Para el Sprint 3 se acordó implementar el Backend real con Spring Boot bajo arquitectura DDD, asignando un Bounded Context por integrante (Production, Monitoring, Inventory, Shared), incorporar persistencia JPA con MySQL, documentar los endpoints con OpenAPI/Swagger y preparar el Dockerfile para el deployment del servicio.</td></tr>
+    <tr><td colspan="2"><strong>Sprint Goal &amp; User Stories</strong></td></tr>
+    <tr><td><strong>Sprint 3 Goal</strong></td><td>Our focus is on implementing and deploying the first version of the BakeryManager RESTful Web Services with Spring Boot, replacing the Fake RESTful API with a real backend with DDD architecture, JPA persistence per bounded context and OpenAPI documentation. We believe it delivers a functional backend platform in which bakers and bakery managers can manage production batch lifecycles, branch and equipment inventory, IoT sensor registration, incident tracking and stock movements with real data persistence. This will be confirmed when all bounded contexts expose their REST endpoints at /api/v1, the API is documented in Swagger UI and the frontend consumes the real backend successfully.</td></tr>
+    <tr><td><strong>Sprint 3 Velocity</strong></td><td>55</td></tr>
+    <tr><td><strong>Sum of Story Points</strong></td><td>55</td></tr>
+  </tbody>
+</table>
+
+---
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>Production BC</th>
+      <th>Monitoring BC</th>
+      <th>Inventory BC</th>
+      <th>Shared</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Díaz Yurivilca, Sofía</td>
+      <td>u20241a195-cmd</td>
+      <td align="center"><strong>L</strong></td>
+      <td align="center">C</td>
+      <td align="center">C</td>
+      <td align="center">C</td>
+    </tr>
+    <tr>
+      <td>Vidal Malaga, Jareth Beycker</td>
+      <td>Jareth341</td>
+      <td align="center"><strong>L</strong></td>
+      <td align="center">C</td>
+      <td align="center">C</td>
+      <td align="center">C</td>
+    </tr>
+    <tr>
+      <td>Céspedes Pillco, Jarod Jack</td>
+      <td>JJ-UDEV</td>
+      <td align="center">C</td>
+      <td align="center"><strong>L</strong></td>
+      <td align="center">C</td>
+      <td align="center">C</td>
+    </tr>
+    <tr>
+      <td>Molina Vásquez, Manuel Alejandro</td>
+      <td>AleDusty</td>
+      <td align="center">C</td>
+      <td align="center">C</td>
+      <td align="center"><strong>L</strong></td>
+      <td align="center">C</td>
+    </tr>
+    <tr>
+      <td>Acosta Elera, Abraam Bernabe</td>
+      <td>AbraamAcostae</td>
+      <td align="center">C</td>
+      <td align="center">C</td>
+      <td align="center">C</td>
+      <td align="center"><strong>L</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+*L = Leader · C = Collaborator*
+
+---
+#### 5.2.3.3. Sprint Backlog 3
+
+El objetivo principal de este Sprint fue implementar los RESTful Web Services del backend de BakeryManager con Spring Boot bajo arquitectura DDD. El alcance abarcó cuatro Bounded Contexts: Production, Monitoring, Inventory y la capa Shared con configuración de Swagger/OpenAPI y deployment. Las Technical Stories se descompusieron en Engineering Tasks gestionadas en el tablero Kanban a través de las columnas **Goal, To Do, In Process, To Review y Done**.
+
+**Board público del Sprint 3 (Trello):** https://trello.com/b/4nwSuz3O
+
+![sprint3-board](assets/bakery-sprint3.png "Tablero del Sprint 3 en Trello")
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th colspan="8">Sprint # Sprint 3</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="4">TS-01</td>
+      <td rowspan="4">Implementar el ciclo de vida de lotes de producción en el Production BC</td>
+      <td>T-01</td>
+      <td>Implementar el agregado ProductionBatch con lifecycle y comandos</td>
+      <td>Implementar el agregado raíz ProductionBatch con sus estados (PLANNED, IN_PROGRESS, COMPLETED, CANCELLED), los comandos como records, queries y eventos de dominio para el ciclo de vida del lote.</td>
+      <td>6</td>
+      <td>Díaz Yurivilca, Sofía</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-02</td>
+      <td>Implementar application services y persistence layer de ProductionBatch</td>
+      <td>Implementar los command y query services de aplicación, la entidad JPA de persistencia, el repositorio y el assembler para el agregado ProductionBatch.</td>
+      <td>6</td>
+      <td>Díaz Yurivilca, Sofía</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-03</td>
+      <td>Implementar REST resources y transform assemblers de ProductionBatch</td>
+      <td>Crear los records CreateProductionBatchResource, ProductionBatchResource y CompleteProductionBatchResource con sus assemblers de transformación entre comando, dominio y resource.</td>
+      <td>4</td>
+      <td>Díaz Yurivilca, Sofía</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-04</td>
+      <td>Implementar BatchesController con endpoints de lifecycle y documentación Swagger</td>
+      <td>Exponer en /api/v1/batches los endpoints POST crear (201), GET /{id} detalle, PATCH /{id}/start iniciar, PATCH /{id}/complete completar con cantidad producida y PATCH /{id}/cancel cancelar. Anotar con @Tag, @Operation y @ApiResponses.</td>
+      <td>5</td>
+      <td>Díaz Yurivilca, Sofía</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="4">TS-02</td>
+      <td rowspan="4">Implementar la gestión de sedes (Branch) en el Production BC</td>
+      <td>T-05</td>
+      <td>Implementar el agregado Branch con domain model y domain services</td>
+      <td>Implementar el agregado Branch con campos name, location e isActive, los enums de estado, el repositorio de dominio y los command/query services de aplicación para la gestión de sedes.</td>
+      <td>5</td>
+      <td>Vidal Malaga, Jareth Beycker</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-06</td>
+      <td>Implementar la persistence layer JPA de Branch con assembler</td>
+      <td>Crear BranchPersistenceEntity con campos name, location e isActive, el repositorio JPA con método findActiveBranches, y el BranchPersistenceAssembler para la conversión entre dominio y persistencia.</td>
+      <td>4</td>
+      <td>Vidal Malaga, Jareth Beycker</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-07</td>
+      <td>Implementar BranchesController con endpoints CRUD y detalle</td>
+      <td>Exponer POST /api/v1/branches crear, PUT /api/v1/branches/{id} actualizar, GET /api/v1/branches listar activas y GET /api/v1/branches/{id} detalle de sede, con resources, assemblers y anotaciones OpenAPI.</td>
+      <td>5</td>
+      <td>Vidal Malaga, Jareth Beycker</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-08</td>
+      <td>Implementar endpoints de consulta cruzada y reporte de producción por sede</td>
+      <td>Exponer GET /api/v1/branches/{id}/equipment (BranchEquipmentController), GET /api/v1/branches/{id}/batches (BranchBatchesController) y GET /api/v1/branches/{id}/report (BranchReportController) para consultas y reporte agregado por sede.</td>
+      <td>5</td>
+      <td>Vidal Malaga, Jareth Beycker</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="3">TS-03</td>
+      <td rowspan="3">Implementar la gestión de equipos (Equipment) en el Production BC</td>
+      <td>T-09</td>
+      <td>Implementar el agregado Equipment con relación a Branch</td>
+      <td>Implementar el agregado Equipment con campos name, serialNumber, status (OPERATIONAL, MAINTENANCE, FAULT, OFF) y branchId, la interfaz de repositorio de dominio y los command services para registro y actualización de estado.</td>
+      <td>5</td>
+      <td>Vidal Malaga, Jareth Beycker</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-10</td>
+      <td>Implementar la persistence layer JPA de Equipment con assembler</td>
+      <td>Crear EquipmentPersistenceEntity con foreign key hacia Branch, el repositorio JPA con método findByBranchId, y el EquipmentPersistenceAssembler para la conversión entre dominio y persistencia.</td>
+      <td>4</td>
+      <td>Vidal Malaga, Jareth Beycker</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-11</td>
+      <td>Implementar EquipmentController con endpoints de registro y gestión de estado</td>
+      <td>Exponer POST /api/v1/equipment registrar equipo (201), PATCH /api/v1/equipment/{id}/status actualizar estado y GET /api/v1/equipment/{id} detalle, con RegisterEquipmentResource, EquipmentResource, assemblers y anotaciones OpenAPI.</td>
+      <td>5</td>
+      <td>Vidal Malaga, Jareth Beycker</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="4">TS-04</td>
+      <td rowspan="4">Implementar los endpoints de consulta de incidentes en el Monitoring BC</td>
+      <td>T-12</td>
+      <td>Implementar el domain model de Incident con campos adicionales y constructores</td>
+      <td>Implementar el modelo de dominio Incident con sus campos (tipo, severidad, estado, área), constructores y la interfaz del repositorio de dominio para el Bounded Context de Monitoring.</td>
+      <td>4</td>
+      <td>Céspedes Pillco, Jarod Jack</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-13</td>
+      <td>Implementar la persistence layer JPA de Incident</td>
+      <td>Crear IncidentPersistenceEntity, el repositorio JPA, el IncidentPersistenceAssembler para la conversión entre dominio y persistencia e implementar el IncidentRepository con el adaptador JPA.</td>
+      <td>4</td>
+      <td>Céspedes Pillco, Jarod Jack</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-14</td>
+      <td>Implementar el IncidentQueryService y su implementación</td>
+      <td>Definir la interfaz IncidentQueryService con los métodos para GetAllIncidentsQuery y GetIncidentByIdQuery e implementar IncidentQueryServiceImpl con la lógica de consulta sobre el repositorio.</td>
+      <td>4</td>
+      <td>Céspedes Pillco, Jarod Jack</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-15</td>
+      <td>Implementar IncidentsController con endpoints GET</td>
+      <td>Exponer GET /api/v1/incidents listar todos los incidentes y GET /api/v1/incidents/{id} obtener incidente por ID, con IncidentResource, IncidentResourceAssembler y anotaciones OpenAPI.</td>
+      <td>4</td>
+      <td>Céspedes Pillco, Jarod Jack</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="3">TS-05</td>
+      <td rowspan="3">Implementar los endpoints CRUD de sensores IoT en el Monitoring BC</td>
+      <td>T-16</td>
+      <td>Implementar el domain model de Sensor con tipos y estados</td>
+      <td>Implementar el agregado Sensor con tipos (TEMPERATURE, HUMIDITY, SMOKE, GAS) y estados (ACTIVE, INACTIVE, DISCONNECTED), el CreateSensorCommand y la interfaz SensorCommandService.</td>
+      <td>4</td>
+      <td>Céspedes Pillco, Jarod Jack</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-17</td>
+      <td>Implementar SensorCommandService y SensorRepository con eventos de dominio</td>
+      <td>Implementar SensorCommandServiceImpl para manejar CreateSensorCommand, el método save en SensorRepository con publicación de eventos de dominio, y el CreateSensorCommandFromResourceAssembler.</td>
+      <td>4</td>
+      <td>Céspedes Pillco, Jarod Jack</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-18</td>
+      <td>Implementar SensorsController con endpoint de creación y documentación OpenAPI</td>
+      <td>Exponer POST /api/v1/sensors crear sensor (201) con CreateSensorResource y su assembler, anotar el controlador con anotaciones springdoc-openapi.</td>
+      <td>4</td>
+      <td>Céspedes Pillco, Jarod Jack</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="4">TS-06</td>
+      <td rowspan="4">Implementar los endpoints de movimientos de stock en el Inventory BC</td>
+      <td>T-19</td>
+      <td>Implementar el domain model InventoryItem con validaciones y repositorio</td>
+      <td>Implementar el agregado InventoryItem con el enum EUnitOfMeasure, setters con validación, la interfaz de repositorio de dominio, la entidad JPA y el adaptador de repositorio JPA.</td>
+      <td>5</td>
+      <td>Acosta Elera, Abraam Bernabe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-20</td>
+      <td>Implementar la capa de application e interfaces REST para InventoryItem</td>
+      <td>Implementar la capa de aplicación para InventoryItem, el recurso REST de creación y el InventoryItemsController con endpoints de creación, listado y actualización con documentación Swagger.</td>
+      <td>5</td>
+      <td>Acosta Elera, Abraam Bernabe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-21</td>
+      <td>Implementar el domain model StockMovement con lógica de actualización de cantidad</td>
+      <td>Implementar el agregado StockMovement con tipos (ENTRY, EXIT, ADJUSTMENT) y la lógica de actualización de cantidad sobre InventoryItem al registrar el movimiento de stock.</td>
+      <td>4</td>
+      <td>Acosta Elera, Abraam Bernabe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-22</td>
+      <td>Implementar los endpoints REST de entrada, salida y ajuste de stock</td>
+      <td>Exponer los endpoints POST de entrada (entry), salida (exit) y ajuste (adjustment) de stock en /api/v1/inventory/movements con resource, assembler y documentación OpenAPI.</td>
+      <td>4</td>
+      <td>Acosta Elera, Abraam Bernabe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="4">TS-07</td>
+      <td rowspan="4">Implementar los endpoints de consulta y reporte de inventario en el Inventory BC</td>
+      <td>T-23</td>
+      <td>Implementar detección de stock bajo y StockQueryController para stock actual</td>
+      <td>Implementar los métodos fetchAllItems y detectLowStock en el repositorio JPA, la interfaz StockQueryService, StockQueryServiceImpl, CurrentStockResource, CurrentStockResourceAssembler y el endpoint GET /api/v1/inventory/current.</td>
+      <td>5</td>
+      <td>Molina Vásquez, Manuel Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-24</td>
+      <td>Implementar historial de movimientos con StockHistoryQueryService</td>
+      <td>Implementar la interfaz StockHistoryQueryService, StockHistoryQueryServiceImpl, StockMovementResource, StockMovementResourceAssembler y el endpoint GET /api/v1/inventory/movements/history en StockQueryController.</td>
+      <td>5</td>
+      <td>Molina Vásquez, Manuel Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-25</td>
+      <td>Implementar el reporte de inventario con InventoryReport domain aggregate</td>
+      <td>Implementar el agregado InventoryReport con validación y resumen, la interfaz InventoryQueryService, InventoryQueryServiceImpl con generación de reporte, InventoryReportResource, InventoryReportResourceAssembler e InventoryReportController con GET /api/v1/inventory/report.</td>
+      <td>6</td>
+      <td>Molina Vásquez, Manuel Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-26</td>
+      <td>Implementar StockItemsController para StockItem domain aggregate</td>
+      <td>Implementar el agregado StockItem, la interfaz de repositorio, el command service, la entidad JPA y el StockItemsController con endpoints de creación y listado de ítems de stock.</td>
+      <td>4</td>
+      <td>Molina Vásquez, Manuel Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="3">TS-08</td>
+      <td rowspan="3">Configurar la capa Shared y preparar el deployment del backend</td>
+      <td>T-27</td>
+      <td>Completar la configuración OpenAPI con Swagger y seguridad JWT</td>
+      <td>Completar la OpenApiConfiguration con la descripción de la API, el esquema de seguridad JWT Bearer Authentication, configuración de locale y physical naming strategy para exponer la documentación en Swagger UI.</td>
+      <td>5</td>
+      <td>Molina Vásquez, Manuel Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-28</td>
+      <td>Implementar el GlobalExceptionHandler en la capa Shared</td>
+      <td>Implementar el GlobalExceptionHandler con @RestControllerAdvice que retorna respuestas JSON consistentes con ErrorResource para excepciones de negocio y rutas no mapeadas del API.</td>
+      <td>4</td>
+      <td>Acosta Elera, Abraam Bernabe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T-29</td>
+      <td>Preparar el Dockerfile y configuración de deployment</td>
+      <td>Configurar el Dockerfile del proyecto Spring Boot, preparar las variables de entorno para la conexión a MySQL en producción y validar el build de la imagen Docker.</td>
+      <td>5</td>
+      <td>Acosta Elera, Abraam Bernabe</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3 el equipo implementó los RESTful Web Services del backend de BakeryManager con Spring Boot y arquitectura DDD. Los commits se realizaron sobre ramas `feature/` individuales por Bounded Context y se consolidaron en `develop` mediante merges.
+
+**Repositorio:** https://github.com/1ASI0730-2610-20262-TBL-BrainNova/bakery-manager-platform
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Committed By</th>
+      <th>Committed On</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>develop</td>
+      <td>1588e41</td>
+      <td>feat: add global exception handling</td>
+      <td>AbraamAcostae</td>
+      <td>May 27, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/shared</td>
+      <td>442a17e</td>
+      <td>feat(shared): complete openapiconfiguration with swagger documentation specs and jwt security configuration</td>
+      <td>AleDusty</td>
+      <td>Jun 2, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>develop</td>
+      <td>fe29a98</td>
+      <td>feat(production): add Branch aggregate root for production domain model</td>
+      <td>Jareth341</td>
+      <td>Jun 3, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>develop</td>
+      <td>490a223</td>
+      <td>feat(production): add equipment status enum for equipment state management</td>
+      <td>Jareth341</td>
+      <td>Jun 3, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>develop</td>
+      <td>f90a3a1</td>
+      <td>feat(monitoring): add sensor status enum class</td>
+      <td>JJ-UDEV</td>
+      <td>Jun 3, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>develop</td>
+      <td>e3f1bb4</td>
+      <td>feat(monitoring): add sensor type enum class</td>
+      <td>JJ-UDEV</td>
+      <td>Jun 3, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>develop</td>
+      <td>a1e6290</td>
+      <td>feat(inventory): add inventoryitem domain aggregate with validation</td>
+      <td>AleDusty</td>
+      <td>Jun 3, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>develop</td>
+      <td>4159e18</td>
+      <td>feat(inventory): add jpa persistence entity for inventory items</td>
+      <td>AleDusty</td>
+      <td>Jun 3, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>develop</td>
+      <td>3aec2e2</td>
+      <td>feat(inventory): implement inventoryitemrepositoryadapter</td>
+      <td>AleDusty</td>
+      <td>Jun 3, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/inventory</td>
+      <td>211a6a4</td>
+      <td>feat(inventory): add inventory item endpoints and Swagger docs</td>
+      <td>AbraamAcostae</td>
+      <td>Jun 8, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/create-production-batch</td>
+      <td>40e2f4d</td>
+      <td>feat(production): implement domain commands as records.</td>
+      <td>u20241a195-cmd</td>
+      <td>Jun 10, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/create-production-batch</td>
+      <td>516c4a9</td>
+      <td>feat(production): implement domain events for batch lifecycle.</td>
+      <td>u20241a195-cmd</td>
+      <td>Jun 10, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/create-production-batch</td>
+      <td>fbbf796</td>
+      <td>feat(production): define production batch repository domain interface.</td>
+      <td>u20241a195-cmd</td>
+      <td>Jun 10, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/create-production-batch</td>
+      <td>e394002</td>
+      <td>feat(production): implement application command and query services</td>
+      <td>u20241a195-cmd</td>
+      <td>Jun 10, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/create-production-batch</td>
+      <td>14f894e</td>
+      <td>feat(production): implement infrastructure persistence layer.</td>
+      <td>u20241a195-cmd</td>
+      <td>Jun 10, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/create-production-batch</td>
+      <td>c2e0dc0</td>
+      <td>feat(production): add rest resource records for request and response dtos.</td>
+      <td>u20241a195-cmd</td>
+      <td>Jun 10, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/create-production-batch</td>
+      <td>d9e1b2d</td>
+      <td>feat(production): add rest transform assemblers for command and response mapping.</td>
+      <td>u20241a195-cmd</td>
+      <td>Jun 10, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/create-production-batch</td>
+      <td>2fff5ee</td>
+      <td>feat(production): implement rest controllers for production batch endpoints.</td>
+      <td>u20241a195-cmd</td>
+      <td>Jun 10, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/create-production-batch</td>
+      <td>4f0da75</td>
+      <td>docs(production): add Swagger @Tag, @Operation and @ApiResponses to batch controllers</td>
+      <td>u20241a195-cmd</td>
+      <td>Jun 10, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/list-branches</td>
+      <td>7ecaf06</td>
+      <td>feat(branch): add method to find active branches</td>
+      <td>Jareth341</td>
+      <td>Jun 15, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/branch-equipment</td>
+      <td>c22cce2</td>
+      <td>feat(branch): add equipment relationship to branch entity</td>
+      <td>Jareth341</td>
+      <td>Jun 15, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/branch-equipment</td>
+      <td>11df8d2</td>
+      <td>feat(equipment): implement equipment repository with branch-based retrieval methods</td>
+      <td>Jareth341</td>
+      <td>Jun 15, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/create-sensor</td>
+      <td>552a817</td>
+      <td>feat(create-sensor): add sensor-command-service interface for handling sensor creation commands.</td>
+      <td>JJ-UDEV</td>
+      <td>Jun 15, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/create-sensor</td>
+      <td>35b03a6</td>
+      <td>feat(create-sensor): implement sensor-command-service for handling sensor creation.</td>
+      <td>JJ-UDEV</td>
+      <td>Jun 15, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/create-sensor</td>
+      <td>875f60c</td>
+      <td>feat(create-sensor): add create-sensor endpoint to sensors-controller for sensor creation.</td>
+      <td>JJ-UDEV</td>
+      <td>Jun 15, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/stock-entries</td>
+      <td>571d7ed</td>
+      <td>feat(inventory): add create stock item request resource</td>
+      <td>AbraamAcostae</td>
+      <td>Jun 15, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/stock-entries</td>
+      <td>cb8c031</td>
+      <td>feat(inventory): add stock entry controller endpoint</td>
+      <td>AbraamAcostae</td>
+      <td>Jun 15, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/production-report</td>
+      <td>a1610f2</td>
+      <td>feat(branch): implement branch-persistence-assembler for mapping between domain and persistence entities</td>
+      <td>Jareth341</td>
+      <td>Jun 16, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/production-report</td>
+      <td>ed37353</td>
+      <td>feat(equipment): implement equipment-persistence-assembler for domain and persistence mapping</td>
+      <td>Jareth341</td>
+      <td>Jun 16, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/production-report</td>
+      <td>6d3342a</td>
+      <td>feat(branch): implement branch report endpoint to aggregate production batch data</td>
+      <td>Jareth341</td>
+      <td>Jun 16, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/create-branch</td>
+      <td>4142a52</td>
+      <td>feat(branch): update API endpoints to include versioning and add operation descriptions</td>
+      <td>Jareth341</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/update-equipment</td>
+      <td>87b8744</td>
+      <td>fix(equipment): update API endpoints to include versioning and add operation descriptions</td>
+      <td>Jareth341</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/get-all-incidents</td>
+      <td>35742ae</td>
+      <td>feat(get-all-incidents): enhance incident model with additional fields and constructors</td>
+      <td>JJ-UDEV</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/get-all-incidents</td>
+      <td>be54654</td>
+      <td>feat(get-all-incidents): add incident-query-service interface for handling query</td>
+      <td>JJ-UDEV</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/get-all-incidents</td>
+      <td>b8d6d62</td>
+      <td>feat(get-all-incidents): implement incident-query-service-impl for handling query</td>
+      <td>JJ-UDEV</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/get-all-incidents</td>
+      <td>ea79004</td>
+      <td>feat(get-all-incidents): add incident-persistence-entity for incident data storage</td>
+      <td>JJ-UDEV</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/get-all-incidents</td>
+      <td>74784dd</td>
+      <td>feat(get-all-incidents): implement incidents-controller for retrieving all incidents</td>
+      <td>JJ-UDEV</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/get-incident-by-id</td>
+      <td>5892f6d</td>
+      <td>feat(get-incident-by-id): add endpoint to retrieve incident by id</td>
+      <td>JJ-UDEV</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/stock-movement</td>
+      <td>54d2856</td>
+      <td>feat(inventory): add stock movement domain model and quantity update logic</td>
+      <td>AbraamAcostae</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/stock-movement</td>
+      <td>e99e82e</td>
+      <td>feat(inventory): add stock entry/exit/adjustment REST endpoints</td>
+      <td>AbraamAcostae</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/deployment_preparation</td>
+      <td>d64a094</td>
+      <td>preparation for new deployment</td>
+      <td>AbraamAcostae</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/low-stock</td>
+      <td>cdd5d0d</td>
+      <td>feat(inventory): add methods to fetch all items and detect low-stock items</td>
+      <td>AleDusty</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/current</td>
+      <td>1317e64</td>
+      <td>feat(inventory): add currentStockresource for representing current stock details</td>
+      <td>AleDusty</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/current</td>
+      <td>06cab24</td>
+      <td>feat(inventory): add stockquerycontroller for handling stock-level queries</td>
+      <td>AleDusty</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/history</td>
+      <td>9d0b93b</td>
+      <td>feat(inventory): add stockhistoryqueryservice interface for retrieving inventory movement history</td>
+      <td>AleDusty</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/history</td>
+      <td>bf290b1</td>
+      <td>feat(inventory): implement stockhistoryqueryserviceimpl for retrieving inventory movement history</td>
+      <td>AleDusty</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/history</td>
+      <td>76f9b3f</td>
+      <td>feat(inventory): add endpoint to retrieve stock movement history</td>
+      <td>AleDusty</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/report</td>
+      <td>6893fdc</td>
+      <td>feat(inventory): add inventoryreport domain aggregate with validation and summary functionality</td>
+      <td>AleDusty</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/report</td>
+      <td>af4b6e6</td>
+      <td>feat(inventory): implement inventoryqueryServiceimpl with report generation functionality</td>
+      <td>AleDusty</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+    <tr>
+      <td>bakery-manager-platform</td>
+      <td>feature/report</td>
+      <td>ce3b4e2</td>
+      <td>feat(inventory): add inventoryreportresource for inventory report representation</td>
+      <td>AleDusty</td>
+      <td>Jun 17, 2026</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 3 se implementó y ejecutó el backend de BakeryManager con Spring Boot. Los endpoints REST quedan organizados por Bounded Context:
+
+**Production BC** — Agregados: ProductionBatch, Branch, Equipment
+
+*ProductionBatch:*
+- `POST /api/v1/batches` — Crear nuevo lote de producción (201 Created)
+- `GET /api/v1/batches/{id}` — Obtener lote por ID (200 OK)
+- `PATCH /api/v1/batches/{id}/start` — Iniciar lote (200 OK)
+- `PATCH /api/v1/batches/{id}/complete` — Completar lote con cantidad producida (200 OK)
+- `PATCH /api/v1/batches/{id}/cancel` — Cancelar lote (200 OK)
+
+*Branch:*
+- `POST /api/v1/branches` — Crear sede (201 Created)
+- `PUT /api/v1/branches/{id}` — Actualizar sede (200 OK)
+- `GET /api/v1/branches` — Listar sedes activas (200 OK)
+- `GET /api/v1/branches/{id}` — Detalle de sede (200 OK)
+- `GET /api/v1/branches/{id}/batches` — Lotes de producción de la sede (200 OK)
+- `GET /api/v1/branches/{id}/equipment` — Equipos de la sede (200 OK)
+- `GET /api/v1/branches/{id}/report` — Reporte de producción de la sede (200 OK)
+
+*Equipment:*
+- `POST /api/v1/equipment` — Registrar equipo (201 Created)
+- `PATCH /api/v1/equipment/{id}/status` — Actualizar estado del equipo (200 OK)
+- `GET /api/v1/equipment/{id}` — Detalle de equipo (200 OK)
+
+**Monitoring BC** — Agregados: Incident, Sensor, Alert
+
+*Incidents:*
+- `GET /api/v1/incidents` — Listar todos los incidentes (200 OK)
+- `GET /api/v1/incidents/{id}` — Obtener incidente por ID (200 OK)
+
+*Sensors:*
+- `POST /api/v1/sensors` — Registrar sensor IoT (201 Created)
+
+**Inventory BC** — Agregados: InventoryItem, StockItem, StockMovement, InventoryReport
+
+*Inventory Items:*
+- `POST /api/v1/inventory/items` — Crear ítem de inventario (201 Created)
+- `GET /api/v1/inventory/items` — Listar ítems de inventario (200 OK)
+- `PUT /api/v1/inventory/items/{id}` — Actualizar ítem de inventario (200 OK)
+
+*Stock:*
+- `POST /api/v1/inventory/movements` — Registrar movimiento de stock (entry/exit/adjustment) (201 Created)
+- `GET /api/v1/inventory/current` — Consultar stock actual (200 OK)
+- `GET /api/v1/inventory/movements/history` — Historial de movimientos de stock (200 OK)
+- `GET /api/v1/inventory/report` — Reporte de inventario con detección de stock bajo (200 OK)
+
+![sprint3-board](./assets/swagger.png "Tablero del Sprint 3 en Trello")
+
+---
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+El backend de BakeryManager documenta automáticamente sus endpoints mediante **springdoc-openapi** con anotaciones `@Tag`, `@Operation`, `@ApiResponses` y `@ApiResponse`. La configuración OpenAPI incluye el esquema de seguridad JWT Bearer Authentication y se expone a través de Swagger UI.
+
+- **Swagger UI:** `http://localhost:8080/swagger-ui/index.html`
+- **OpenAPI JSON:** `http://localhost:8080/v3/api-docs`
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <th>Method</th>
+      <th>Endpoint</th>
+      <th>Description</th>
+      <th>Response Codes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Production BC</td><td>POST</td><td>/api/v1/batches</td><td>Create a new production batch</td><td>201, 400</td></tr>
+    <tr><td>Production BC</td><td>GET</td><td>/api/v1/batches/{id}</td><td>Get production batch by id</td><td>200, 404</td></tr>
+    <tr><td>Production BC</td><td>PATCH</td><td>/api/v1/batches/{id}/start</td><td>Start a planned production batch</td><td>200, 404</td></tr>
+    <tr><td>Production BC</td><td>PATCH</td><td>/api/v1/batches/{id}/complete</td><td>Complete a batch with produced quantity</td><td>200, 404</td></tr>
+    <tr><td>Production BC</td><td>PATCH</td><td>/api/v1/batches/{id}/cancel</td><td>Cancel a production batch</td><td>200, 404</td></tr>
+    <tr><td>Production BC</td><td>POST</td><td>/api/v1/branches</td><td>Create a new branch</td><td>201, 400</td></tr>
+    <tr><td>Production BC</td><td>PUT</td><td>/api/v1/branches/{id}</td><td>Update branch information</td><td>200, 404</td></tr>
+    <tr><td>Production BC</td><td>GET</td><td>/api/v1/branches</td><td>Get all active branches</td><td>200</td></tr>
+    <tr><td>Production BC</td><td>GET</td><td>/api/v1/branches/{id}</td><td>Get branch detail</td><td>200, 404</td></tr>
+    <tr><td>Production BC</td><td>GET</td><td>/api/v1/branches/{id}/batches</td><td>Get production batches for a branch</td><td>200, 404</td></tr>
+    <tr><td>Production BC</td><td>GET</td><td>/api/v1/branches/{id}/equipment</td><td>Get equipment for a branch</td><td>200, 404</td></tr>
+    <tr><td>Production BC</td><td>GET</td><td>/api/v1/branches/{id}/report</td><td>Get production report for a branch</td><td>200, 404</td></tr>
+    <tr><td>Production BC</td><td>POST</td><td>/api/v1/equipment</td><td>Register new equipment</td><td>201, 400</td></tr>
+    <tr><td>Production BC</td><td>PATCH</td><td>/api/v1/equipment/{id}/status</td><td>Update equipment operational status</td><td>200, 404</td></tr>
+    <tr><td>Production BC</td><td>GET</td><td>/api/v1/equipment/{id}</td><td>Get equipment detail</td><td>200, 404</td></tr>
+    <tr><td>Monitoring BC</td><td>GET</td><td>/api/v1/incidents</td><td>Get all incidents</td><td>200</td></tr>
+    <tr><td>Monitoring BC</td><td>GET</td><td>/api/v1/incidents/{id}</td><td>Get incident by id</td><td>200, 404</td></tr>
+    <tr><td>Monitoring BC</td><td>POST</td><td>/api/v1/sensors</td><td>Register new IoT sensor</td><td>201, 400</td></tr>
+    <tr><td>Inventory BC</td><td>POST</td><td>/api/v1/inventory/items</td><td>Create inventory item</td><td>201, 400</td></tr>
+    <tr><td>Inventory BC</td><td>GET</td><td>/api/v1/inventory/items</td><td>List all inventory items</td><td>200</td></tr>
+    <tr><td>Inventory BC</td><td>PUT</td><td>/api/v1/inventory/items/{id}</td><td>Update inventory item</td><td>200, 404</td></tr>
+    <tr><td>Inventory BC</td><td>POST</td><td>/api/v1/inventory/movements</td><td>Register stock movement (entry/exit/adjustment)</td><td>201, 400</td></tr>
+    <tr><td>Inventory BC</td><td>GET</td><td>/api/v1/inventory/current</td><td>Get current stock levels</td><td>200</td></tr>
+    <tr><td>Inventory BC</td><td>GET</td><td>/api/v1/inventory/movements/history</td><td>Get stock movement history</td><td>200</td></tr>
+    <tr><td>Inventory BC</td><td>GET</td><td>/api/v1/inventory/report</td><td>Get inventory report with low-stock detection</td><td>200</td></tr>
+  </tbody>
+</table>
+
+
+![Swagger Production BC](./assets/swagger-1.png)
+![Swagger Monitoring BC](./assets/swagger-2.png)
+![Swagger Inventory BC](./assets/swagger-3.png)
+![Swagger Inventory BC](./assets/swagger-4.png)
+
+
+---
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3 se realizó el deployment del backend de BakeryManager Platform 
+en la nube. A continuación se presenta la evidencia del proceso de despliegue.
+
+**Repositorio Backend:** https://github.com/1ASI0730-2610-20262-TBL-BrainNova/bakery-manager-platform  
+**URL del backend desplegado:** https://bakery-manager-platform-pkoa.onrender.com
+
+**Configuración del Dockerfile**
+
+Se configuró un Dockerfile multi-stage para construir y ejecutar la aplicación 
+Spring Boot. La primera etapa usa `maven:3.9.16-eclipse-temurin-26` para compilar 
+el proyecto y la segunda usa `eclipse-temurin:26-jre` como runtime, activando el 
+perfil `prod` mediante `SPRING_PROFILES_ACTIVE`.
+
+![Dockerfile](./assets/dockerfile-bakery.png "Dockerfile del proyecto")
+
+**Despliegue en Render**
+
+El servicio fue desplegado en Render como Web Service con runtime Docker, conectado 
+al repositorio GitHub de la organización. Las variables de entorno para la conexión 
+a MySQL (Clever Cloud) fueron configuradas en el panel de Render.
+
+![Render Live](./assets/render-live-bakery.png "Servicio en estado Live en Render")
+
+**Logs de inicio en producción**
+
+Los logs confirman que la aplicación inició correctamente: Spring Boot 4.0.6, 
+perfil `prod` activo, conexión exitosa a MySQL mediante HikariCP y Tomcat 
+escuchando en el puerto asignado.
+
+![Render Logs](./assets/render-logs-bakery.png "Logs de inicio del servicio")
+
+---
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3 el equipo trabajó bajo la estrategia **GitFlow** con ramas `feature/` individuales por Bounded Context, consolidando en `develop` mediante merges. Las revisiones de integración se coordinaron por Google Meet y se respetó la separación por paquetes DDD (`production`, `monitoring`, `inventory`, `shared`).
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>Bounded Context</th>
+      <th>Contributions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Díaz Yurivilca, Sofía</td>
+      <td>u20241a195-cmd</td>
+      <td>Production BC</td>
+      <td>Implementación completa del ciclo de vida de lotes de producción en el Production BC: agregado ProductionBatch con estados PLANNED, IN_PROGRESS, COMPLETED y CANCELLED; domain commands, queries y events como records; command y query services de aplicación; persistence layer JPA; REST resources (CreateProductionBatchResource, ProductionBatchResource, CompleteProductionBatchResource); transform assemblers; BatchesController con endpoints POST crear, GET detalle, PATCH start/complete/cancel; y anotaciones Swagger con @Tag, @Operation y @ApiResponses. Scaffolding inicial del Production BC (branch, equipment, batch) con persistence layer y controllers base.</td>
+    </tr>
+    <tr>
+      <td>Vidal Malaga, Jareth Beycker</td>
+      <td>Jareth341</td>
+      <td>Production BC</td>
+      <td>Implementación de los agregados Branch y Equipment dentro del Production BC. Branch: domain model, method findActiveBranches, relación branch-equipment, BranchPersistenceEntity, BranchPersistenceAssembler, BranchesController (POST, PUT, GET lista, GET detalle), BranchEquipmentController (GET /branches/{id}/equipment), BranchBatchesController (GET /branches/{id}/batches) y BranchReportController (GET /branches/{id}/report con reporte agregado de producción por sede). Equipment: EquipmentPersistenceEntity con FK hacia Branch, EquipmentPersistenceAssembler, EquipmentController (POST registrar, PATCH actualizar estado, GET detalle). Versionado de API (/api/v1) y anotaciones OpenAPI en todos los endpoints.</td>
+    </tr>
+    <tr>
+      <td>Céspedes Pillco, Jarod Jack</td>
+      <td>JJ-UDEV</td>
+      <td>Monitoring BC</td>
+      <td>Implementación del Monitoring BC con los agregados Incident, Sensor y Alert. Sensors: domain model con tipos (TEMPERATURE, HUMIDITY, SMOKE, GAS) y estados (ACTIVE, INACTIVE, DISCONNECTED), SensorCommandService interface e implementación, SensorRepository con publicación de domain events, CreateSensorResource, CreateSensorCommandFromResourceAssembler, SensorsController con endpoint POST /api/v1/sensors. Incidents: domain model con campos adicionales, IncidentRepository interface e implementación JPA, IncidentPersistenceEntity, IncidentPersistenceAssembler, IncidentQueryService interface e implementación, IncidentResource, IncidentResourceAssembler, IncidentsController con GET /api/v1/incidents y GET /api/v1/incidents/{id}.</td>
+    </tr>
+    <tr>
+      <td>Molina Vásquez, Manuel Alejandro</td>
+      <td>AleDusty</td>
+      <td>Inventory BC + Shared</td>
+      <td>Inventory BC: InventoryItem domain aggregate con validación y enum EUnitOfMeasure, repositorio JPA con findByName y existsByName, adaptador de repositorio; detección de low-stock (métodos fetchAllItems y detectLowStock); StockQueryController con endpoint GET /api/v1/inventory/current (CurrentStockResource, CurrentStockResourceAssembler, StockQueryService e implementación); historial de movimientos con StockHistoryQueryService, StockHistoryQueryServiceImpl, StockMovementResource, StockMovementResourceAssembler y endpoint GET /api/v1/inventory/movements/history; reporte de inventario con InventoryReport domain aggregate, InventoryQueryService, InventoryQueryServiceImpl, InventoryReportResource, InventoryReportResourceAssembler e InventoryReportController con GET /api/v1/inventory/report. Shared: OpenApiConfiguration completa con Swagger, JWT Bearer Authentication, locale resolution y physical naming strategy.</td>
+    </tr>
+    <tr>
+      <td>Acosta Elera, Abraam Bernabe</td>
+      <td>AbraamAcostae</td>
+      <td>Inventory BC + Shared</td>
+      <td>Inventory BC: endpoints CRUD de InventoryItem (InventoryItemsController con creación, listado y actualización); StockMovement domain model con tipos ENTRY, EXIT y ADJUSTMENT y lógica de actualización de cantidad sobre InventoryItem; endpoints REST POST de entrada, salida y ajuste de stock en /api/v1/inventory/movements (StockEntryController con recursos y assembler). Shared: GlobalExceptionHandler con @RestControllerAdvice para respuestas JSON consistentes con ErrorResource. Deployment: Dockerfile del proyecto Spring Boot, configuración de variables de entorno para MySQL en producción y preparación del entorno de deployment.</td>
+    </tr>
+  </tbody>
+</table>
+
+![Github insights](./assets/insights.png)
+
+---
+
+### 5.3. Validation Interviews
+
+#### 5.3.1. Diseño de Entrevistas
+
+Las entrevistas de validación tienen como objetivo verificar que los flujos implementados en BakeryManager satisfacen las necesidades reales de los usuarios objetivo. Se diseñaron preguntas orientadas a evaluar la usabilidad, la claridad de la interfaz y la utilidad funcional de las principales características del sistema.
+
+**Segmentos objetivo:**
+- **Propietarios y Administradores de Panaderías:**  Usuario operativo que gestiona la producción diaria y monitorea las condiciones de fermentación y cocción mediante sensores IoT.
+- **Personal Operativo ( Encargados de Producción):** Usuario supervisor que necesita control sobre equipos, incidentes, inventario y reportes de eficiencia.
+
+**Preguntas para el segmento Propietarios y Administradores de Panaderías:**
+
+1. ¿Con qué frecuencia necesita monitorear la temperatura de los hornos y las cámaras de fermentación durante un turno de producción?
+2. Cuando revisa el panel de monitoreo IoT, ¿encuentra fácilmente los datos de temperatura y humedad que necesita para tomar decisiones?
+3. ¿Qué tan útil le resulta recibir alertas en tiempo real cuando un sensor detecta valores fuera del rango establecido?
+4. Al crear un nuevo lote de producción desde el modal, ¿los campos solicitados (código de lote, producto, cantidad planificada, sede y equipo) son suficientes para registrar su flujo de trabajo real?
+5. ¿El flujo de iniciar, completar con cantidad real y cancelar un lote refleja cómo usted gestiona la producción en su panadería actualmente?
+6. ¿Le parece relevante registrar la cantidad real producida al completar un lote, para poder comparar con lo planificado?
+7. ¿La sección de reporte de producción por sede (total de lotes, completados, cancelados y porcentaje de eficiencia) le entrega información útil para evaluar su turno?
+8. ¿Qué funcionalidad adicional consideraría necesaria para mejorar su trabajo diario dentro de la plataforma?
+
+**Preguntas para el segmento Personal Operativo ( Encargados de Producción):**
+
+1. ¿Cómo lleva actualmente el control del estado de los equipos (hornos, cámaras de refrigeración) y sensores en su sede?
+2. Al visualizar el panel centralizado de sensores y equipos, ¿puede identificar rápidamente cuáles tienen alertas activas o están desconectados?
+3. Cuando ocurre un incidente (humo, temperatura extrema, fallo de equipo), ¿el flujo de registro y consulta de incidentes en la plataforma le parece intuitivo y suficiente?
+4. ¿La información disponible en el historial de incidentes (tipo, severidad, área, estado) le ayuda a priorizar la atención y evaluar la seguridad de su sede?
+5. ¿Los endpoints de inventario disponibles (registro de entradas/salidas/ajustes, stock actual, historial y reporte de stock bajo) cubren sus necesidades operativas diarias?
+6. ¿La gestión de sedes y equipos desde la plataforma podría reemplazar el método que utiliza actualmente para llevar ese control?
+7. ¿Qué tan importante es para usted poder consultar el historial de temperaturas, movimientos de inventario e incidentes desde un mismo lugar?
+8. ¿Recomendaría BakeryManager a otros encargados de panaderías? ¿Por qué?
+
+---
+
+#### 5.3.2. Registro de Entrevistas
+
+**Entrevista 1 — Segmento: Propietarios y administradores de panaderias**
+
+| Campo | Detalle |
+|---|---|
+| **Entrevistado** | [Nombre del entrevistado] |
+| **Edad** | [Edad] |
+| **Distrito** | [Distrito] |
+| **Entrevistador** | [Nombre del integrante] |
+| **Duración** | [Duración en minutos] |
+| **Link de la entrevista** | [Insertar URL del video] |
+| **Inicio en el video** | [Minuto de inicio] |
+
+**Resumen:**
+> [Insertar resumen de las respuestas. Describir las opiniones del entrevistado sobre el monitoreo IoT, la gestión de lotes de producción, el flujo de inicio/completar/cancelar y las alertas en tiempo real. Incluir citas textuales relevantes.]
+
+---
+
+**Entrevista 2 — Segmento: Maestro Panadero**
+
+| Campo | Detalle |
+|---|---|
+| **Entrevistado** | [Nombre del entrevistado] |
+| **Edad** | [Edad] |
+| **Distrito** | [Distrito] |
+| **Entrevistador** | [Nombre del integrante] |
+| **Duración** | [Duración en minutos] |
+| **Link de la entrevista** | [Insertar URL del video] |
+| **Inicio en el video** | [Minuto de inicio] |
+
+**Resumen:**
+> [Insertar resumen.]
+
+---
+
+**Entrevista 3 — Segmento: Personal Operativo**
+
+| Campo | Detalle |
+|---|---|
+| **Entrevistado** | [Nombre del entrevistado] |
+| **Edad** | [Edad] |
+| **Distrito** | [Distrito] |
+| **Entrevistador** | [Nombre del integrante] |
+| **Duración** | [Duración en minutos] |
+| **Link de la entrevista** | [Insertar URL del video] |
+| **Inicio en el video** | [Minuto de inicio] |
+
+**Resumen:**
+> [Insertar resumen de las respuestas.]
+
+---
+
+**Entrevista 4 — Segmento: Personal Operativo**
+
+| Campo | Detalle |
+|---|---|
+| **Entrevistado** | [Nombre del entrevistado] |
+| **Edad** | [Edad] |
+| **Distrito** | [Distrito] |
+| **Entrevistador** | [Nombre del integrante] |
+| **Duración** | [Duración en minutos] |
+| **Link de la entrevista** | [Insertar URL del video] |
+| **Inicio en el video** | [Minuto de inicio] |
+
+**Resumen:**
+> [Insertar resumen.]
+
+---
+---
+
+**Entrevista 5 — Segmento: Personal Operativo**
+
+| Campo | Detalle |
+|---|---|
+| **Entrevistado** | [Nombre del entrevistado] |
+| **Edad** | [Edad] |
+| **Distrito** | [Distrito] |
+| **Entrevistador** | [Nombre del integrante] |
+| **Duración** | [Duración en minutos] |
+| **Link de la entrevista** | [Insertar URL del video] |
+| **Inicio en el video** | [Minuto de inicio] |
+
+**Resumen:**
+> [Insertar resumen.]
+
+---
+
+**Entrevista 6 — Segmento: Encargado de Sede**
+
+| Campo | Detalle |
+|---|---|
+| **Entrevistado** | [Nombre del entrevistado] |
+| **Edad** | [Edad] |
+| **Distrito** | [Distrito] |
+| **Entrevistador** | [Nombre del integrante] |
+| **Duración** | [Duración en minutos] |
+| **Link de la entrevista** | [Insertar URL del video] |
+| **Inicio en el video** | [Minuto de inicio] |
+
+**Resumen:**
+> [Insertar resumen.]
+
+---
+#### 5.3.3. Evaluaciones según heurísticas
+
+**UX Heuristics & Principles Evaluation**
+**Usability – Inclusive Design – Information Architecture**
+
+| | |
+|---|---|
+| **Carrera:** | Ingeniería de Software |
+| **Curso:** | Aplicaciones Open Source |
+| **Sección:** | [Sección] |
+| **Profesores:** | [Nombre del profesor] |
+| **Auditor:** | Equipo BrainNova — BakeryManager |
+| **Cliente(s):** | Maestros panaderos y encargados de sede |
+
+**Site o App a evaluar:** BakeryManager — Frontend Web Application
+
+**URL:** `[Insertar URL del frontend desplegado]`
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro e inicio de sesión de usuario (IAM)
+2. Visualización del panel de monitoreo IoT (temperatura, humedad, estado de sensores y equipos)
+3. Creación de un lote de producción mediante el modal
+4. Inicio, completar con cantidad real producida y cancelación de un lote
+5. Visualización del reporte de producción por sede
+6. Registro y consulta de incidentes
+7. Gestión de inventario (entradas, salidas y ajustes de stock)
+8. Navegación general y consistencia visual de la aplicación
+
+**ESCALA DE SEVERIDAD:**
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial: puede ser obviado fácilmente o resuelto rápido por el usuario. |
+| 2 | Problema menor: ocurre esporádicamente, afecta la experiencia pero no bloquea al usuario. |
+| 3 | Problema mayor: ocurre frecuentemente. Necesita ser corregido con alta prioridad. |
+| 4 | Problema catastrófico: el usuario no puede completar la tarea. Debe corregirse antes del lanzamiento. |
+
+**TABLA DE RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violado |
+|---|---|---|---|
+| 1 | El modal de completar lote se cierra sin mostrar confirmación de que la operación fue exitosa. | 2 | Usability: Visibility of system status |
+| 2 | El panel IoT no muestra el timestamp de la última actualización de datos de cada sensor. | 3 | Usability: Visibility of system status |
+| 3 | No existe confirmación antes de ejecutar "Cancelar" en un lote con estado IN_PROGRESS. | 3 | Usability: User control and freedom |
+| 4 | Los mensajes de error en el formulario de creación de lote no especifican el formato esperado por campo. | 2 | Usability: Help users recognize, diagnose and recover from errors |
+| 5 | En pantallas menores a 360px el porcentaje de progreso del lote queda truncado y no es legible. | 1 | Inclusive Design: Proporcionar experiencia comparable |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**Problema #1:** El modal de completar lote se cierra sin confirmación de éxito.
+- **Severidad:** 2
+- **Heurística violada:** Usability — Visibility of system status
+- **Descripción:** Cuando el usuario confirma la cantidad producida y cierra el modal de completar lote, no aparece ningún mensaje de feedback (toast o notificación) que indique que el lote fue completado exitosamente. El usuario debe buscar visualmente el cambio de estado en la tarjeta.
+- **Recomendación:** Implementar una notificación tipo toast que muestre "Lote completado exitosamente" por 3 segundos tras cerrar el modal.
+
+**Problema #2:** El panel IoT no indica cuándo se actualizaron los datos de los sensores.
+- **Severidad:** 3
+- **Heurística violada:** Usability — Visibility of system status
+- **Descripción:** Los valores de temperatura y humedad mostrados en el dashboard no tienen un indicador de cuándo fue la última sincronización. El usuario no puede distinguir si está viendo datos en tiempo real o desactualizados, lo que puede llevar a decisiones incorrectas.
+- **Recomendación:** Mostrar un timestamp "Última actualización: HH:MM:SS" junto a cada tarjeta de sensor, actualizado automáticamente con cada sincronización.
+
+**Problema #3:** Cancelar un lote en progreso se ejecuta sin confirmación previa.
+- **Severidad:** 3
+- **Heurística violada:** Usability — User control and freedom
+- **Descripción:** Al presionar el botón "Cancelar" sobre un lote con estado IN_PROGRESS, la acción se ejecuta de inmediato sin solicitar confirmación. Esta acción es irreversible y puede activarse accidentalmente.
+- **Recomendación:** Agregar un modal de confirmación con el mensaje "¿Estás seguro de que deseas cancelar este lote? Esta acción no se puede deshacer." antes de ejecutar el PATCH /cancel.
+
+**Problema #4:** Los mensajes de error en el formulario de creación de lote son genéricos.
+- **Severidad:** 2
+- **Heurística violada:** Usability — Help users recognize, diagnose and recover from errors
+- **Descripción:** Cuando el usuario deja campos obligatorios vacíos en el modal de creación de lote, el sistema resalta el campo con borde rojo pero no indica qué valor o formato se espera.
+- **Recomendación:** Agregar textos de ayuda descriptivos bajo cada campo con el formato y rango esperado al momento de detectar el error.
+
+**Problema #5:** El porcentaje de progreso del lote se trunca en pantallas pequeñas.
+- **Severidad:** 1
+- **Heurística violada:** Inclusive Design — Proporcionar experiencia comparable
+- **Descripción:** En dispositivos con pantallas menores a 360px de ancho, el texto con la cantidad producida vs planificada y el porcentaje en la tarjeta del lote queda cortado y no es legible completamente.
+- **Recomendación:** Ajustar el layout de la batch-card para pantallas pequeñas mostrando el porcentaje en una segunda línea independiente con font-size reducido.
+
+---
+
+### 5.4. Video About-the-Product
+
+El Video About-the-Product presenta las principales funcionalidades implementadas en BakeryManager a lo largo de los tres sprints del proyecto: la Landing Page comercial, la aplicación web frontend en Angular y los RESTful Web Services del backend en Spring Boot.
+
+**Contenido del video:**
+- Presentación de la Landing Page con identidad visual BakeryManager (paleta Cream Caramel, tipografía Playfair Display)
+- Flujo de autenticación: registro e inicio de sesión
+- Dashboard de monitoreo IoT: temperatura, humedad y estado de sensores y equipos
+- Gestión de lotes de producción: crear lote desde modal, iniciar, completar con cantidad real producida y generar reporte de eficiencia por sede
+- Panel de incidentes: consulta y detalle de incidentes
+- Gestión de inventario: movimientos de stock (entrada/salida/ajuste), consulta de stock actual y reporte con detección de stock bajo
+- Documentación de la API en Swagger UI con los tres Bounded Contexts (Production, Monitoring, Inventory)
+
+**Duración:** `[Insertar duración]`
+
+**Link del video:** `[Insertar URL — YouTube / Microsoft Stream / Loom]`
+
+> **[Insertar captura del video]**
