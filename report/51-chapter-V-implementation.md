@@ -1386,7 +1386,7 @@ Las entrevistas de validación tienen como objetivo verificar que los flujos imp
 
 **Entrevista 1 — Segmento: Propietarios y Administradores de Panaderías**
 
-![Entrevista 1](./assets/entrevista1.png "Entrevista 1 - Propietarios y Administradores de Panaderías")
+<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/entrevista_segmento1.PNG" alt="Entrevista Maria Lopez Segmento 1">
 
 | Campo | Detalle |
 |---|---|
@@ -1394,31 +1394,26 @@ Las entrevistas de validación tienen como objetivo verificar que los flujos imp
 | **Edad** | 38 |
 | **Distrito** | Los Olivos |
 | **Entrevistador** | Jareth Vidal |
-| **Duración** | 4:03 |
 | **Inicio en el video** | 0:01 |
+| **Final en el video** | 4:03 |
 
 **Resumen:**
 > La propietaria María López García validó positivamente la propuesta de BakeryManager, destacando que el reporte de eficiencia por sede y la comparación entre la producción planificada y la real son las funciones más críticas del sistema para controlar las mermas y auditar pérdidas monetarias. Aunque su perfil de uso es estratégico y no operativo (revisa el panel solo 2 o 3 veces al día), considera vital recibir alertas IoT en tiempo real en su celular para evitar pérdidas de masa durante la madrugada, priorizando una interfaz visual simplificada tipo semáforo. Finalmente, planteó dos requerimientos clave para el backlog: la necesidad de integrar los lotes con recetas para automatizar el descuento de insumos en el inventario, y la obligatoriedad de registrar un motivo de cancelación al anular la producción.
 
-<img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/entrevista_segmento1.PNG" alt="Entrevista Maria Lopez Segmento 1">
-
-
-
 ---
-
 
 **Entrevista 2 — Segmento: Propietarios y Administradores de Panaderías**
 
-![Entrevista 2](./assets/entrevista2.png "Entrevista 2 - Propietarios y Administradores de Panaderías")
+![entrevista2.png](assets/entrevista2.png)
 
-| Campo | Detalle |
-|---|---|
-| **Entrevistado** | Alexander Brito |
-| **Edad** | 25 |
-| **Distrito** | Callao |
-| **Entrevistador** | Sofia Diaz Yurivilca  |
-| **Duración** | 14:49 |
-| **Link de la entrevista** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a195_upc_edu_pe/IQB8QEfpBomARYLtdjfkYyotAT0YJkPqmhO1D_PZBmsmplI?e=qgicvI |
+| Campo                  | Detalle              |
+|------------------------|----------------------|
+| **Entrevistado**       | Alexander Brito      |
+| **Edad**               | 25                   |
+| **Distrito**           | Callao               |
+| **Entrevistador**      | Sofia Diaz Yurivilca |
+| **Inicio en el video** | 4:04                 |
+| **Final en el video**  | 18:52                |
 
 **Resumen:**
 El entrevistado fue **Alexander Brito**, de **25 años**, residente en **Canta Callao**. Durante la entrevista mencionó que actualmente el control de sensores, temperaturas e información operativa se realiza de manera manual, principalmente mediante papel o registros personales, lo que puede generar desorden y pérdida de información.
@@ -1431,71 +1426,29 @@ Finalmente, indicó que recomendaría la plataforma no solo para panaderías, si
 
 **Entrevista 3 — Segmento: Personal Operativo**
 
-| Campo | Detalle |
-|---|---|
-| **Entrevistado** | [Nombre del entrevistado] |
-| **Edad** | [Edad] |
-| **Distrito** | [Distrito] |
-| **Entrevistador** | [Nombre del integrante] |
-| **Duración** | [Duración en minutos] |
-| **Link de la entrevista** | [Insertar URL del video] |
-| **Inicio en el video** | [Minuto de inicio] |
+![Entrevista-de-validación-3.png](assets/Entrevista-de-validaci%C3%B3n-3.png)
+
+| Campo | Detalle                         |
+|---|---------------------------------|
+| **Entrevistado** | Mathias Sarmiento               |
+| **Edad** | 27                              |
+| **Distrito** | San Martín                      |
+| **Entrevistador** | Molina Vásquez Manuel Alejandro |
+| **Inicio en el video** | 18:53                           |
+| **Final en el video** | 25:47                           |
 
 **Resumen:**
-> [Insertar resumen de las respuestas.]
 
----
+Actualmente, el control de la planta es muy manual y depende de pizarras, cuadernos y la revisión visual de las máquinas, por lo que una herramienta digital es totalmente necesaria. El panel centralizado de la plataforma soluciona esto al permitir una identificación rápida y visual de las alertas de temperatura o desconexiones, asegurando una reacción inmediata antes de que se afecte la producción.
 
-**Entrevista 4 — Segmento: Personal Operativo**
+Por otro lado, la gestión de incidentes es intuitiva y rápida; su historial estructurado ayuda a priorizar revisiones, evaluar la seguridad en tiempo real y mantener informado al turno entrante sin quitar tiempo a la operación. Asimismo, el módulo de inventario cubre con éxito las necesidades diarias, donde el reporte de stock bajo destaca por evitar de manera excelente el desabastecimiento de insumos a mitad de la producción.
 
-| Campo | Detalle |
-|---|---|
-| **Entrevistado** | [Nombre del entrevistado] |
-| **Edad** | [Edad] |
-| **Distrito** | [Distrito] |
-| **Entrevistador** | [Nombre del integrante] |
-| **Duración** | [Duración en minutos] |
-| **Link de la entrevista** | [Insertar URL del video] |
-| **Inicio en el video** | [Minuto de inicio] |
+Finalmente, la plataforma es capaz de reemplazar por completo los cuadernos y hojas de Excel, centralizando toda la información en un solo lugar para evitar malentendidos o pérdida de datos. Al integrar el historial de temperaturas, el inventario y las fallas, se genera un gran ahorro de tiempo operativo. Por ello, se recomienda totalmente BakeryManager por eliminar el papeleo, ofrecer flujos claros y dar un control real en tiempo real.
 
-**Resumen:**
-> [Insertar resumen.]
+**Resumen General:**
 
----
----
-
-**Entrevista 5 — Segmento: Personal Operativo**
-
-| Campo | Detalle |
-|---|---|
-| **Entrevistado** | [Nombre del entrevistado] |
-| **Edad** | [Edad] |
-| **Distrito** | [Distrito] |
-| **Entrevistador** | [Nombre del integrante] |
-| **Duración** | [Duración en minutos] |
-| **Link de la entrevista** | [Insertar URL del video] |
-| **Inicio en el video** | [Minuto de inicio] |
-
-**Resumen:**
-> [Insertar resumen.]
-
----
-
-**Entrevista 6 — Segmento: Encargado de Sede**
-
-| Campo | Detalle |
-|---|---|
-| **Entrevistado** | [Nombre del entrevistado] |
-| **Edad** | [Edad] |
-| **Distrito** | [Distrito] |
-| **Entrevistador** | [Nombre del integrante] |
-| **Duración** | [Duración en minutos] |
-| **Link de la entrevista** | [Insertar URL del video] |
-| **Inicio en el video** | [Minuto de inicio] |
-
-**Resumen:**
-> [Insertar resumen.]
-
+A continuación, se presenta la propuesta para completar la sección del Resumen General de las entrevistas de validación:  Resumen General:
+Las entrevistas de validación realizadas a los diferentes segmentos de usuarios confirman que BakeryManager responde a una necesidad crítica y urgente de digitalización en el sector. Los entrevistados coinciden en que la transición de métodos tradicionales manuales (pizarras, cuadernos y hojas de Excel) hacia un panel centralizado previene de manera efectiva el desorden, la pérdida de información y los malentendidos operativos entre turnos. Los propietarios y administradores valoran estratégicamente la capacidad de comparar la producción planificada con la real, la generación de reportes de eficiencia por sede y la recepción de alertas IoT en tiempo real para mitigar mermas y pérdidas económicas. Por su parte, el personal operativo destaca la naturaleza intuitiva y ágil de los flujos de gestión de incidentes y el control de inventarios, ponderando especialmente el reporte de stock bajo para evitar el desabastecimiento a mitad de un turno. Como oportunidades de mejora para el backlog del producto, se identificó el valor de integrar las recetas a los lotes de producción para automatizar los descuentos de insumos y la obligatoriedad de registrar un motivo de cancelación al anular un lote. En conclusión, la plataforma fue validada de forma altamente positiva y recomendada unánimemente por su capacidad para eliminar el papeleo y otorgar un control real y en tiempo real de la operación fabril.
 ---
 #### 5.3.3. Evaluaciones según heurísticas
 
@@ -1594,8 +1547,8 @@ El Video About-the-Product presenta las principales funcionalidades implementada
 - Gestión de inventario: movimientos de stock (entrada/salida/ajuste), consulta de stock actual y reporte con detección de stock bajo
 - Documentación de la API en Swagger UI con los tres Bounded Contexts (Production, Monitoring, Inventory)
 
-**Duración:** `[Insertar duración]`
+**Duración:** `8:19`
 
-**Link del video:** `[Insertar URL — YouTube / Microsoft Stream / Loom]`
+**Link del video:** `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316878_upc_edu_pe/IQADN-2B6Hy-T5a2X1Z84LNCATdc8bUC6yw_ctWvAz0GsJ0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=xfyQfu`
 
-![Video About-the-Product](./assets/video-about-product.png "Captura del Video About-the-Product")
+![about-the-product.png](assets/about-the-product.png)
