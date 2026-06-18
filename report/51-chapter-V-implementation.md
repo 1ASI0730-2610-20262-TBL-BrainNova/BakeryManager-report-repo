@@ -178,7 +178,7 @@ Para este primer entregable, el proceso se realizó utilizando **Netlify** como 
 
 **Evidencias del Despliegue:**
 * **Estado del sitio:** El panel de control de Netlify confirma que el sitio de la organización se encuentra en estado "Published".
-* **URL Pública del Landing Page:** https://bakery-manager.netlify.app
+* **URL Pública del Landing Page:** https://bakery-manager.netlify.app/
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
 Durante el desarrollo del primer Sprint, cada miembro del equipo participó activamente en la implementación de la **Landing Page**. El trabajo fue dividido en secciones según el diseño y el contenido definido previamente.
