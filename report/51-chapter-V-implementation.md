@@ -1384,7 +1384,9 @@ Las entrevistas de validación tienen como objetivo verificar que los flujos imp
 
 #### 5.3.2. Registro de Entrevistas
 
-**Entrevista 1 — Segmento: Propietarios y administradores de panaderias**
+**Entrevista 1 — Segmento: Propietarios y Administradores de Panaderías**
+
+![Entrevista 1](./assets/entrevista1.png "Entrevista 1 - Propietarios y Administradores de Panaderías")
 
 | Campo | Detalle |
 |---|---|
@@ -1401,21 +1403,29 @@ Las entrevistas de validación tienen como objetivo verificar que los flujos imp
 <img src="https://raw.githubusercontent.com/1ASI0730-2610-20262-TBL-BrainNova/BakeryManager-report-repo/feature/Chapter5/report/assets/entrevista_segmento1.PNG" alt="Entrevista Maria Lopez Segmento 1">
 
 
+
 ---
 
-**Entrevista 2 — Segmento: Maestro Panadero**
+
+**Entrevista 2 — Segmento: Propietarios y Administradores de Panaderías**
+
+![Entrevista 2](./assets/entrevista2.png "Entrevista 2 - Propietarios y Administradores de Panaderías")
 
 | Campo | Detalle |
 |---|---|
-| **Entrevistado** | [Nombre del entrevistado] |
-| **Edad** | [Edad] |
-| **Distrito** | [Distrito] |
-| **Entrevistador** | [Nombre del integrante] |
-| **Duración** | [Duración en minutos] |
-| **Inicio en el video** | [Minuto de inicio] |
+| **Entrevistado** | Alexander Brito |
+| **Edad** | 25 |
+| **Distrito** | Callao |
+| **Entrevistador** | Sofia Diaz Yurivilca  |
+| **Duración** | 14:49 |
+| **Link de la entrevista** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a195_upc_edu_pe/IQB8QEfpBomARYLtdjfkYyotAT0YJkPqmhO1D_PZBmsmplI?e=qgicvI |
 
 **Resumen:**
-> [Insertar resumen.]
+El entrevistado fue **Alexander Brito**, de **25 años**, residente en **Canta Callao**. Durante la entrevista mencionó que actualmente el control de sensores, temperaturas e información operativa se realiza de manera manual, principalmente mediante papel o registros personales, lo que puede generar desorden y pérdida de información.
+
+También señaló que BakeryManager le parece una plataforma intuitiva y útil, ya que permite centralizar la información de sensores, incidentes, producción e inventario en un solo lugar. Destacó especialmente la importancia del monitoreo de temperatura, las alertas visibles y la posibilidad de consultar datos sin tener que revisar cada equipo manualmente.
+
+Finalmente, indicó que recomendaría la plataforma no solo para panaderías, sino también para otros negocios de cocina con equipos industriales, porque considera que ayuda a organizar mejor los procesos, reducir errores y tener mayor control de la operación diaria.
 
 ---
 
@@ -1428,6 +1438,7 @@ Las entrevistas de validación tienen como objetivo verificar que los flujos imp
 | **Distrito** | [Distrito] |
 | **Entrevistador** | [Nombre del integrante] |
 | **Duración** | [Duración en minutos] |
+| **Link de la entrevista** | [Insertar URL del video] |
 | **Inicio en el video** | [Minuto de inicio] |
 
 **Resumen:**
@@ -1444,6 +1455,7 @@ Las entrevistas de validación tienen como objetivo verificar que los flujos imp
 | **Distrito** | [Distrito] |
 | **Entrevistador** | [Nombre del integrante] |
 | **Duración** | [Duración en minutos] |
+| **Link de la entrevista** | [Insertar URL del video] |
 | **Inicio en el video** | [Minuto de inicio] |
 
 **Resumen:**
@@ -1461,6 +1473,7 @@ Las entrevistas de validación tienen como objetivo verificar que los flujos imp
 | **Distrito** | [Distrito] |
 | **Entrevistador** | [Nombre del integrante] |
 | **Duración** | [Duración en minutos] |
+| **Link de la entrevista** | [Insertar URL del video] |
 | **Inicio en el video** | [Minuto de inicio] |
 
 **Resumen:**
@@ -1477,6 +1490,7 @@ Las entrevistas de validación tienen como objetivo verificar que los flujos imp
 | **Distrito** | [Distrito] |
 | **Entrevistador** | [Nombre del integrante] |
 | **Duración** | [Duración en minutos] |
+| **Link de la entrevista** | [Insertar URL del video] |
 | **Inicio en el video** | [Minuto de inicio] |
 
 **Resumen:**
@@ -1492,14 +1506,14 @@ Las entrevistas de validación tienen como objetivo verificar que los flujos imp
 |---|---|
 | **Carrera:** | Ingeniería de Software |
 | **Curso:** | Aplicaciones Open Source |
-| **Sección:** | [Sección] |
-| **Profesores:** | [Nombre del profesor] |
+| **Sección:** | 20262 |
+| **Profesores:** | Angel Velásquez Núñez |
 | **Auditor:** | Equipo BrainNova — BakeryManager |
-| **Cliente(s):** | Maestros panaderos y encargados de sede |
+| **Cliente(s):** | Propietarios y Administradores de Panaderías / Personal Operativo (Encargados de Producción) |
 
 **Site o App a evaluar:** BakeryManager — Frontend Web Application
 
-**URL:** `[Insertar URL del frontend desplegado]`
+**URL:** `https://bakery-manager-43fb0.web.app/sign-in`
 
 **TAREAS A EVALUAR:**
 
@@ -1584,4 +1598,4 @@ El Video About-the-Product presenta las principales funcionalidades implementada
 
 **Link del video:** `[Insertar URL — YouTube / Microsoft Stream / Loom]`
 
-> **[Insertar captura del video]**
+![Video About-the-Product](./assets/video-about-product.png "Captura del Video About-the-Product")
