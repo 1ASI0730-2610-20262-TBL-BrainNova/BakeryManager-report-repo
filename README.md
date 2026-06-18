@@ -1,31 +1,64 @@
 <div align="center">
 <img src="assets/upc_logo.png" alt="UPC Logo" width="300"/>
+
+# Universidad Peruana de Ciencias Aplicadas
+### Carrera de Ingeniería de Software
+
+<br>
+
+## **1ASI0729**
+## **Aplicaciones Web**
+
+<br>
+
+### **NRC**
+### **20262**
+
+<br>
+
+# **Informe del Trabajo Final**
+
+<br>
+
+### **Docente**
+### **Velasquez Nuñez, Angel Augusto**
+
+<br>
+
+### **Equipo**
+### **BrainNova**
+
+<br>
+
+### **Proyecto**
+### **BakeryManager**
+
+<br>
+
+## **Integrantes**
+
 </div>
 
-## UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+<p align="left">
+Código &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Apellidos y Nombres<br>
+U202219199 &nbsp;&nbsp;&nbsp;&nbsp; Acosta Elera, Abraam Bernabe<br>
+U202318588 &nbsp;&nbsp;&nbsp;&nbsp; Cespedes Pillco, Jarod Jack<br>
+U20241A195 &nbsp;&nbsp;&nbsp;&nbsp; Diaz Yurivilca, Sofia<br>
+U20221G231 &nbsp;&nbsp;&nbsp;&nbsp; Molina Vasquez, Manuel Alejandro<br>
+U202316878 &nbsp;&nbsp;&nbsp;&nbsp; Vidal Malaga, Jareth Beycker<br>
+</p>
 
-* **Carrera:** Ingeniería de Software
-* **Periodo:** 2026-10
-* **Nombre del curso:** Aplicaciones Web (1ASI0729)
-* **NRC:** 20262
-* **Nombre del profesor:** Angel Augusto Velasquez Nuñez
+<div align="center">
 
-### Informe de Trabajo Final
+<br>
 
-* **Nombre del startup:** BrainNova
-* **Nombre del producto:** BakeryManager
+### **Período 2026-10**
 
-### Relación de integrantes
+<br>
 
-| Apellidos y Nombres | Código de Alumno |
-| :--- | :--- |
-| Cespedes Pillco, Jarod Jack | U202318588 |
-| Chipana Huarancca, Emanuel Wilfredo | U202214074 |
-| Molina Vasquez, Manuel Alejandro | U20221G231 |
-| Tufiño Argüelles, Luis Angel | U202216240 |
-| Vidal Malaga, Jareth Beycker | U202316878 |
+### **Abril, 2026**
 
-**Abril, 2026**
+</div>
 
 ---
 
