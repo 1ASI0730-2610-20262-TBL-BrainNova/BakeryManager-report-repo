@@ -1,60 +1,66 @@
 <div align="center">
-<img src="assets/upc_logo.png" alt="UPC Logo" width="300"/>
+<img src="assets/upc_logo.png" alt="UPC Logo" width="150"
+"/>
 
-# Universidad Peruana de Ciencias Aplicadas
-### Carrera de Ingeniería de Software
-
+## **Universidad Peruana de Ciencias Aplicadas**
+## **Carrera de Ingeniería de Software**
 <br>
 
-## **1ASI0729**
-## **Aplicaciones Web**
+#### **1ASI0729**
+### **Desarrollo de Aplicaciones Open Source**
 
-<br>
 
 ### **NRC**
 ### **20262**
 
-<br>
 
-# **Informe del Trabajo Final**
+### **Informe del Trabajo Final**
 
-<br>
-
-### **Docente**
+#### **Docente**
 ### **Velasquez Nuñez, Angel Augusto**
 
-<br>
-
-### **Equipo**
+#### **Equipo**
 ### **BrainNova**
 
-<br>
-
-### **Proyecto**
+#### **Proyecto**
 ### **BakeryManager**
 
-<br>
-
-## **Integrantes**
+### **Integrantes**
 
 </div>
 
-<p align="left">
-Código &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Apellidos y Nombres<br>
-U202219199 &nbsp;&nbsp;&nbsp;&nbsp; Acosta Elera, Abraam Bernabe<br>
-U202318588 &nbsp;&nbsp;&nbsp;&nbsp; Cespedes Pillco, Jarod Jack<br>
-U20241A195 &nbsp;&nbsp;&nbsp;&nbsp; Diaz Yurivilca, Sofia<br>
-U20221G231 &nbsp;&nbsp;&nbsp;&nbsp; Molina Vasquez, Manuel Alejandro<br>
-U202316878 &nbsp;&nbsp;&nbsp;&nbsp; Vidal Malaga, Jareth Beycker<br>
-</p>
+<table align="center" style="border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;">
+    <tr>
+        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">Código</th>
+        <th style="border: none; padding: 0 0 6px 0; text-align: center;">Apellidos y Nombres</th>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202219199</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Acosta Elera, Abraam Bernabe</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202318588</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Cespedes Pillco, Jarod Jack</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U20241A195</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Diaz Yurivilca, Sofia</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U20221G231</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Molina Vasquez, Manuel Alejandro</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 0 0; text-align: center;">U202316878</td>
+        <td style="border: none; padding: 0; text-align: center;">Vidal Malaga, Jareth Beycker</td>
+    </tr>
+</table>
 
 <div align="center">
 
-<br>
 
-### **Período 2026-10**
+#### **Período 2026-10**
 
-<br>
 
 ### **Abril, 2026**
 
